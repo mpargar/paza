@@ -9,7 +9,8 @@ Options FollowSymLinks
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php?route=$1 [L]
+# RewriteRule ^(.*)$ index.php?route=$1 [L]
+RewriteRule ^(es|en)/([A-Z|a-z|0-9]*)$ index.php?lang=$1&route=$2 [L]
 </IfModule>
 
 <ifModule mod_gzip.c>
