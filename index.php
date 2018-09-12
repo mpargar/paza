@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>tal</title>
+  <title>Paza Real State</title>
   <link rel="stylesheet" href="./R/bundle.css">
 </head>
 <body>
