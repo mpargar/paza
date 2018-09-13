@@ -1,6 +1,8 @@
 
 <?php
 
+include 'routes/web.php';
+
 function isValid ( &$route ) {
 
   $validRoutes = [
@@ -14,14 +16,15 @@ function isValid ( &$route ) {
   return in_array($route, $validRoutes);
 }
 
-include 'routes/web.php';
-
 if ($_GET['lang']) {
+  // import current lang
   $lang = $_GET['lang'];
-  if (isset($_GET['route']) && $_GET['route'] != '') {
+  $route = $_GET['route'];
+  require('resources/lang/' . $lang . '_lang.php');
+  if (isset($route) && $route != '') {
     // require other routes
-    if ( isValid($_GET['route']) ) {
-      call_user_func($_GET['route'], $lang);
+    if ( isValid($route) ) {
+      call_user_func($route, $lang);
     } else {
       header("HTTP/1.0 404 Not Found");
   		include_once '404.php';

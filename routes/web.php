@@ -1,14 +1,12 @@
 
 <?php
 
-
-
 /* - - - - - - - - - - - - - - - - -
 |  ROUTES
 |- - - - - - - - - - - - - - - - - -
 |  Define all routes for use
-|  que perrón se ve este
-|  comentario juejuejuejue
+| remember register on index.php
+| before to declare function
 |- - - - - - - - - - - - - - - - - */
 
 

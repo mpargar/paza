@@ -5,6 +5,6 @@
     <title>Página no encontrada</title>
   </head>
   <body>
-    <h1>Hay que personaliar esta página de 404</h1>
+    <h1>404</h1>
   </body>
 </html>

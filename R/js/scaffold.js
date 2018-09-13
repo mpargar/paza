@@ -3,9 +3,9 @@ import Route from './src/router'
 
 ;(function (d, c) {
 
-  const Home = {
+  const Scaffold = {
     init () {
-      c('module Home is running...')
+      c('module Scaffold is running...')
       this.cacheDOM()
       this.bindListeners()
     },
@@ -17,6 +17,6 @@ import Route from './src/router'
     }
   }
 
-  Route('/').use(Home)
+  Route('/route').use(Scaffold)
 
 })( document, console.log )
