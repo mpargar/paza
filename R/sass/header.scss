@@ -1,0 +1,131 @@
+.hambgr-menu {
+  position: absolute;
+  right: 20px;
+  top: 70px;
+  cursor: pointer;
+  &:hover {
+    opacity: 0.8;
+  }
+  &:active {
+    opacity: 0.5;
+  }
+  @media(min-width: $menuHiddenWidth) {
+    display: none;
+  }
+}
+
+header {
+  padding: 20px;
+  padding-top: 50px;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    > ul {
+      display: flex;
+      list-style: none;
+      padding: 0;
+      transition: transform 0.3s ease;
+      > li {
+        @media(min-width: $menuHiddenWidth) {
+          &:first-of-type {
+            display: none;
+          }
+        }
+        position: relative;
+        margin: 2px;
+        font-size: 14px;
+        font-weight: 600;
+        &.close {
+          cursor: pointer;
+          padding: 10px;
+        }
+        > a {
+          display: inline-block;
+          padding: 8px 10px;
+          color: $Purple;
+          &:hover {
+            background-color: $Purple;
+            color: $White;
+          }
+          span {
+            transform: rotate(180deg);
+            display: inline-block;
+          }
+        }
+        &:hover {
+          @media(min-width: $menuHiddenWidth) {
+            background-color: $Purple;
+            a {
+              color: $White;
+            }
+          }
+          > ul {
+            display: block;
+          }
+        }
+        /* sub menu */
+        > ul {
+          display: none;
+          min-width: 180px;
+          background: $Purple;
+          padding-top: 5px;
+          @media(min-width: $menuHiddenWidth) {
+            position: absolute;
+            left: 0;
+            top: 33px;
+          }
+          li {
+            margin-bottom: 2.5px;
+            width: 130px;
+            width: 100%;
+            a {
+              color: $White;
+              padding: 10px;
+              width: 100%;
+              display: block;
+              &:hover {
+                background-color: $DarkPurple;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media(max-width: $menuHiddenWidth) {
+    > nav > ul {
+      position: fixed;
+      right: 0;
+      top: 0;
+      height: 100vh;
+      padding: 5px 10px !important;
+      background-color: $DarkPurple;
+      flex-direction: column;
+      width: 300px;
+      transform: translate(100%);
+      &.open {
+        transform: translate(0%);
+      }
+      li {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        width: 100%;
+        font-size: 14px;
+        display: block;
+        font-weight: 600;
+        a {
+          width: 100%;
+          display: block;
+          padding: 14px 10px !important;
+          color: $White !important;
+          &:hover {
+            background-color: $Purple;
+          }
+        }
+      }
+    }
+  }
+}

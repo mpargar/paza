@@ -6,11 +6,13 @@ include 'routes/web.php';
 function isValid ( &$route ) {
 
   $validRoutes = [
-    'compra',
-    'administracion',
-    'construccion',
-    'decoracion',
-    'contact'
+    /*
+     español                  ingles        */
+    'compra',                'buy',
+    'administracion',        'administration',
+    'construccion',          'construction',
+    'decoracion',            'decoration',
+    'contacto',              'contact'
   ];
 
   return in_array($route, $validRoutes);
