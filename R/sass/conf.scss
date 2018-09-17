@@ -1,3 +1,14 @@
+$Black: #141414;
+$White: #FFF;
+
+$Purple: #6470B1;
+$DarkPurple: #40497C;
+
+
+// sizes
+
+$menuHiddenWidth: 855px;
+
 * {
   margin: 0;
   padding: 0;
@@ -7,12 +18,19 @@
   -moz-appearance: none;
   -ms-appearance: none;
   -o-appearance: none;
+  font-family: 'Lato', sans-serif;
 }
 
 body, html {
   height: 100vh;
+  background-color: $Black;
+  overflow-x: hidden;
 }
 
 a {
   text-decoration: none;
+}
+
+main {
+  min-height: calc(100vh - (129.95px + 56px));
 }
