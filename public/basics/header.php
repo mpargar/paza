@@ -18,14 +18,17 @@
         <li class="close">
           <img src="/R/img/close.svg" alt="Ícono para cerrar">
         </li>
-        <li>
+        <li class="<?= ($site==1?'current':'') ?>">
           <a href="/<?=LANG?>/">
             <?=HOME_TITLE?>
           </a>
         </li>
         <li>
           <a href="#">
-            <?=BUY_TITLE?> <span>⌃</span>
+            <?=BUY_TITLE?>
+            <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.94 0L4 3.09042L7.06 0L8 0.951417L4 5L0 0.951417L0.94 0Z"/>
+            </svg>
           </a>
           <ul>
             <li><a href="/<?=LANG?>/<?=BUY_LINK?>">MENU ITEM 1</a></li>
@@ -35,7 +38,10 @@
         </li>
         <li>
           <a href="#">
-            <?=ADMIN_TITLE?> <span>⌃</span>
+            <?=ADMIN_TITLE?>
+            <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0.94 0L4 3.09042L7.06 0L8 0.951417L4 5L0 0.951417L0.94 0Z"/>
+            </svg>
           </a>
           <ul>
             <li><a href="/<?=LANG?>/<?=ADMIN_LINK?>">MENU ITEM 1</a></li>

@@ -10,7 +10,7 @@
 |- - - - - - - - - - - - - - - - - */
 
 
-function home ( &$lang ) {
+function home () {
   include_once 'public/home.php';
 }
 

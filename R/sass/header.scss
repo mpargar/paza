@@ -43,16 +43,26 @@ header {
           padding: 10px;
         }
         > a {
-          display: inline-block;
+          display: flex;
+          align-items: center;
           padding: 8px 10px;
           color: $Purple;
+          svg{
+            transition: transform 0.3s ease;
+            margin-left: 5px;
+            path{
+              fill: $Purple;
+            }
+          }
           &:hover {
             background-color: $Purple;
             color: $White;
-          }
-          span {
-            transform: rotate(180deg);
-            display: inline-block;
+            svg{
+              transform: rotate(180deg);
+              path{
+                fill: $White;
+              }
+            }
           }
         }
         &:hover {
@@ -93,6 +103,12 @@ header {
           }
         }
       }
+      .current{
+        > a{
+          background-color: $Purple;
+          color: $White;
+        }
+      }
     }
   }
   @media(max-width: $menuHiddenWidth) {
@@ -118,9 +134,14 @@ header {
         font-weight: 600;
         a {
           width: 100%;
-          display: block;
+          display: flex;
           padding: 14px 10px !important;
           color: $White !important;
+          svg{
+            path{
+              fill: $White;
+            }
+          }
           &:hover {
             background-color: $Purple;
           }

@@ -1,4 +1,7 @@
-<?php include 'basics/header.php' ?>
+<?php
+    $site = 1;
+    include 'basics/header.php'
+?>
 <main>
 
 
