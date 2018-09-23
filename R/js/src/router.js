@@ -1,5 +1,6 @@
+
 export default function Route (str) {
-  const matchRoute = (location.pathname === str)
+  const matchRoute = (route() === str)
   return {
     use (Instance) {
       if (matchRoute) Instance.init()

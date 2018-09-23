@@ -11,14 +11,14 @@
   <header>
     <img src="/R/img/menu.svg" alt="menu" class="hambgr-menu" id="$hambgr">
     <nav id="$nav">
-      <a href="/<?=LANG?>/">
+      <!-- <a href="/<?=LANG?>/"> -->
         <img src="/R/img/logo_paza.png" alt="Paza Real Estate Logo" width="130">
-      </a>
+      <!-- </a> -->
       <ul>
         <li class="close">
           <img src="/R/img/close.svg" alt="Ícono para cerrar">
         </li>
-        <li class="<?= ($site==1?'current':'') ?>">
+        <li>
           <a href="/<?=LANG?>/">
             <?=HOME_TITLE?>
           </a>
