@@ -6,17 +6,19 @@ define('LANG', 'en');
 
 define('HOME_TITLE', 'HOME');
 define('BUY_TITLE', 'BUY');
-define('ADMIN_TITLE', 'ADMINISTRATION');
-define('BUILD_TITLE', 'BUILD');
-define('DECOR_TITLE', 'DECORATION');
-define('CONTA_TITLE', 'CONTACT');
+define('SELL_TITLE', 'SELL');
+define('RENT_TITLE', 'RENT');
+define('ADMIN_TITLE', 'PROPERTY MANAGEMENT');
+define('B_AND_D_TITLE', 'BUILD AND DECORATION');
+define('CONTACT_TITLE', 'CONTACT');
 
 define('HOME_LINK', '/');
 define('BUY_LINK', 'buy');
+define('SELL_LINK', 'sell');
+define('RENT_LINK', 'rent');
 define('ADMIN_LINK', 'administration');
-define('BUILD_LINK', 'build');
-define('DECOR_LINK', 'decoration');
-define('CONTA_LINK', 'contact');
+define('B_AND_D_LINK', 'build-and-decoration');
+define('CONTACT_LINK', 'contact');
 
 
 ?>
