@@ -3,14 +3,7 @@
 * Register funtion for new route
 */
 window.route = function (rt) {
-
   const currentRoute = location.pathname.replace(/^\/e[s|n]/, '')
-
-  document
-    .querySelector('a[href=' + currentRoute + ']')
-    .style
-    .backgroundColor = '#FFF'
-
   if (rt) {
     return (currentRoute === 'rt')
   } else {
@@ -71,3 +64,8 @@ window.$ = function (str) {
     ? $reqDOM
     : $reqDOM[0]
 }
+
+document
+  .querySelector('a[href="' + location.pathname + '"]')
+  .parentNode
+  .addClass('current')
