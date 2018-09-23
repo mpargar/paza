@@ -5,17 +5,19 @@ define('LANG', 'es');
 // HEADER
 
 define('HOME_TITLE', 'INICIO');
-define('BUY_TITLE', 'COMPRAR');
-define('ADMIN_TITLE', 'ADMINISTRACIÓN');
-define('BUILD_TITLE', 'CONSTRUCCIÓN');
-define('DECOR_TITLE', 'DECORACIÓN');
-define('CONTA_TITLE', 'CONTACTO');
+define('BUY_TITLE', 'COMPRA');
+define('SELL_TITLE', 'VENDE');
+define('RENT_TITLE', 'RENTA');
+define('ADMIN_TITLE', 'ADMINISTRACIÓN DE PROPIEDADES');
+define('B_AND_D_TITLE', 'CONSTRUCCIÓN Y DECORACIÓN');
+define('CONTACT_TITLE', 'CONTACTO');
 
 define('HOME_LINK', '/');
 define('BUY_LINK', 'comprar');
+define('SELL_LINK', 'vende');
+define('RENT_LINK', 'renta');
 define('ADMIN_LINK', 'administracion');
-define('BUILD_LINK', 'construccion');
-define('DECOR_LINK', 'decoracion');
-define('CONTA_LINK', 'contacto');
+define('B_AND_D_LINK', 'construccion-y-decoracion');
+define('CONTACT_LINK', 'contacto');
 
 ?>

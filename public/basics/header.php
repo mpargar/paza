@@ -21,47 +21,46 @@
         <li>
           <a href="/<?=LANG?>/">
             <?=HOME_TITLE?>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <?=BUY_TITLE?>
+            <!--
+            Caret  
             <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0.94 0L4 3.09042L7.06 0L8 0.951417L4 5L0 0.951417L0.94 0Z"/>
-            </svg>
+            </svg> -->
           </a>
-          <ul>
-            <li><a href="/<?=LANG?>/<?=BUY_LINK?>">MENU ITEM 1</a></li>
-            <li><a href="/<?=LANG?>/<?=BUY_LINK?>">MENU ITEM 2</a></li>
-            <li><a href="/<?=LANG?>/<?=BUY_LINK?>">MENU ITEM 3</a></li>
-          </ul>
+          <!--
+           SUBMENU 
+           <ul>
+            <li><a href="#">MENU ITEM 1</a></li>
+          </ul> -->
         </li>
         <li>
-          <a href="#">
+          <a href="/<?=LANG?>/<?=BUY_LINK?>">
+            <?=BUY_TITLE?>
+          </a>         
+        </li>
+        <li>
+          <a href="<?=LANG?>/<?=SELL_LINK?>">
+            <?=SELL_TITLE?>
+          </a>
+        </li>
+        <li>
+          <a href="<?=LANG?>/<?=RENT_LINK?>">
+            <?=RENT_TITLE?>
+          </a>
+        </li>
+        <li>
+          <a href="<?=LANG?>/<?=ADMIN_LINK?>">
             <?=ADMIN_TITLE?>
-            <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M0.94 0L4 3.09042L7.06 0L8 0.951417L4 5L0 0.951417L0.94 0Z"/>
-            </svg>
-          </a>
-          <ul>
-            <li><a href="/<?=LANG?>/<?=ADMIN_LINK?>">MENU ITEM 1</a></li>
-            <li><a href="/<?=LANG?>/<?=ADMIN_LINK?>">MENU ITEM 2</a></li>
-            <li><a href="/<?=LANG?>/<?=ADMIN_LINK?>">MENU ITEM 3</a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="/<?=LANG?>/<?=BUILD_LINK?>">
-            <?=BUILD_TITLE?>
           </a>
         </li>
         <li>
-          <a href="/<?=LANG?>/<?=DECOR_LINK?>">
-            <?=DECOR_TITLE?>
+          <a href="/<?=LANG?>/<?=B_AND_D_LINK?>">
+            <?=B_AND_D_TITLE?>
           </a>
         </li>
         <li>
-          <a href="/<?=LANG?>/<?=CONTA_LINK?>">
-            <?=CONTA_TITLE?>
+          <a href="/<?=LANG?>/<?=CONTACT_LINK?>">
+            <?=CONTACT_TITLE?>
           </a>
         </li>
       </ul>

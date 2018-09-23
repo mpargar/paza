@@ -21,6 +21,7 @@ main {
   min-height: calc(100vh - (129.95px + 56px)); }
 
 .hambgr-menu {
+  margin-right: 20px;
   position: absolute;
   right: 20px;
   top: 70px;
@@ -29,13 +30,14 @@ main {
     opacity: 0.8; }
   .hambgr-menu:active {
     opacity: 0.5; }
-  @media (min-width: 855px) {
+  @media (min-width: 1090px) {
     .hambgr-menu {
       display: none; } }
 
 header {
   padding: 20px;
-  padding-top: 50px; }
+  padding-top: 50px;
+  border-bottom: solid 2px #6470B170; }
   header nav {
     display: flex;
     justify-content: space-between;
@@ -52,28 +54,36 @@ header {
         margin: 2px;
         font-size: 14px;
         font-weight: 600;
+        transition: all ease 0.5s;
         /* sub menu */ }
-        @media (min-width: 855px) {
+        @media (min-width: 1090px) {
           header nav > ul > li:first-of-type {
             display: none; } }
+        header nav > ul > li * {
+          transition: all ease 0.5s; }
         header nav > ul > li.close {
           cursor: pointer;
           padding: 10px; }
         header nav > ul > li > a {
-          display: inline-block;
+          display: flex;
+          align-items: center;
           padding: 8px 10px;
           color: #6470B1; }
+          header nav > ul > li > a svg {
+            transition: transform 0.5s ease;
+            margin-left: 5px; }
+            header nav > ul > li > a svg path {
+              fill: #6470B1; }
           header nav > ul > li > a:hover {
             background-color: #6470B1;
             color: #FFF; }
-          header nav > ul > li > a span {
-            transform: rotate(180deg);
-            display: inline-block; }
-        @media (min-width: 855px) {
-          header nav > ul > li:hover {
-            background-color: #6470B1; }
-            header nav > ul > li:hover a {
-              color: #FFF; } }
+            header nav > ul > li > a:hover svg {
+              transform: rotate(180deg); }
+              header nav > ul > li > a:hover svg path {
+                fill: #FFF; }
+        header nav > ul > li .current {
+          background-color: #6470B1;
+          color: #FFF; }
         header nav > ul > li:hover > ul {
           display: block; }
         header nav > ul > li > ul {
@@ -81,7 +91,7 @@ header {
           min-width: 180px;
           background: #6470B1;
           padding-top: 5px; }
-          @media (min-width: 855px) {
+          @media (min-width: 1090px) {
             header nav > ul > li > ul {
               position: absolute;
               left: 0;
@@ -97,7 +107,7 @@ header {
               display: block; }
               header nav > ul > li > ul li a:hover {
                 background-color: #40497C; }
-  @media (max-width: 855px) {
+  @media (max-width: 1090px) {
     header > nav > ul {
       position: fixed;
       right: 0;
@@ -119,9 +129,11 @@ header {
         font-weight: 600; }
         header > nav > ul li a {
           width: 100%;
-          display: block;
+          display: flex;
           padding: 14px 10px !important;
           color: #FFF !important; }
+          header > nav > ul li a svg path {
+            fill: #FFF; }
           header > nav > ul li a:hover {
             background-color: #6470B1; } }
 
