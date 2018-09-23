@@ -1,3 +1,23 @@
+
+/*
+* Register funtion for new route
+*/
+window.route = function (rt) {
+
+  const currentRoute = location.pathname.replace(/^\/e[s|n]/, '')
+
+  document
+    .querySelector('a[href=' + currentRoute + ']')
+    .style
+    .backgroundColor = '#FFF'
+
+  if (rt) {
+    return (currentRoute === 'rt')
+  } else {
+    return currentRoute
+  }
+}
+
 HTMLElement.prototype.addClass = function (clss) {
   this.classList.add(clss)
 }
