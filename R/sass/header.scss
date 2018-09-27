@@ -29,6 +29,7 @@ header {
       padding: 0;
       transition: transform 0.3s ease;
       > li {
+        list-style: none;
         @media(min-width: $menuHiddenWidth) {
           &:first-of-type {
             display: none;

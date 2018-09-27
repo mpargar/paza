@@ -48,6 +48,7 @@ header {
       padding: 0;
       transition: transform 0.3s ease; }
       header nav > ul > li {
+        list-style: none;
         position: relative;
         margin: 2px;
         font-size: 14px;
@@ -130,5 +131,45 @@ footer {
   color: white;
   padding: 20px;
   font-size: 13px; }
+
+.banner-container {
+  display: block;
+  height: 40vh;
+  background: #40497C; }
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px; }
+  @media (max-width: 745px) {
+    .row {
+      flex-direction: column; } }
+
+.main-wrapper {
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 7vw; }
+  .main-wrapper .hatted-text {
+    display: inline-block;
+    max-width: 350px; }
+    @media (max-width: 745px) {
+      .main-wrapper .hatted-text {
+        margin-top: 50px; } }
+    .main-wrapper .hatted-text img {
+      width: 100%; }
+    .main-wrapper .hatted-text p {
+      font-size: 30px;
+      color: #9C9994;
+      line-height: 1.5em;
+      margin-top: 10px; }
+    .main-wrapper .hatted-text a {
+      display: inline-block;
+      padding: 8px 13px;
+      background: #6470B1;
+      color: white;
+      margin-top: 20px; }
+      .main-wrapper .hatted-text a:hover {
+        background: #40497C; }
 
 /*# sourceMappingURL=bundle.css.map*/

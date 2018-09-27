@@ -1,0 +1,46 @@
+
+.banner-container {
+  display: block;
+  height: 40vh;
+  background: $DarkPurple;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  @media(max-width: $brokeInOneColumn) {
+    flex-direction: column;
+  }
+}
+
+.main-wrapper {
+  max-width: 1000px;
+  margin: auto;
+  padding-top: 7vw;
+  .hatted-text {
+    display: inline-block;
+    max-width: 350px;
+    @media(max-width: $brokeInOneColumn) {
+      margin-top: 50px;
+    }
+    img { width: 100% }
+    p {
+      font-size: 30px;
+      color: $Gray;
+      line-height: 1.5em;
+      margin-top: 10px;
+    }
+    a {
+      display: inline-block;
+      padding: 8px 13px;
+      background: $Purple;
+      color: white;
+      margin-top: 20px;
+      &:hover {
+        background: $DarkPurple;
+      }
+    }
+  }
+}
