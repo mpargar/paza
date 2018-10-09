@@ -4,20 +4,48 @@ route
 */
 
 .contact-main {
-  input {
-    background-color: $BlackFade;
-    color: whitesmoke;
+  p { color: white; }
+  .c__purple {
+    color: $Purple;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .row-flex {
     display: flex;
+    @media(max-width: 900px) {
+      flex-direction: column;
+    }
   }
   .column {
-    display: inline-flex;
     &-small {
-      flex-grow: 1
+      flex-direction: column;
+      display: inline-flex;
+      flex-direction: column;
+      padding: 15px;
+      input, textarea {
+        background-color: $BlackFade;
+        color: whitesmoke;
+        padding: 10px 15px;
+        font-size: 19px;
+        border: none;
+        border: 3px solid #383838;
+        margin-top: 20px;
+        resize: none;
+        &:focus {
+          border: 3px solid $Purple;
+        }
+      }
     }
     &-big {
-      flex-grow: 3
+      display: inline-block;
+      height: 100px;
+      padding: 15px;
+      img {
+        width: 60vw;
+        @media(max-width: 900px) {
+          width: 100%;
+        }
+      }
     }
   }
 }

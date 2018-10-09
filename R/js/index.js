@@ -9,4 +9,5 @@ import Scripts * * * * * * */
 import './src/polyfills'
 
 import './header'
+import './contact'
 /* * * * * * * * * * * * * */

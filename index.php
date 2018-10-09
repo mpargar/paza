@@ -7,8 +7,9 @@ function isValid ( &$route ) {
 
   $validRoutes = [
     /*
-     español                  ingles        */
-    'compra',                'buy',
+     español                 ingles        */
+    'comprar',               'buy',
+    'vende',                'sell',
     'administracion',        'administration',
     'construccion',          'construction',
     'decoracion',            'decoration',

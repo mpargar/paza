@@ -87,7 +87,7 @@ header {
           background: $Purple;
           padding-top: 5px;
           @media(min-width: $menuHiddenWidth) {
-            position: absolute;
+            position: fixed;
             left: 0;
             top: 33px;
           }
@@ -111,7 +111,7 @@ header {
   }
   @media(max-width: $menuHiddenWidth) {
     > nav > ul {
-      position: absolute;
+      position: fixed;
       overflow-y: auto;
       right: 0;
       top: 0;
@@ -165,7 +165,7 @@ header {
     height: 100vh;
     width: 100vw;
     &.open{
-      transform: translate(0%);      
+      transform: translate(0%);
     }
   }
 }

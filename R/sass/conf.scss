@@ -9,7 +9,6 @@ $DarkPurple: #40497C;
 
 
 // sizes
-
 $menuHiddenWidth: 1090px;
 
 * {
@@ -32,10 +31,14 @@ body, html {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 main {
   min-height: calc(100vh - (129.95px + 56px));
+  max-width: 1400px;
+  overflow: hidden;
+  margin: auto;
 }
 
 h1 {

@@ -20,4 +20,7 @@ define('ADMIN_LINK', 'administracion');
 define('B_AND_D_LINK', 'construccion-y-decoracion');
 define('CONTACT_LINK', 'contacto');
 
+// contact section
+define('CONTACT_H1_TITLE', 'Contacto');
+define('CONTACT_P_ONE', 'Puede dejar un mensaje en el siguiente formulario, le atenderemos en la brevedad');
 ?>
