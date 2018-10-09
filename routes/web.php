@@ -30,10 +30,31 @@ function comprar () {
 
 
 /*
-*    -> /buy
+*    -> /sell
 */
 function vende () {
   include_once 'public/sell.php';
 } function sell () { vende(); }
+
+
+/*
+*    -> /rent
+*/
+function renta () {
+  include_once 'public/rent.php';
+} function rent () { renta(); }
+
+
+/*
+*    -> /administration
+*/
+function administracion () {
+  include_once 'public/administration.php';
+} function administration () { administracion(); }
+
+function construccion () {
+  include_once 'public/build.php';
+} function build () { construccion(); }
+
 
 ?>

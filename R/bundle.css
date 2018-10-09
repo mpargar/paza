@@ -37,6 +37,24 @@ h1 {
   font-size: 40px;
   margin: 10px; }
 
+h3 {
+  color: #9C9994; }
+
+.button {
+  transition: 0.3s all ease;
+  background: #6470B1;
+  border: none;
+  padding: 5px;
+  color: #FFF;
+  font-weight: 700; }
+  .button:after {
+    display: inline-block;
+    content: "\2192";
+    margin-left: 5px; }
+  .button:hover {
+    background: #40497C;
+    cursor: pointer; }
+
 .hambgr-menu {
   margin-right: 20px;
   position: absolute;
@@ -180,25 +198,6 @@ header {
   height: 535px;
   background-position: top; }
 
-/* Pasar a conf */
-h3 {
-  color: #9C9994; }
-
-button {
-  transition: 0.3s all ease;
-  background: #6470B1;
-  border: none;
-  padding: 5px;
-  color: #FFF;
-  font-weight: 700; }
-  button:after {
-    display: inline-block;
-    content: "\2192";
-    margin-left: 5px; }
-  button:hover {
-    background: #40497C;
-    cursor: pointer; }
-
 footer {
   background-color: black;
   color: white;
@@ -249,5 +248,23 @@ route
     @media (max-width: 900px) {
       .contact-main .column-big img {
         width: 100%; } }
+
+/* Inicio */
+.fastList > ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 25px 0; }
+  @media (max-width: 780px) {
+    .fastList > ul {
+      display: block; } }
+  @media (max-width: 780px) {
+    .fastList > ul > li {
+      display: block;
+      text-align: center;
+      margin-bottom: 20px; } }
+  .fastList > ul > li h3 {
+    margin: 10px auto; }
 
 /*# sourceMappingURL=bundle.css.map*/
