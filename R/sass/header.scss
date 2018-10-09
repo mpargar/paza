@@ -177,28 +177,3 @@ header {
   height: 535px;
   background-position: top;
 }
-
-/* Pasar a conf */
-
-$Grey: #9C9994;
-
-h3{
-  color: $Grey;
-}
-button{
-  transition: 0.3s all ease;
-  background: $Purple;
-  border: none;
-  padding: 5px;
-  color: $White;
-  font-weight: 700;
-  &:after{
-    display: inline-block;
-    content: "→";
-    margin-left: 5px;
-  }
-  &:hover{
-    background: $DarkPurple;
-    cursor: pointer;
-  }
-}
