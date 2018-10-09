@@ -31,6 +31,16 @@ NodeList.prototype.removeClass = function (clss) {
   })
 }
 
+HTMLElement.prototype.toggleClass = function (clss) {
+  this.classList.toggle(clss)
+}
+
+NodeList.prototype.toggleClass = function (clss) {
+  this.forEach (function ($el) {
+    $el.classList.toggle(clss)
+  })
+}
+
 NodeList.prototype.find = function (str) {
   return this.querySelectorAll(str)
 }

@@ -112,6 +112,7 @@ header {
   @media(max-width: $menuHiddenWidth) {
     > nav > ul {
       position: fixed;
+      overflow-y: auto;
       right: 0;
       top: 0;
       height: 100vh;
@@ -120,6 +121,7 @@ header {
       flex-direction: column;
       width: 300px;
       transform: translate(100%);
+      z-index: 99;
       &.open {
         transform: translate(0%);
       }
@@ -145,6 +147,25 @@ header {
           }
         }
       }
+    }
+  }
+}
+
+#darkLayer{
+  transition: transform 0.3s ease;
+  transform: translate(100%);
+  @media (max-width: $menuHiddenWidth) {
+    position: fixed;
+    z-index: 98;
+    background: $FadedBlack;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 100vw;
+    &.open{
+      transform: translate(0%);      
     }
   }
 }

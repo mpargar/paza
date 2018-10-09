@@ -66,3 +66,4 @@
       </ul>
     </nav>
   </header>
+<span id="darkLayer"></span>

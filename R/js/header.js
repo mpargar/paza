@@ -9,18 +9,22 @@
     },
     openMenu () {
       this.$ul.addClass('open')
+      this.$darkLayer.addClass('open')
     },
     closeMenu () {
       this.$ul.removeClass('open')
+      this.$darkLayer.removeClass('open')
     },
     cacheDOM () {
       this.$navbar = $('nav')
       this.$ul = this.$navbar.find('ul')
       this.$hambgr = d.getElementById('$hambgr')
       this.$close = this.$navbar.find('.close')
+      this.$darkLayer = d.getElementById('darkLayer')
     },
     bindListeners () {
       this.$hambgr.on('click', this.openMenu.bind(this))
+      this.$darkLayer.on('click', this.closeMenu.bind(this))
       this.$close.on('click', this.closeMenu.bind(this))
     }
   }
