@@ -39,17 +39,17 @@
           </a>
         </li>
         <li>
-          <a href="<?=LANG?>/<?=SELL_LINK?>">
+          <a href="/<?=LANG?>/<?=SELL_LINK?>">
             <?=SELL_TITLE?>
           </a>
         </li>
         <li>
-          <a href="<?=LANG?>/<?=RENT_LINK?>">
+          <a href="/<?=LANG?>/<?=RENT_LINK?>">
             <?=RENT_TITLE?>
           </a>
         </li>
         <li>
-          <a href="<?=LANG?>/<?=ADMIN_LINK?>">
+          <a href="/<?=LANG?>/<?=ADMIN_LINK?>">
             <?=ADMIN_TITLE?>
           </a>
         </li>

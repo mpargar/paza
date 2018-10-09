@@ -19,7 +19,7 @@
             <li>
                 <img src="/R/img/figure2.png">
                 <h3>VENDE TU CASA O DEPARTAMENTO</h3>
-                <a href="<?=LANG?>/<?=SELL_LINK?>" class="button">
+                <a href="/<?=LANG?>/<?=SELL_LINK?>" class="button">
                     Mas información
                 </a>
             </li>
