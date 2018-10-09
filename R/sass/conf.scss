@@ -1,8 +1,10 @@
 $Black: #141414;
-$White: #FFF;
-$FadedBlack: #141414d6;
+$BlackFade: rgba(0, 0, 0, 0.4);
+$FadedBlack: $BlackFade;
 
+$White: #FFF;
 $Purple: #6470B1;
+$BlackFade: rgba(0, 0, 0, 0.4);
 $DarkPurple: #40497C;
 
 
@@ -34,4 +36,18 @@ a {
 
 main {
   min-height: calc(100vh - (129.95px + 56px));
+}
+
+h1 {
+  color: white;
+  font-weight: normal;
+  font-size: 40px;
+  margin: 10px;
+}
+
+h1 {
+  color: white;
+  font-weight: normal;
+  font-size: 40px;
+  margin: 10px;
 }
