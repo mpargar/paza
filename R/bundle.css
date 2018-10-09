@@ -40,18 +40,18 @@ h1 {
 h3 {
   color: #9C9994; }
 
-.button {
+.button, button {
   transition: 0.3s all ease;
   background: #6470B1;
   border: none;
   padding: 5px;
   color: #FFF;
   font-weight: 700; }
-  .button:after {
+  .button:after, button:after {
     display: inline-block;
     content: "\2192";
     margin-left: 5px; }
-  .button:hover {
+  .button:hover, button:hover {
     background: #40497C;
     cursor: pointer; }
 

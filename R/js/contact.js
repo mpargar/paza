@@ -10,8 +10,27 @@ import Route from './src/router'
       this.bindListeners()
     },
     handleSubmitButton () {
-      // Aquí se invoca el servicio ajax
-      // window.Form <- contiene los datos
+      this.$sendContactForm.textContent = 'ENVIANDO...'
+      emailjs.send(
+        "smtp_server",
+        "template_USWFHOpx",
+        {
+          name: window.Form.name,
+          email: window.Form.email,
+          phone: window.Form.phone,
+          messaje: window.Form.messaje
+        }
+      )
+      .then(response => {
+
+        this.$sendContactForm.textContent = 'ENVIAR'
+        console.log('SUCCESS!', response.status, response.text)
+        alert('¡Su mensaje fue entregado con éxito!')
+
+        
+      }, error => {
+        console.log('FAILED...', error);
+      })
     },
     handleReactiveInput (e) {
       const $input = e.currentTarget
@@ -29,13 +48,13 @@ import Route from './src/router'
     bindListeners () {
       this.$eModelsInput.forEach($input =>
         $input.addEventListener('input',
-          this.handleReactiveInput.bind(this)
-        )
+        this.handleReactiveInput.bind(this)
       )
-      this.$sendContactForm.addEventListener('click', this.handleSubmitButton.bind(this))
-    }
+    )
+    this.$sendContactForm.addEventListener('click', this.handleSubmitButton.bind(this))
   }
+}
 
-  Route('/contacto', '/contact').use(Contact)
+Route('/contacto', '/contact').use(Contact)
 
 })( document, console.log )
