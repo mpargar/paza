@@ -193,11 +193,17 @@ header {
         transform: translate(0%); } }
 
 .banner {
-  background-image: url(/R/img/banner.jpg);
+  background-image: url("/R/img/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   height: 535px;
   background-position: top; }
+
+.current {
+  background: #6470B1;
+  color: white; }
+  .current a {
+    color: white; }
 
 footer {
   background-color: black;
@@ -207,6 +213,21 @@ footer {
   footer .flex-container > div {
     display: inline-block;
     margin-left: 30px; }
+
+.floating-action-button {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .floating-action-button img {
+    width: 35px;
+    height: 35px; }
 
 /*
 route

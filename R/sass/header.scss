@@ -172,9 +172,17 @@ header {
 }
 
 .banner{
-  background-image: url(/R/img/banner.jpg);
+  background-image: url('/R/img/banner.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 535px;
   background-position: top;
+}
+
+.current {
+  background: $Purple;
+  color: white;
+  a {
+    color: white;
+  }
 }
