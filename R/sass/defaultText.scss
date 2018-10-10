@@ -1,12 +1,49 @@
 .textPage{
-    p{
-        color: white;
+    padding: 0 25px;
+    p, ol>li{
+        color: rgb(226, 226, 226);
         font-weight: normal;
         margin: 10px auto;
         text-align: justify;
-        font-size: 14px;
+        font-size: 16px;
+        line-height: 1.6em;
         b{
             font-weight: 700;
+            font-size: 19.5px;
         }
+    }
+    ol{
+        padding-left: 35px;
+        list-style: lower-latin;
+    }
+    h3{
+        font-size: 20px;
+        color: $White;
+    }
+}
+
+.floatRImg{
+    max-width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+    @media (min-width: 800px) {
+        padding: 0 0 20px 20px;
+        float: right;
+    }
+    >img{
+        width: 100%;
+    }
+}
+
+.floatLImg{
+    max-width: 400px;
+    padding: 15px;
+    margin: 0 auto;
+    @media (min-width: 800px) {
+        padding: 0 20px 20px 0;
+        float: left;
+    }
+    >img{
+        width: 100%;
     }
 }

@@ -293,13 +293,45 @@ route
     margin: 10px auto; }
 
 /* Pages */
-.textPage p {
-  color: white;
-  font-weight: normal;
-  margin: 10px auto;
-  text-align: justify;
-  font-size: 14px; }
-  .textPage p b {
-    font-weight: 700; }
+.textPage {
+  padding: 0 25px; }
+  .textPage p, .textPage ol > li {
+    color: #e2e2e2;
+    font-weight: normal;
+    margin: 10px auto;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.6em; }
+    .textPage p b, .textPage ol > li b {
+      font-weight: 700;
+      font-size: 19.5px; }
+  .textPage ol {
+    padding-left: 35px;
+    list-style: lower-latin; }
+  .textPage h3 {
+    font-size: 20px;
+    color: #FFF; }
+
+.floatRImg {
+  max-width: 400px;
+  padding: 15px;
+  margin: 0 auto; }
+  @media (min-width: 800px) {
+    .floatRImg {
+      padding: 0 0 20px 20px;
+      float: right; } }
+  .floatRImg > img {
+    width: 100%; }
+
+.floatLImg {
+  max-width: 400px;
+  padding: 15px;
+  margin: 0 auto; }
+  @media (min-width: 800px) {
+    .floatLImg {
+      padding: 0 20px 20px 0;
+      float: left; } }
+  .floatLImg > img {
+    width: 100%; }
 
 /*# sourceMappingURL=bundle.css.map*/
