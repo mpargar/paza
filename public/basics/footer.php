@@ -16,9 +16,9 @@
   </div>
 
 
-  <div class="floating-action-button">
+  <!-- <div class="floating-action-button">
     <img src="/R/img/messenger.png">
-  </div>
+  </div> -->
 
 </footer>
 <script type="text/javascript" src="/R/bundle.js"></script>

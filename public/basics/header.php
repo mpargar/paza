@@ -53,11 +53,11 @@
             <?=ADMIN_TITLE?>
           </a>
         </li>
-        <li>
+        <!-- <li>
           <a href="/<?=LANG?>/<?=B_AND_D_LINK?>">
             <?=B_AND_D_TITLE?>
           </a>
-        </li>
+        </li> -->
         <li>
           <a href="/<?=LANG?>/<?=CONTACT_LINK?>">
             <?=CONTACT_TITLE?>
