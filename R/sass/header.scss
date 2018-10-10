@@ -11,7 +11,8 @@
     opacity: 0.5;
   }
   @media(min-width: $menuHiddenWidth) {
-    display: none;
+    display: none !important;
+    opacity: 0;
   }
 }
 

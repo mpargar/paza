@@ -3,4 +3,10 @@ footer {
   color: white;
   padding: 20px;
   font-size: 13px;
+  .flex-container {
+    > div {
+      display: inline-block;
+      margin-left: 30px;
+    }
+  }
 }

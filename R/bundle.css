@@ -67,7 +67,8 @@ h3 {
     opacity: 0.5; }
   @media (min-width: 1090px) {
     .hambgr-menu {
-      display: none; } }
+      display: none !important;
+      opacity: 0; } }
 
 header {
   padding: 20px;
@@ -203,6 +204,9 @@ footer {
   color: white;
   padding: 20px;
   font-size: 13px; }
+  footer .flex-container > div {
+    display: inline-block;
+    margin-left: 30px; }
 
 /*
 route
@@ -266,5 +270,15 @@ route
       margin-bottom: 20px; } }
   .fastList > ul > li h3 {
     margin: 10px auto; }
+
+/* Pages */
+.textPage p {
+  color: white;
+  font-weight: normal;
+  margin: 10px auto;
+  text-align: justify;
+  font-size: 14px; }
+  .textPage p b {
+    font-weight: 700; }
 
 /*# sourceMappingURL=bundle.css.map*/

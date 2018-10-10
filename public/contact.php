@@ -7,7 +7,7 @@
   <div class="row-flex">
     <div class="column-small">
       <p class="c__purple">
-        <a href="#">612 134 7236</a> ó <a href="#">contacto@pazarealstate.com</a>
+        <a href="tel:+526121234625">Teléfono: +52.612.123.4625</a>, <a href="tel:+526121390675">Celular: +52.612.139.0675</a> ó <a href="mailto:pabloglez@pazarealestate.com">e-mail: pabloglez@pazarealestate.com</a>
       </p>
       <p><?= CONTACT_P_ONE ?>.</p>
       <input type="text" placeholder="Nombre" e-model="name">
