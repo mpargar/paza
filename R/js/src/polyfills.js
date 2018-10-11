@@ -1,7 +1,10 @@
 
 /*
-* Register funtion for new route
+* * * * * * * * * * * * * * * * * *
+* Register funtion for new route  \
+* * * * * * * * * * * * * * * * * *
 */
+
 window.route = function (rt) {
   const currentRoute = location.pathname.replace(/^\/e[s|n]/, '')
   if (rt) {
@@ -79,3 +82,22 @@ document
   .querySelector('a[href="' + location.pathname + '"]')
   .parentNode
   .addClass('current')
+
+
+// const $images = $('.parallax-effect')
+//
+// document.body.on('scroll', e => {
+//   $images.forEach($image => {
+//     if (e.target.scrollTop > $image.offsetTop) {
+//       $image.style.backgroundPositionY = ((e.target.scrollTop * 0.3) + $image.offsetTop) + 'px'
+//     }
+//   })
+// })
+
+
+/*
+* * * * * * * * * * * *
+* check for polyfills \
+* * * * * * * * * * * *
+*/
+console.log('Polyfills are actives...')

@@ -293,45 +293,59 @@ route
     margin: 10px auto; }
 
 /* Pages */
-.textPage {
+.text-page {
   padding: 0 25px; }
-  .textPage p, .textPage ol > li {
+  .text-page > section {
+    margin: 10% 0; }
+  .text-page p, .text-page ol > li {
     color: #e2e2e2;
     font-weight: normal;
     margin: 10px auto;
-    text-align: justify;
     font-size: 16px;
     line-height: 1.6em; }
-    .textPage p b, .textPage ol > li b {
-      font-weight: 700;
-      font-size: 19.5px; }
-  .textPage ol {
+    .text-page p b, .text-page ol > li b {
+      font-weight: 200;
+      border-bottom: 3px solid #6470B1;
+      font-size: 25px; }
+  .text-page ol {
     padding-left: 35px;
     list-style: lower-latin; }
-  .textPage h3 {
+  .text-page h3 {
     font-size: 20px;
     color: #FFF; }
 
-.floatRImg {
-  max-width: 400px;
-  padding: 15px;
-  margin: 0 auto; }
+.float-r-img {
+  margin: 0px 0px 30px 30px; }
   @media (min-width: 800px) {
-    .floatRImg {
+    .float-r-img {
       padding: 0 0 20px 20px;
       float: right; } }
-  .floatRImg > img {
+  .float-r-img > img  {
     width: 100%; }
 
-.floatLImg {
-  max-width: 400px;
-  padding: 15px;
-  margin: 0 auto; }
+.float-l-img {
+  margin: 30px 30px 0px 0px; }
   @media (min-width: 800px) {
-    .floatLImg {
+    .float-l-img {
       padding: 0 20px 20px 0;
       float: left; } }
-  .floatLImg > img {
+  .float-l-img > img {
     width: 100%; }
+
+.float-r-img,
+.float-l-img {
+  background-size: cover;
+  width: 55%;
+  height: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 45%; }
+  @media (max-width: 800px) {
+    .float-r-img,
+    .float-l-img {
+      width: 100%;
+      margin: 0;
+      margin-bottom: 20px;
+      padding-top: 30%; } }
 
 /*# sourceMappingURL=bundle.css.map*/
