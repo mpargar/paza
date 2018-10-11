@@ -10,7 +10,7 @@
 /*!**********************!*\
   !*** ./R/js/home.js ***!
   \**********************/
-/*! no exports provided */function(t,e,n){"use strict";n.r(e);var o=n(/*! ./src/router */"./R/js/src/router.js");!function(t,e){var n={init:function(){this.cacheDOM(),this.bindListeners()},cacheDOM:function(){this.$banner=$(".banner")},handleBodyScroll:function(t){this.$banner.style.backgroundPositionY="-"+.2*t.target.scrollTop+"px"},bindListeners:function(){document.body.on("scroll",this.handleBodyScroll.bind(this))}};Object(o.default)("/","/").use(n)}(document,console.log)},"./R/js/index.js":
+/*! no exports provided */function(t,e,n){"use strict";n.r(e);var o=n(/*! ./src/router */"./R/js/src/router.js");!function(t,e){var n={init:function(){this.cacheDOM(),this.bindListeners()},cacheDOM:function(){this.$banner=$(".banner")},handleBodyScroll:function(t){this.$banner.style.backgroundPositionY="-"+.8*(t.target.scrollTop+100)+"px"},bindListeners:function(){document.body.on("scroll",this.handleBodyScroll.bind(this))}};Object(o.default)("/","/").use(n)}(document,console.log)},"./R/js/index.js":
 /*!***********************!*\
   !*** ./R/js/index.js ***!
   \***********************/

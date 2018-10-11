@@ -197,7 +197,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 535px;
-  background-position: top; }
+  background-position: top;
+  background-position-y: -100px; }
 
 .current {
   background: #6470B1;
@@ -296,7 +297,7 @@ route
 .text-page {
   padding: 0 25px; }
   .text-page > section {
-    margin: 10% 0; }
+    margin: 5% 0; }
   .text-page p, .text-page ol > li {
     color: #e2e2e2;
     font-weight: normal;

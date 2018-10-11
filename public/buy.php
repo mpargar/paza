@@ -8,7 +8,6 @@
     </figure>
     <?= BUY_TXT1 ?>
   </section>
-  <hr>
   <section>
     <figure class="float-r-img parallax-effect" style="background-image: url('/R/img/buy2.jpg')">
       <!-- <img src="/R/img/buy2.jpg" alt=""> -->

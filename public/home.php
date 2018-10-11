@@ -1,10 +1,10 @@
 <?php
     include 'basics/header.php'
 ?>
-<main>
     <!-- <BANNER>  -->
     <div class="banner">
     </div>
+<main>
     <!-- </BANNER>  -->
     <!-- <FastLinks> -->
     <div class="fastList">

@@ -11,7 +11,7 @@
     <div>
       <p><a href="tel:+526121234625">Teléfono: +52.612.123.4625</a></p>
       <p><a href="tel:+526121390675">Celular: +52.612.139.0675</a></p>
-      <p><a href="mailto:pabloglez@pazarealestate.com">e-mail: pabloglez@pazarealestate.com</a></p>
+      <p><a href="mailto:info@pazarealestate.com">e-mail: info@pazarealestate.com</a></p>
     </div>
   </div>
 

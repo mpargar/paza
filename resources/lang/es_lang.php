@@ -52,7 +52,7 @@ define('BUY_TXT1', '
   ');
 
 define('BUY_TXT2', '
-<h3>CUIDADO CON LAS VENTAS DIRECTAS.</h3>
+<p><b>Cuidado con las ventas directas.</b></p>
 <p>Asegúrate de que el propietario tenga prestigio y seriedad y la propiedad no venga de negocios ilícitos, que no tengan adeudos, que no
 tengan hipotecas, que las escrituras estén correctas, Investiga cuál es el precio total del
 inmueble, las condiciones de pago y que no tenga adeudos, el tiempo de entrega y

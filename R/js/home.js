@@ -13,8 +13,7 @@ import Route from './src/router'
       this.$banner = $('.banner')
     },
     handleBodyScroll (e) {
-      /* console.log(e.target.scrollTop); */
-      this.$banner.style.backgroundPositionY = '-' + (e.target.scrollTop * 0.2) + 'px'
+      this.$banner.style.backgroundPositionY = '-' + ((e.target.scrollTop + 100) * 0.8) + 'px'
     },
     bindListeners () {
       document.body.on('scroll', this.handleBodyScroll.bind(this))
