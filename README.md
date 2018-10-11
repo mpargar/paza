@@ -1,3 +1,3 @@
 # Paza
 
-🏠 Paza real state website 🚧
+🏠 Paza Real Estate website 🚧

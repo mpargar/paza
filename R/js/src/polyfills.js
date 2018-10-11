@@ -100,4 +100,4 @@ document
 * check for polyfills \
 * * * * * * * * * * * *
 */
-console.log('Polyfills are actives...')
+/* console.log('Polyfills are actives...') */

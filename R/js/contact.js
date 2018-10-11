@@ -5,7 +5,7 @@ import Route from './src/router'
 
   const Contact = {
     init () {
-      c('module Contact is running...')
+      /* c('module Contact is running...') */
       this.cacheDOM()
       this.bindListeners()
     },
@@ -24,12 +24,12 @@ import Route from './src/router'
       .then(response => {
 
         this.$sendContactForm.textContent = 'ENVIAR'
-        console.log('SUCCESS!', response.status, response.text)
+        /* console.log('SUCCESS!', response.status, response.text) */
         alert('¡Su mensaje fue entregado con éxito!')
 
         
       }, error => {
-        console.log('FAILED...', error);
+        /* console.log('FAILED...', error); */
       })
     },
     handleReactiveInput (e) {

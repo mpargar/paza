@@ -5,7 +5,7 @@ import Route from './src/router'
 
   const Home = {
     init () {
-      c('module Home is running...')
+      /* c('module Home is running...') */
       this.cacheDOM()
       this.bindListeners()
     },
@@ -13,7 +13,7 @@ import Route from './src/router'
       this.$banner = $('.banner')
     },
     handleBodyScroll (e) {
-      console.log(e.target.scrollTop);
+      /* console.log(e.target.scrollTop); */
       this.$banner.style.backgroundPositionY = '-' + (e.target.scrollTop * 0.2) + 'px'
     },
     bindListeners () {

@@ -5,7 +5,7 @@ import Route from './src/router'
 
   const Scaffold = {
     init () {
-      c('module Scaffold is running...')
+      /* c('module Scaffold is running...') */
       this.cacheDOM()
       this.bindListeners()
     },

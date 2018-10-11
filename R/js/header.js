@@ -3,7 +3,7 @@
 
   const Header = {
     init () {
-      c('module Header is running...')
+      /* c('module Header is running...') */
       this.cacheDOM()
       this.bindListeners()
     },
