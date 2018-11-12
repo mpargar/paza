@@ -17,8 +17,7 @@
 }
 
 header {
-  padding: 20px;
-  padding-top: 50px;
+  padding: 50px 20px 40px 20px;
   border-bottom: solid 2px #6470B170;
   position: relative;
   nav {
@@ -28,16 +27,19 @@ header {
     max-width: 1200px;
     margin: auto;
     .header-left{
+      align-items: center;
       >ul{
         margin-top: 10px;
         list-style: none;
         >li{
           color: white;
+          padding-bottom: 5px;
           >a{
             color: $Purple;
             display: inline-block;
             >img{
-              max-width: 15px;
+              max-width: 20px;
+              margin: 0 5px;
             }
           }
         }

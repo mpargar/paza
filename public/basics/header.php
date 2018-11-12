@@ -18,8 +18,14 @@
           <img src="/R/img/logo_paza.png" alt="Paza Real Estate Logo" width="130">
           <ul>
             <li>Teléfono: <a href="tel:+526121234625">+52.612.123.4625</a></li>
-            <li>Celular: <a href="tel:+526121390675">+52.612.139.0675</a> <a href="https://wa.me/526121390675" target="_blank"><img src="/R/img/whatsapp.png"> Enviar whatsapp</a></li>
+            <li>Celular: <a href="tel:+526121390675">+52.612.139.0675</a></li>
             <li>e-mail: <a href="mailto:info@pazarealestate.com">info@pazarealestate.com</a></li>
+            <li style="display:flex;">
+              Social:
+              <a href="https://www.facebook.com/PAZA-Real-Estate-318085008733590/" target="_blank"><img src="/R/img/fb.png"></a>
+              <a href="https://wa.me/526121390675" target="_blank"><img src="/R/img/whatsapp.png"></a>
+              <a href="https://www.instagram.com/pazarealestate/" target="_blank"><img src="/R/img/instagram.png"></a>
+            </li>
           </ul>
         </div>
       <!-- </a> -->

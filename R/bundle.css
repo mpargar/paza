@@ -71,8 +71,7 @@ h3 {
       opacity: 0; } }
 
 header {
-  padding: 20px;
-  padding-top: 50px;
+  padding: 50px 20px 40px 20px;
   border-bottom: solid 2px #6470B170;
   position: relative; }
   header nav {
@@ -81,25 +80,29 @@ header {
     align-items: center;
     max-width: 1200px;
     margin: auto; }
-    header nav .header-left > ul {
-      margin-top: 10px;
-      list-style: none; }
-      header nav .header-left > ul > li {
-        color: white; }
-        header nav .header-left > ul > li > a {
-          color: #6470B1;
-          display: inline-block; }
-          header nav .header-left > ul > li > a > img {
-            max-width: 15px; }
-    @media (min-width: 1090px) {
-      header nav .header-left {
-        display: flex;
-        height: 56px; }
-        header nav .header-left > img {
-          margin-right: 5px; }
-        header nav .header-left > ul {
-          margin-top: 0;
-          padding-left: 10px; } }
+    header nav .header-left {
+      align-items: center; }
+      header nav .header-left > ul {
+        margin-top: 10px;
+        list-style: none; }
+        header nav .header-left > ul > li {
+          color: white;
+          padding-bottom: 5px; }
+          header nav .header-left > ul > li > a {
+            color: #6470B1;
+            display: inline-block; }
+            header nav .header-left > ul > li > a > img {
+              max-width: 20px;
+              margin: 0 5px; }
+      @media (min-width: 1090px) {
+        header nav .header-left {
+          display: flex;
+          height: 56px; }
+          header nav .header-left > img {
+            margin-right: 5px; }
+          header nav .header-left > ul {
+            margin-top: 0;
+            padding-left: 10px; } }
     header nav > ul {
       display: flex;
       list-style: none;
@@ -238,9 +241,20 @@ footer {
   color: white;
   padding: 20px;
   font-size: 13px; }
-  footer .flex-container > div {
-    display: inline-block;
-    margin-left: 30px; }
+  footer .flex-container {
+    display: flex;
+    align-items: center; }
+    footer .flex-container > div {
+      display: inline-block;
+      margin-left: 30px; }
+      footer .flex-container > div > p {
+        padding-bottom: 5px; }
+        footer .flex-container > div > p > a {
+          color: #6470B1;
+          display: inline-block; }
+          footer .flex-container > div > p > a > img {
+            max-width: 20px;
+            margin: 0 5px; }
 
 .floating-action-button {
   position: fixed;

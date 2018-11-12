@@ -24,9 +24,9 @@
                 </a>
             </li>
             <li>
-                <img src="/R/img/figure2.png">
+                <img src="/R/img/figure3.png">
                 <h3>Administración de propiedades</h3>
-                <a href="/<?=LANG?>/<?=SELL_LINK?>" class="button">
+                <a href="/<?=LANG?>/<?=ADMIN_LINK?>" class="button">
                     Mas información
                 </a>
             </li>
