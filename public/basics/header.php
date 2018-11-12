@@ -14,7 +14,14 @@
     <img src="/R/img/menu.svg" alt="menu" class="hambgr-menu" id="$hambgr">
     <nav id="$nav">
       <!-- <a href="/<?=LANG?>/"> -->
-        <img src="/R/img/logo_paza.png" alt="Paza Real Estate Logo" width="130">
+        <div class="header-left">
+          <img src="/R/img/logo_paza.png" alt="Paza Real Estate Logo" width="130">
+          <ul>
+            <li>Teléfono: <a href="tel:+526121234625">+52.612.123.4625</a></li>
+            <li>Celular: <a href="tel:+526121390675">+52.612.139.0675</a> <a href="https://wa.me/526121390675" target="_blank"><img src="/R/img/whatsapp.png"> Enviar whatsapp</a></li>
+            <li>e-mail: <a href="mailto:info@pazarealestate.com">info@pazarealestate.com</a></li>
+          </ul>
+        </div>
       <!-- </a> -->
       <ul>
         <li class="close">
@@ -60,7 +67,7 @@
             <?=B_AND_D_TITLE?>
           </a>
         </li> -->
-        <li>
+        <li class="current">
           <a href="/<?=LANG?>/<?=CONTACT_LINK?>">
             <?=CONTACT_TITLE?>
           </a>

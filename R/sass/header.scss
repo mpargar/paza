@@ -20,12 +20,40 @@ header {
   padding: 20px;
   padding-top: 50px;
   border-bottom: solid 2px #6470B170;
+  position: relative;
   nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     margin: auto;
+    .header-left{
+      >ul{
+        margin-top: 10px;
+        list-style: none;
+        >li{
+          color: white;
+          >a{
+            color: $Purple;
+            display: inline-block;
+            >img{
+              max-width: 15px;
+            }
+          }
+        }
+      }
+      @media (min-width: 1090px) {
+        display: flex;
+        height: 56px;
+        >img{
+          margin-right: 5px;
+        }
+        >ul{
+          margin-top: 0;
+          padding-left: 10px;
+        }
+      }
+    }
     > ul {
       display: flex;
       list-style: none;
@@ -176,8 +204,13 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 535px;
-  background-position: top;
-  background-position-y: -100px;
+  background-position: bottom;
+  @media (max-width: 800px) {
+    height: 415px;
+  }
+  @media (max-width: 500px) {
+    height: 215px;
+  }
 }
 
 .current {
@@ -185,5 +218,8 @@ header {
   color: white;
   a {
     color: white;
+  }
+  &:hover{
+    background-color: black;
   }
 }

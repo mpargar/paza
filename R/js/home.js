@@ -10,13 +10,13 @@ import Route from './src/router'
       this.bindListeners()
     },
     cacheDOM () {
-      this.$banner = $('.banner')
+      /* this.$banner = $('.banner') */
     },
     handleBodyScroll (e) {
-      this.$banner.style.backgroundPositionY = '-' + ((e.target.scrollTop + 100) * 0.8) + 'px'
+      /* this.$banner.style.backgroundPositionY = '-' + ((e.target.scrollTop + 100) * 0.8) + 'px' */
     },
     bindListeners () {
-      document.body.on('scroll', this.handleBodyScroll.bind(this))
+      /* document.body.on('scroll', this.handleBodyScroll.bind(this)) */
     }
   }
 
