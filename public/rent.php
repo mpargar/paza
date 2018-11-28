@@ -7,7 +7,7 @@
     <?= RENT_TXT1 ?>
   </section>
   <section>
-    <figure class="float-r-img parallax-effect" style="background-image: url('/R/img/rent2.jpg')">
+    <figure class="float-r-img parallax-effect" style="background-image: url('/R/img/rent2.jpg'); background-position-y: bottom;">
     </figure>
     <?= RENT_TXT2 ?>
   </section>

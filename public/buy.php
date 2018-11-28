@@ -9,7 +9,7 @@
     <?= BUY_TXT1 ?>
   </section>
   <section>
-    <figure class="float-r-img parallax-effect" style="background-image: url('/R/img/buy2.jpg')">
+    <figure class="float-r-img parallax-effect" style="background-image: url('/R/img/buy2.jpg');     background-position-y: -36px;">
       <!-- <img src="/R/img/buy2.jpg" alt=""> -->
     </figure>
     <?= BUY_TXT2 ?>

@@ -2,7 +2,7 @@
 <main class="administration-main text-page">
   <h1><?= ADMIN_H1_TITLE ?></h1>
   <section>
-    <figure class="float-l-img parallax-effect" style="background-image: url('/R/img/admin.jpg')">
+    <figure class="float-l-img parallax-effect" style="background-image: url('/R/img/admin.jpg'); background-position-y:center;">
     </figure>
     <?=ADMIN_TXT1?>
     <?=ADMIN_TXT2?>
