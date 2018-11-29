@@ -37,7 +37,7 @@ if ($_GET['lang']) {
     call_user_func('home', $lang);
   }
 } else {
-  header("Location: /es/");
+  header("Location: /en/");
 }
 
 ?>

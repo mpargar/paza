@@ -20,21 +20,33 @@ define('ADMIN_LINK', 'administracion');
 define('B_AND_D_LINK', 'construccion');
 define('CONTACT_LINK', 'contacto');
 
+// home texts
+define('HOME_BUY_TEXT_1', 'COMPRA O INVIERTE EN UN BIEN INMUEBLE');
+define('HOME_BUY_TEXT_2', 'VENDE TU CASA O DEPARTAMENTO');
+define('HOME_BUY_TEXT_3', 'ADMINISTRACIÓN DE PROPIEDADES');
+define('HOME_BUY_TEXT_BUTTON_MORE', 'Mas información');
+
 // contact section
 define('CONTACT_H1_TITLE', 'Contacto');
 define('CONTACT_P_ONE', 'Puede dejar un mensaje en el siguiente formulario, le atenderemos en la brevedad');
+define('O', 'ó');
+define('CONTACT_FORM_NAME', 'Nombre');
+define('CONTACT_FORM_PHONE', 'Teléfono');
+define('CONTACT_FORM_CELL', 'Celular');
+define('CONTACT_FORM_MAIL', 'Email');
+define('CONTACT_FORM_SMS', 'Mensaje');
 
 // buy
 define('BUY_H1_TITLE', 'Compra o invierte en un bien inmueble');
 define('BUY_TXT1', '
     <p>Recomendaciones antes de comprar una casa, departamento o un terreno:</p>
-    
+
     <p><b>Analiza tus finanzas:</b><p>
     <p> El primer paso que debes dar es verificar si dispones del suficiente
     presupuesto para cubrir los gastos que esto conlleva, tales como el depósito inicial y el
     enganche, costos por apertura de crédito, gastos de escrituración y las mensualidades que
     deberás cubrir durante el periodo que dure tu crédito hipotecario.</p>
-    
+
     <p><b>Busca financiamiento de diversas instituciones:</b></p>
     <p> Analiza minuciosamente varias propuestas antes de elegir un crédito hipotecario.</p>
 

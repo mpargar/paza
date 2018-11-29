@@ -22,13 +22,11 @@ import Route from './src/router'
         }
       )
       .then(response => {
-
         this.$sendContactForm.textContent = 'ENVIAR'
         /* console.log('SUCCESS!', response.status, response.text) */
         alert('¡Su mensaje fue entregado con éxito!')
-
-        
       }, error => {
+        // alert('¡Su mensaje fue entregado con éxito!')        
         /* console.log('FAILED...', error); */
       })
     },

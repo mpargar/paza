@@ -329,7 +329,8 @@ route
       .fastList > ul {
         display: block; } }
     .fastList > ul > li {
-      padding: 0 5px; }
+      padding: 0 5px;
+      margin-top: 30px; }
       @media (max-width: 780px) {
         .fastList > ul > li {
           display: block;
@@ -338,7 +339,7 @@ route
       .fastList > ul > li img {
         max-width: 300px; }
       .fastList > ul > li h3 {
-        margin: 10px auto; }
+        margin: 30px auto; }
 
 /* Pages */
 .text-page {
