@@ -4,11 +4,11 @@ include 'basics/header.php'
 <main>
   <!-- <BANNER>  -->
   <div class="banner">
-    <img src="http://placehold.it/940x528">
-    <img src="http://placehold.it/940x528">
-    <img src="http://placehold.it/940x528">
-    <img src="http://placehold.it/940x528">
-    <img src="http://placehold.it/940x528">
+    <img src="/R/img/__1.jpg">
+    <img src="/R/img/__3.jpg">
+    <img src="/R/img/__4.jpg">
+    <img src="/R/img/__2.jpg">
+    <img src="/R/img/__5.jpg">
   </div>
   <!-- </BANNER>  -->
   <!-- <FastLinks> -->
@@ -43,13 +43,19 @@ include 'basics/header.php'
 <script src="/R/slider.js"></script>
 <script>
   $(".banner").slidesjs({
-    width: 940,
-    height: 528,
+    width: 1920,
+    height: 1080,
     pagination: {
       active: false
     },
     play: {
-      interval: 5000
+      active: true,
+      effect: "slide",
+      interval: 10000,
+      auto: true,
+      swap: true,
+      pauseOnHover: false,
+      restartDelay: 2500
     },
     effect: {
       slide: {

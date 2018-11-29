@@ -220,6 +220,7 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   height: 535px;
+  position: relative;
   background-position: bottom; }
   @media (max-width: 800px) {
     .banner {
@@ -227,6 +228,27 @@ header {
   @media (max-width: 500px) {
     .banner {
       height: 215px; } }
+  .banner .slidesjs-navigation {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 99;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%; }
+  .banner .slidesjs-previous {
+    right: none;
+    left: 10px; }
+  .banner .slidesjs-play,
+  .banner .slidesjs-stop {
+    display: none !important; }
 
 .current {
   background: #6470B1;

@@ -1,4 +1,4 @@
-!function(t){var e={};function n(o){if(e[o])return e[o].exports;var s=e[o]={i:o,l:!1,exports:{}};return t[o].call(s.exports,s,s.exports,n),s.l=!0,s.exports}n.m=t,n.c=e,n.d=function(t,e,o){n.o(t,e)||Object.defineProperty(t,e,{enumerable:!0,get:o})},n.r=function(t){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(t,"__esModule",{value:!0})},n.t=function(t,e){if(1&e&&(t=n(t)),8&e)return t;if(4&e&&"object"==typeof t&&t&&t.__esModule)return t;var o=Object.create(null);if(n.r(o),Object.defineProperty(o,"default",{enumerable:!0,value:t}),2&e&&"string"!=typeof t)for(var s in t)n.d(o,s,function(e){return t[e]}.bind(null,s));return o},n.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return n.d(e,"a",e),e},n.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},n.p="",n(n.s="./R/js/index.js")}({"./R/js/contact.js":
+!function(t){var e={};function n(o){if(e[o])return e[o].exports;var i=e[o]={i:o,l:!1,exports:{}};return t[o].call(i.exports,i,i.exports,n),i.l=!0,i.exports}n.m=t,n.c=e,n.d=function(t,e,o){n.o(t,e)||Object.defineProperty(t,e,{enumerable:!0,get:o})},n.r=function(t){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(t,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(t,"__esModule",{value:!0})},n.t=function(t,e){if(1&e&&(t=n(t)),8&e)return t;if(4&e&&"object"==typeof t&&t&&t.__esModule)return t;var o=Object.create(null);if(n.r(o),Object.defineProperty(o,"default",{enumerable:!0,value:t}),2&e&&"string"!=typeof t)for(var i in t)n.d(o,i,function(e){return t[e]}.bind(null,i));return o},n.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return n.d(e,"a",e),e},n.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},n.p="",n(n.s="./R/js/index.js")}({"./R/js/contact.js":
 /*!*************************!*\
   !*** ./R/js/contact.js ***!
   \*************************/
@@ -6,15 +6,11 @@
 /*!************************!*\
   !*** ./R/js/header.js ***!
   \************************/
-/*! no static exports found */function(t,e){!function(t,e){({init:function(){this.cacheDOM(),this.bindListeners()},openMenu:function(){this.$ul.addClass("open"),this.$darkLayer.addClass("open")},closeMenu:function(){this.$ul.removeClass("open"),this.$darkLayer.removeClass("open")},cacheDOM:function(){this.$navbar=$("nav"),this.$ul=this.$navbar.find("ul"),this.$hambgr=t.getElementById("$hambgr"),this.$close=this.$navbar.find(".close"),this.$darkLayer=t.getElementById("darkLayer")},bindListeners:function(){this.$hambgr.on("click",this.openMenu.bind(this)),this.$darkLayer.on("click",this.closeMenu.bind(this)),this.$close.on("click",this.closeMenu.bind(this))}}).init()}(document,console.log)},"./R/js/home.js":
-/*!**********************!*\
-  !*** ./R/js/home.js ***!
-  \**********************/
-/*! no exports provided */function(t,e,n){"use strict";n.r(e);var o=n(/*! ./src/router */"./R/js/src/router.js");document,console.log,Object(o.default)("/","/").use({init:function(){this.cacheDOM(),this.bindListeners()},cacheDOM:function(){},handleBodyScroll:function(t){},bindListeners:function(){}})},"./R/js/index.js":
+/*! no static exports found */function(t,e){!function(t,e){({init:function(){this.cacheDOM(),this.bindListeners()},openMenu:function(){this.$ul.addClass("open"),this.$darkLayer.addClass("open")},closeMenu:function(){this.$ul.removeClass("open"),this.$darkLayer.removeClass("open")},cacheDOM:function(){this.$navbar=$("nav"),this.$ul=this.$navbar.find("ul"),this.$hambgr=t.getElementById("$hambgr"),this.$close=this.$navbar.find(".close"),this.$darkLayer=t.getElementById("darkLayer")},bindListeners:function(){this.$hambgr.on("click",this.openMenu.bind(this)),this.$darkLayer.on("click",this.closeMenu.bind(this)),this.$close.on("click",this.closeMenu.bind(this))}}).init()}(document,console.log)},"./R/js/index.js":
 /*!***********************!*\
   !*** ./R/js/index.js ***!
   \***********************/
-/*! no exports provided */function(t,e,n){"use strict";n.r(e);n(/*! ../sass/index.scss */"./R/sass/index.scss"),n(/*! ./src/polyfills */"./R/js/src/polyfills.js"),n(/*! ./home */"./R/js/home.js"),n(/*! ./header */"./R/js/header.js"),n(/*! ./contact */"./R/js/contact.js")},"./R/js/src/polyfills.js":
+/*! no exports provided */function(t,e,n){"use strict";n.r(e);n(/*! ../sass/index.scss */"./R/sass/index.scss"),n(/*! ./src/polyfills */"./R/js/src/polyfills.js"),n(/*! ./header */"./R/js/header.js"),n(/*! ./contact */"./R/js/contact.js")},"./R/js/src/polyfills.js":
 /*!*******************************!*\
   !*** ./R/js/src/polyfills.js ***!
   \*******************************/

@@ -1,5 +1,5 @@
 
-;(function (d, c) {
+;(function ($$d, c) {
 
   const Header = {
     init () {
@@ -14,18 +14,20 @@
     closeMenu () {
       this.$ul.removeClass('open')
       this.$darkLayer.removeClass('open')
-    },/* 
+    },
+    /*
     handleHideMenu (e) {
       this.$hambgr.style.display =  (e.target.scrollTop > 30)
         ? 'none'
         : 'initial'
-    }, */
+    },
+    */
     cacheDOM () {
       this.$navbar = $('nav')
       this.$ul = this.$navbar.find('ul')
-      this.$hambgr = d.getElementById('$hambgr')
+      this.$hambgr = $$d.getElementById('$hambgr')
       this.$close = this.$navbar.find('.close')
-      this.$darkLayer = d.getElementById('darkLayer')
+      this.$darkLayer = $$d.getElementById('darkLayer')
     },
     bindListeners () {
       this.$hambgr.on('click', this.openMenu.bind(this))
@@ -36,6 +38,5 @@
   }
 
   Header.init()
-
-
+  
 })( document, console.log )

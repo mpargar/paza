@@ -17,9 +17,9 @@
         <div class="header-left">
           <img src="/R/img/logo_paza.png" alt="Paza Real Estate Logo" width="130">
           <ul>
-            <li>Teléfono: <a href="tel:+526121234625">+52.612.123.4625</a></li>
-            <li>Celular: <a href="tel:+526121390675">+52.612.139.0675</a></li>
-            <li>e-mail: <a href="mailto:info@pazarealestate.com">info@pazarealestate.com</a></li>
+            <li><?=CONTACT_FORM_PHONE?>: <a href="tel:+526121234625">+52.612.123.4625</a></li>
+            <li><?=CONTACT_FORM_CELL?>: <a href="tel:+526121390675">+52.612.139.0675</a></li>
+            <li><?=CONTACT_FORM_MAIL?>: <a href="mailto:info@pazarealestate.com">info@pazarealestate.com</a></li>
             <li style="display:flex;">
               Social:
               <a href="https://www.facebook.com/PAZA-Real-Estate-318085008733590/" target="_blank"><img src="/R/img/fb.png"></a>
@@ -58,6 +58,9 @@
             <?=SELL_TITLE?>
           </a>
         </li>
+        <?php
+          if ($_GET['lang'] == 'es') {
+        ?>
         <li>
           <a href="/<?=LANG?>/<?=RENT_LINK?>">
             <?=RENT_TITLE?>
@@ -68,11 +71,9 @@
             <?=ADMIN_TITLE?>
           </a>
         </li>
-        <!-- <li>
-          <a href="/<?=LANG?>/<?=B_AND_D_LINK?>">
-            <?=B_AND_D_TITLE?>
-          </a>
-        </li> -->
+        <?php
+          }
+        ?>
         <li class="current">
           <a href="/<?=LANG?>/<?=CONTACT_LINK?>">
             <?=CONTACT_TITLE?>

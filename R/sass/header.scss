@@ -201,17 +201,44 @@ header {
   }
 }
 
-.banner{
+.banner {
   background-image: url('/R/img/banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 535px;
+  position: relative;
   background-position: bottom;
   @media (max-width: 800px) {
     height: 415px;
   }
   @media (max-width: 500px) {
     height: 215px;
+  }
+  .slidesjs-navigation {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 99;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+
+  .slidesjs-previous {
+    right: none;
+    left: 10px;
+  }
+
+  .slidesjs-play,
+  .slidesjs-stop {
+    display: none !important;
   }
 }
 

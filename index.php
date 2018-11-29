@@ -10,9 +10,9 @@ function isValid ( &$route ) {
      español                 ingles        */
     'comprar',               'buy',
     'vende',                 'sell',
-    'renta',                 'rent',
-    'administracion',        'administration',
-    'construccion',          'build',
+    'renta',                 /*'rent',*/
+    'administracion',        /*'administration',*/
+    /*'construccion',          'build',*/
     'contacto',              'contact'
   ];
 

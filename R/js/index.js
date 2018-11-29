@@ -12,7 +12,7 @@ import Scripts * * * * * * */
 import Scripts * * * * * * */
 import './src/polyfills'
 
-import './home'
+// import './home'
 import './header'
 import './contact'
 /* * * * * * * * * * * * * */

@@ -42,7 +42,7 @@ function vende () {
 */
 function renta () {
   include_once 'public/rent.php';
-} function rent () { renta(); }
+} // function rent () { renta(); }
 
 
 /*
@@ -50,11 +50,16 @@ function renta () {
 */
 function administracion () {
   include_once 'public/administration.php';
-} function administration () { administracion(); }
+} // function administration () { administracion(); }
+
+/*
+
+DEPRECATED
 
 function construccion () {
   include_once 'public/build.php';
 } function build () { construccion(); }
+*/
 
 
 ?>
