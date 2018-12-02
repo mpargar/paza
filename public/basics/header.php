@@ -80,6 +80,13 @@
           </a>
         </li>
       </ul>
+
+      <div class="langs">
+        <a href="/es/">🇲🇽 ES</a>
+        &nbsp;&nbsp;&nbsp; · &nbsp;&nbsp;&nbsp; 
+        <a href="/en/">🇺🇸 EN</a>
+      </div>
+
     </nav>
   </header>
 <span id="darkLayer"></span>

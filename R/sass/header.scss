@@ -21,6 +21,7 @@ header {
   border-bottom: solid 2px #6470B170;
   position: relative;
   nav {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -202,7 +203,7 @@ header {
 }
 
 .banner {
-  background-image: url('/R/img/banner.jpg');
+  // background-image: url('/R/img/banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 535px;
@@ -250,5 +251,16 @@ header {
   }
   &:hover{
     background-color: black;
+  }
+}
+
+.langs {
+  position: absolute;
+  top: -20px;
+  right: 5px;
+  color: $White !important;
+  a {
+    text-decoration: none;
+    color: $White;
   }
 }
