@@ -60,7 +60,8 @@ h3 {
   position: absolute;
   right: 20px;
   top: 70px;
-  cursor: pointer; }
+  cursor: pointer;
+  z-index: 9999; }
   .hambgr-menu:hover {
     opacity: 0.8; }
   .hambgr-menu:active {
@@ -371,6 +372,9 @@ route
         max-width: 300px; }
       .fastList > ul > li h3 {
         margin: 30px auto; }
+
+.slidesjs-navigation {
+  z-index: 97 !important; }
 
 /* Pages */
 .text-page {
