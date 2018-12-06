@@ -376,6 +376,16 @@ route
 .slidesjs-navigation {
   z-index: 97 !important; }
 
+main#home {
+  width: 100%;
+  max-width: 100%; }
+  main#home .banner {
+    width: 100%; }
+    main#home .banner .slidesjs-container {
+      width: 100%; }
+      main#home .banner .slidesjs-container .slidesjs-control {
+        width: 100%; }
+
 /* Pages */
 .text-page {
   padding: 0 25px; }

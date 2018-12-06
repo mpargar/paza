@@ -1,7 +1,7 @@
 <?php
 include 'basics/header.php'
 ?>
-<main>
+<main id="home">
   <!-- <BANNER>  -->
   <div class="banner">
     <img src="/R/img/__1.jpg">
@@ -12,7 +12,7 @@ include 'basics/header.php'
   </div>
   <!-- </BANNER>  -->
   <!-- <FastLinks> -->
-  <div class="fastList">
+  <!-- <div class="fastList">
     <ul>
       <li>
         <img src="/R/img/figure1.png">
@@ -36,7 +36,7 @@ include 'basics/header.php'
         </a>
       </li>
     </ul>
-  </div>
+  </div> -->
   <!-- </FastLinks> -->
 </main>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

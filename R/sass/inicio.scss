@@ -30,3 +30,17 @@
 .slidesjs-navigation{
   z-index: 97!important;
 }
+
+main#home{
+  width: 100%;
+  max-width: 100%;
+  .banner {
+    width: 100%;
+    .slidesjs-container{
+      width: 100%;
+      .slidesjs-control{
+        width: 100%;
+      }
+    }
+  }
+}
