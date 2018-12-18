@@ -12,7 +12,7 @@
 
 body, html {
   height: 100vh;
-  background-color: #141414;
+  background-color: #FFF;
   overflow-x: hidden; }
 
 a {
@@ -88,7 +88,7 @@ header {
         margin-top: 10px;
         list-style: none; }
         header nav .header-left > ul > li {
-          color: white;
+          color: #565656;
           padding-bottom: 5px; }
           header nav .header-left > ul > li > a {
             color: #6470B1;
@@ -263,13 +263,13 @@ header {
   position: absolute;
   top: -20px;
   right: 5px;
-  color: #FFF !important; }
+  color: #565656 !important; }
   .langs a {
     text-decoration: none;
-    color: #FFF; }
+    color: #565656; }
 
 footer {
-  background-color: black;
+  background-color: #FFF;
   color: white;
   padding: 20px;
   font-size: 13px; }
@@ -392,7 +392,7 @@ main#home {
   .text-page > section {
     margin: 5% 0; }
   .text-page p, .text-page ol > li {
-    color: #e2e2e2;
+    color: #565656;
     font-weight: normal;
     margin: 10px auto;
     font-size: 16px;

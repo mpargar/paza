@@ -8,9 +8,10 @@
     <?=BUY_TXT1?>
   </section>
   <section>
-    <figure class="float-r-img parallax-effect" style="background-image: url('/R/img/buy2.jpg');     background-position-y: -36px;">
+    <figure class="float-l-img parallax-effect" style="background-image: url('/R/img/buy2.jpg');     background-position-y: -36px;">
     </figure>
     <?=BUY_TXT2?>
+    <?=BUY_TAGS?>
   </section>
 
 </main>

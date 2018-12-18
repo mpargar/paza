@@ -1,3 +1,4 @@
+// $Black: #141414;
 $Black: #141414;
 $BlackFade: rgba(0, 0, 0, 0.4);
 $FadedBlack: $BlackFade;
@@ -7,6 +8,7 @@ $Purple: #6470B1;
 $BlackFade: rgba(0, 0, 0, 0.4);
 $DarkPurple: #40497C;
 $Grey: #9C9994;
+$DarkGrey: #565656;
 
 
 // sizes
@@ -26,7 +28,7 @@ $menuHiddenWidth: 1090px;
 
 body, html {
   height: 100vh;
-  background-color: $Black;
+  background-color: $White;
   overflow-x: hidden;
 }
 

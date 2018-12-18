@@ -52,11 +52,11 @@ define('ADMIN_H1_TITLE', 'Administration');
 define('BUILD_H1_TITLE', 'Construction and decotarion');
 
 // buy
-define('BUY_TXT1', '
-<p><b>Buying Real Estate:</b></p>
+define('BUY_TAGS', '
+<p style="display: none;">LA PAZ, BAJA: WHITE-SAND BEACHES, ISLANDS, GOLFING, T TAMES, SCUBA DIVING, WALE WATCHING, WALE SARK, DESERT, RUNNING, TRAIL RUN AND THE 350 DAYS OF SUNSHINE BECKONING INVESTORS AND VISITORS TO LA PAZ BAJA CALIFORNIA SUR, MEXICO. IT\'S THE COMMUNITY, THE RESTAURANTS, THE ACTIVITIES, THE LIFESTYLE, THE LOCAL PEOPLE, THE WEATHER, AND THE SUN SETS WHAT MAKE RETIRED TO LIFE IN LA PAZ.</p>');
 
-<p>LA PAZ, BAJA: WHITE-SAND BEACHES, ISLANDS, GOLFING, T TAMES, SCUBA DIVING, WALE WATCHING, WALE SARK, DESERT, RUNNING, TRAIL RUN AND THE 350 DAYS OF SUNSHINE BECKONING INVESTORS AND VISITORS TO LA PAZ BAJA CALIFORNIA SUR, MEXICO. IT\'S THE COMMUNITY, THE RESTAURANTS, THE ACTIVITIES, THE LIFESTYLE, THE LOCAL PEOPLE, THE WEATHER, AND THE SUN SETS WHAT MAKE RETIRED TO LIFE IN LA PAZ.</p>
-');
+define('BUY_TXT1', '
+<p><b>Buying Real Estate:</b></p>');
 
 define('BUY_TXT2', '
 <p>Paza Real Estate can help you build your legacy in La Paz. Buyers can expect a full range of services that only La Paz’s leading brokerage can offer. Our professional realtors will help you find the home, homesite or condo that you\'re looking for -- all the while protecting your interests. Choosing Paza Real Estate ensures a smooth and enjoyable transaction and transition to this community in which we call home. Client care continues to be a mainstay of our brokerage which is why we are the market leaders in luxury real estate in La Paz Baja California Mexico.</p>
