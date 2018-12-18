@@ -10,7 +10,6 @@ import axios from 'axios'
       this.cacheDOM()
       this.bindListeners()
       console.log('Axios --> ', axios);
-      
     },
     handleSubmitButton () {
       this.$sendContactForm.textContent = 'ENVIANDO...'
@@ -20,7 +19,7 @@ import axios from 'axios'
         phone: window.Form.phone,
         message: window.Form.message
       })
-      .then(function (response) {
+      .then((response) => {
         this.$sendContactForm.textContent = 'ENVIAR'
         alert('¡Su mensaje fue entregado con éxito!')
         console.log(response);
