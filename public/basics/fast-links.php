@@ -1,6 +1,6 @@
 <div class="fastList">
   <ul>
-    <li>
+    <!-- <li>
       <a href="/<?=LANG?>/<?=BUY_LINK?>">
         <figure style="background-image: url('/R/img/hotlink-1.jpg')">
         </figure>
@@ -15,7 +15,7 @@
         <h3><?=HOME_BUY_TEXT_2?></h3>
         <h2>$000.00</h2>
       </a>
-    </li>
+    </li> -->
     <li>
       <a href="/<?=LANG?>/casaBalandra">
         <figure style="background-image: url('/R/img/hotlink-3.jpg')">
