@@ -20,19 +20,18 @@ a {
   color: inherit; }
 
 main {
-  min-height: calc(100vh - (129.95px + 56px));
   max-width: 1400px;
   overflow: hidden;
   margin: auto; }
 
 h1 {
-  color: white;
+  color: #565656;
   font-weight: normal;
   font-size: 40px;
   margin: 10px; }
 
 h1 {
-  color: white;
+  color: #565656;
   font-weight: normal;
   font-size: 40px;
   margin: 10px; }
