@@ -37,7 +37,7 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="3"><img class="d-block w-100" src="/R/img/balandra/04.jpg" alt="Third slide"></li>
             </ul>
             <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/DrkKW-afeE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/DrkKW-afeE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </li> 
         <li>
