@@ -4,11 +4,11 @@ include 'basics/header.php'
 <main id="home">
   <!-- <BANNER>  -->
   <div class="banner">
-    <img src="/R/img/__1.jpg">
-    <img src="/R/img/__3.jpg">
-    <img src="/R/img/__4.jpg">
-    <img src="/R/img/__2.jpg">
-    <img src="/R/img/__5.jpg">
+    <img src="/R/img/__1.jpg" style="bottom: 0!important;">
+    <img src="/R/img/__3.jpg" style="bottom: 0!important;">
+    <img src="/R/img/__4.jpg" style="bottom: 0!important;">
+    <img src="/R/img/__2.jpg" style="bottom: 0!important;">
+    <img src="/R/img/__5.jpg" style="bottom: 0!important;">
   </div>
   <!-- </BANNER>  -->
   <!-- <FastLinks> -->

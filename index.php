@@ -13,7 +13,8 @@ function isValid ( &$route ) {
     'renta',                 /*'rent',*/
     'administracion',        /*'administration',*/
     /*'construccion',          'build',*/
-    'contacto',              'contact'
+    'contacto',              'contact',
+    'casaBalandra'
   ];
 
   return in_array($route, $validRoutes);

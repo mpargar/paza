@@ -53,6 +53,13 @@ function administracion () {
 } // function administration () { administracion(); }
 
 /*
+*    -> /casaBalandra
+*/
+function casaBalandra () {
+  include_once 'public/casaBalandra.php';
+}
+
+/*
 
 DEPRECATED
 
