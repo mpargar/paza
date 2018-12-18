@@ -291,42 +291,62 @@ footer {
 .floating-action-button {
   position: fixed;
   bottom: 30px;
-  right: 30px;
+  left: 30px;
   width: 60px;
   height: 60px;
+  border: 2px solid #565656;
   background-color: white;
   border-radius: 50%;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  cursor: pointer; }
   .floating-action-button img {
     width: 35px;
     height: 35px; }
+
+.floating-action-menu {
+  position: fixed;
+  left: 20px;
+  width: 300px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  bottom: 20px;
+  z-index: 99999;
+  background: white; }
+  .floating-action-menu.hidden {
+    display: none; }
+  .floating-action-menu img {
+    display: inline-block;
+    padding-left: 10px;
+    cursor: pointer; }
+  .floating-action-menu .c__purple {
+    margin: 6px 0;
+    font-size: 17px; }
 
 /*
 route
  - /(es|en)/contact
 */
-.contact-main p {
+p {
   color: white; }
 
-.contact-main .c__purple {
+.c__purple {
   color: #6470B1;
   margin-top: 20px;
   margin-bottom: 20px; }
 
-.contact-main .row-flex {
+.row-flex {
   display: flex; }
   @media (max-width: 900px) {
-    .contact-main .row-flex {
+    .row-flex {
       flex-direction: column; } }
 
-.contact-main .column-small {
+.column-small {
   flex-direction: column;
   display: inline-flex;
   flex-direction: column;
   padding: 15px; }
-  .contact-main .column-small input, .contact-main .column-small textarea {
+  .column-small input, .column-small textarea {
     background-color: #FFF;
     color: #141414;
     padding: 10px 15px;
@@ -335,17 +355,17 @@ route
     border: 3px solid rgba(0, 0, 0, 0.4);
     margin-top: 20px;
     resize: none; }
-    .contact-main .column-small input:focus, .contact-main .column-small textarea:focus {
+    .column-small input:focus, .column-small textarea:focus {
       border: 3px solid #6470B1; }
 
-.contact-main .column-big {
+.column-big {
   display: inline-block;
   height: 100px;
   padding: 15px; }
-  .contact-main .column-big img {
+  .column-big img {
     width: 60vw; }
     @media (max-width: 900px) {
-      .contact-main .column-big img {
+      .column-big img {
         width: 100%; } }
 
 /* Inicio */

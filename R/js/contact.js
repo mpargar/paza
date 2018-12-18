@@ -53,6 +53,6 @@ import Route from './src/router'
   }
 }
 
-Route('/contacto', '/contact').use(Contact)
+Route('/', '/').use(Contact)
 
 })( document, console.log )

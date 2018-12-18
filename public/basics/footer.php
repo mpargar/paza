@@ -33,11 +33,11 @@ fjs.parentNode.insertBefore(js, fjs);
     </script>
 
     <div
-    class="fb-customerchat"
-    attribution=setup_tool
-    page_id="318085008733590"
-    theme_color="#6470B1">
-  </div>
+      class="fb-customerchat"
+      attribution=setup_tool
+      page_id="318085008733590"
+      theme_color="#6470B1">
+    </div>
 
   <!-- <div>
     <img src="/R/img/logo_paza.png" alt="Paza Real Estate Logo" width="100">
@@ -55,10 +55,50 @@ fjs.parentNode.insertBefore(js, fjs);
   </div> -->
 </div>
 
+<div class="floating-action-menu hidden" id="floating-action-menu">
+  <?php require('contact-main.php') ?>  
+  <img src="/R/img/close-black.svg" id="close-action-menu">
+</div>
 
-<!-- <div class="floating-action-button">
-<img src="/R/img/messenger.png">
-</div> -->
+<div class="floating-action-button" id="floating-action-button">
+  <img src="/R/img/mail-icon.png">
+</div>
+
+<script> /* Esta etiqueta script va al footer.js */
+
+;(function (d, c) {
+
+  const FloatingActionButton = {
+    init () {
+      this.cacheDOM()
+      this.bindListeners()
+    },
+    cacheDOM () {
+      this.$floatingActionButton = d.getElementById('floating-action-button')
+      this.$floatingActionMenu = d.getElementById('floating-action-menu')
+      this.$closeActionMenu = d.getElementById('close-action-menu')
+    },
+    toggleContactMenu () {
+      this.$floatingActionMenu
+        .classList.toggle('hidden')
+    },
+    bindListeners () {
+      this.$floatingActionButton.addEventListener(
+        'click',
+        this.toggleContactMenu.bind(this)
+      )
+      this.$closeActionMenu.addEventListener(
+        'click',
+        this.toggleContactMenu.bind(this)
+      )
+    }
+  }
+
+  FloatingActionButton.init()
+
+})(document, console.log)
+
+</script>
 
 </footer>
 <script type="text/javascript" src="/R/bundle.js"></script>
