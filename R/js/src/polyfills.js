@@ -77,11 +77,10 @@ window.$ = function (str) {
     ? $reqDOM
     : $reqDOM[0]
 }
-
-document
-  .querySelector('a[href="' + location.pathname + '"]')
-  .parentNode
-  .addClass('current')
+let anchorPathname = document.querySelector('a[href="' + location.pathname + '"]')
+if(anchorPathname){
+  anchorPathname.parentNode.addClass('current')
+}
 
 
 // const $images = $('.parallax-effect')

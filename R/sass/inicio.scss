@@ -44,6 +44,10 @@ main#home{
       width: 100%;
       .slidesjs-control{
         width: 100%;
+        >img{
+          top: unset!important;
+          bottom: 0;
+        }
       }
     }
   }

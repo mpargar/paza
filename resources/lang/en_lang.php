@@ -89,4 +89,25 @@ define('SELL_TXT2', '
 
 <p>Marketing: Paza Real Estate invests heavily locally, internationally and globally in a variety of marketing initiatives; from print advertising, electronic and social media initiatives; to private events, brokerage partnerships and referral program. Paza Real Estate’s commitment to promoting La Paz, the lifestyle and the incredible properties here remains a top priority. Our commitment is to present your property in the finest of light.</p>
 ');
+
+// House 
+define('TABLE_DATA', 'Data sheet');
+define('TABLE_TYPE', 'Type');
+define('TABLE_INTERIOR', 'Interior');
+define('TABLE_LOT', 'Lot');
+define('TABLE_BR', 'Br');
+define('TABLE_BH', 'Bh');
+define('TABLE_GARAGE', 'Garage');
+define('TABLE_VIEW', 'View');
+define('TABLE_PRICE', 'Price (USDollars)');
+
+// Casa Balandra
+define('BALANDRA_TYPE', 'For Sale');
+define('BALANDRA_INTERIOR', '498.67 / 5367.63 Sq. Ft ');
+define('BALANDRA_LOT', '740.14/ 7966.80Sq. Ft');
+define('BALANDRA_BR', '3+');
+define('BALANDRA_BH', '3.2');
+define('BALANDRA_GARAGE', '2 Cars');
+define('BALANDRA_VIEW', 'Ocean/Island /Balandra');
+define('BALANDRA_PRICE', '599,000.00 USD');
 ?>

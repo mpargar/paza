@@ -248,4 +248,25 @@ Los servicios de renta son a largo plazo y a corto plazo los cuales se cotiza de
 // build
 define('BUILD_H1_TITLE', 'Construcción y decoración');
 
+// House texts
+define('TABLE_DATA', 'Ficha técnica');
+define('TABLE_TYPE', 'Tipo');
+define('TABLE_INTERIOR', 'Interior');
+define('TABLE_LOT', 'Lote');
+define('TABLE_BR', 'Recs');
+define('TABLE_BH', 'Baño');
+define('TABLE_GARAGE', 'Garage');
+define('TABLE_VIEW', 'Vista');
+define('TABLE_PRICE', 'Precio (USDollars)');
+
+// Casa Balandra
+define('BALANDRA_TYPE', 'Venta');
+define('BALANDRA_INTERIOR', '498.67 / 5367.63 Sq. Ft ');
+define('BALANDRA_LOT', '740.14/ 7966.80Sq. Ft');
+define('BALANDRA_BR', '3+');
+define('BALANDRA_BH', '3.2');
+define('BALANDRA_GARAGE', '2 Cars');
+define('BALANDRA_VIEW', 'Ocean/Island /Balandra');
+define('BALANDRA_PRICE', '599,000.00 USD');
+
 ?>
