@@ -1,5 +1,6 @@
 
 import Route from './src/router'
+import axios from 'axios'
 
 ;(function (d, c) {
 
@@ -8,26 +9,24 @@ import Route from './src/router'
       /* c('module Contact is running...') */
       this.cacheDOM()
       this.bindListeners()
+      console.log('Axios --> ', axios);
+      
     },
     handleSubmitButton () {
       this.$sendContactForm.textContent = 'ENVIANDO...'
-      emailjs.send(
-        "smtp_server",
-        "template_USWFHOpx",
-        {
-          name: window.Form.name,
-          email: window.Form.email,
-          phone: window.Form.phone,
-          messaje: window.Form.messaje
-        }
-      )
-      .then(response => {
+      axios.post('/services/contactEmail.php', {
+        name: window.Form.name,
+        email: window.Form.email,
+        phone: window.Form.phone,
+        message: window.Form.message
+      })
+      .then(function (response) {
         this.$sendContactForm.textContent = 'ENVIAR'
-        /* console.log('SUCCESS!', response.status, response.text) */
         alert('¡Su mensaje fue entregado con éxito!')
-      }, error => {
-        // alert('¡Su mensaje fue entregado con éxito!')        
-        /* console.log('FAILED...', error); */
+        console.log(response);
+      })
+      .catch(function (error) {
+        console.log(error);
       })
     },
     handleReactiveInput (e) {
