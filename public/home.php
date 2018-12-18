@@ -12,34 +12,7 @@ include 'basics/header.php'
   </div>
   <!-- </BANNER>  -->
   <!-- <FastLinks> -->
-  <div class="fastList">
-    <ul>
-      <li>
-        <a href="/<?=LANG?>/<?=BUY_LINK?>">
-          <figure style="background-image: url('/R/img/hotlink-1.jpg')">
-          </figure>
-          <h3><?=HOME_BUY_TEXT_1?></h3>
-          <h2>$000.00</h2>
-        </a>
-      </li>
-      <li>
-        <a href="/<?=LANG?>/<?=SELL_LINK?>">
-          <figure style="background-image: url('/R/img/hotlink-2.jpg')">
-          </figure>
-          <h3><?=HOME_BUY_TEXT_2?></h3>
-          <h2>$000.00</h2>
-        </a>
-      </li>
-      <li>
-        <a href="/<?=LANG?>/<?=ADMIN_LINK?>">
-          <figure style="background-image: url('/R/img/hotlink-3.jpg')">
-          </figure>
-          <h3><?=HOME_BUY_TEXT_3?></h3>
-          <h2>$000.00</h2>
-        </a>
-      </li>
-    </ul>
-  </div>
+  <?php require('basics/fast-links.php') ?>
   <!-- </FastLinks> -->
 </main>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>

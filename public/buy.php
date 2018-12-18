@@ -1,6 +1,8 @@
 <?php include 'basics/header.php' ?>
 <main class="buy-main text-page">
   <h1><?=BUY_H1_TITLE?></h1>
+  
+  <?php require('basics/fast-links.php') ?>
 
   <section>
     <figure class="float-l-img parallax-effect" style="background-image: url('/R/img/buy.jpg')">
