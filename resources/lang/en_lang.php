@@ -21,9 +21,9 @@ define('B_AND_D_LINK', 'build');
 define('CONTACT_LINK', 'contact');
 
 // home texts
-define('HOME_BUY_TEXT_1', 'BUY OR INVEST');
-define('HOME_BUY_TEXT_2', 'SELL YOUR HOUSE OR DEPARTMENT');
-define('HOME_BUY_TEXT_3', 'PROPERTY MANAGEMENT');
+define('HOME_BUY_TEXT_1', 'CASA BALANDRA');
+define('HOME_BUY_TEXT_2', 'COSTABAJA');
+define('HOME_BUY_TEXT_3', 'SALVATIERRA');
 define('HOME_BUY_TEXT_BUTTON_MORE', 'Learn more');
 
 // contact section

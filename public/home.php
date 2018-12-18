@@ -12,31 +12,34 @@ include 'basics/header.php'
   </div>
   <!-- </BANNER>  -->
   <!-- <FastLinks> -->
-  <!-- <div class="fastList">
+  <div class="fastList">
     <ul>
       <li>
-        <img src="/R/img/figure1.png">
-        <h3><?=HOME_BUY_TEXT_1?></h3>
-        <a href="/<?=LANG?>/<?=BUY_LINK?>" class="button">
-          <?=HOME_BUY_TEXT_BUTTON_MORE?>
+        <a href="/<?=LANG?>/<?=BUY_LINK?>">
+          <figure style="background-image: url('/R/img/hotlink-1.jpg')">
+          </figure>
+          <h3><?=HOME_BUY_TEXT_1?></h3>
+          <h2>$000.00</h2>
         </a>
       </li>
       <li>
-        <img src="/R/img/figure2.png">
-        <h3><?=HOME_BUY_TEXT_2?></h3>
-        <a href="/<?=LANG?>/<?=SELL_LINK?>" class="button">
-          <?=HOME_BUY_TEXT_BUTTON_MORE?>
+        <a href="/<?=LANG?>/<?=SELL_LINK?>">
+          <figure style="background-image: url('/R/img/hotlink-2.jpg')">
+          </figure>
+          <h3><?=HOME_BUY_TEXT_2?></h3>
+          <h2>$000.00</h2>
         </a>
       </li>
       <li>
-        <img src="/R/img/figure3.png">
-        <h3><?=HOME_BUY_TEXT_3?></h3>
-        <a href="/<?=LANG?>/<?=ADMIN_LINK?>" class="button">
-          <?=HOME_BUY_TEXT_BUTTON_MORE?>
+        <a href="/<?=LANG?>/<?=ADMIN_LINK?>">
+          <figure style="background-image: url('/R/img/hotlink-3.jpg')">
+          </figure>
+          <h3><?=HOME_BUY_TEXT_3?></h3>
+          <h2>$000.00</h2>
         </a>
       </li>
     </ul>
-  </div> -->
+  </div>
   <!-- </FastLinks> -->
 </main>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
