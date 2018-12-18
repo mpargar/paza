@@ -4,10 +4,10 @@ include 'basics/header.php'
 <main id="home">
   <!-- <BANNER>  -->
   <div class="banner">
-    <img src="/R/img/__1.jpg" style="bottom: 0!important;">
-    <img src="/R/img/__3.jpg" style="bottom: 0!important;">
     <img src="/R/img/__4.jpg" style="bottom: 0!important;">
+    <img src="/R/img/__1.jpg" style="bottom: 0!important;">
     <img src="/R/img/__2.jpg" style="bottom: 0!important;">
+    <img src="/R/img/__3.jpg" style="bottom: 0!important;">
     <img src="/R/img/__5.jpg" style="bottom: 0!important;">
   </div>
   <!-- </BANNER>  -->
@@ -27,7 +27,7 @@ include 'basics/header.php'
     play: {
       active: true,
       effect: "slide",
-      interval: 10000,
+      interval: 4000,
       auto: true,
       swap: true,
       pauseOnHover: false,

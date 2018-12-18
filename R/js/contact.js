@@ -27,15 +27,6 @@ import axios from 'axios'
       .catch(function (error) {
         console.log(error);
       });
-      /* axios.post('/services/contactEmail.php?shit=shit', data)
-      .then((response) => {
-        this.$sendContactForm.textContent = 'ENVIAR'
-        alert('¡Su mensaje fue entregado con éxito!')
-        console.log(response);
-      })
-      .catch(function (error) {
-        console.log(error);
-      }) */
     },
     handleReactiveInput (e) {
       const $input = e.currentTarget
@@ -60,6 +51,7 @@ import axios from 'axios'
   }
 }
 
-Route('/', '/').use(Contact)
+/* Route('/', '/').use(Contact) */
+Contact.init()
 
 })( document, console.log )

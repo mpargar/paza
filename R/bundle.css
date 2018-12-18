@@ -406,7 +406,8 @@ main#home {
   width: 100%;
   max-width: 100%; }
   main#home .banner {
-    width: 100%; }
+    width: 100%;
+    height: calc(100vh - 100px); }
     main#home .banner .slidesjs-container {
       width: 100%; }
       main#home .banner .slidesjs-container .slidesjs-control {
