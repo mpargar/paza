@@ -39,7 +39,7 @@ fjs.parentNode.insertBefore(js, fjs);
     theme_color="#6470B1">
   </div>
 
-  <div>
+  <!-- <div>
     <img src="/R/img/logo_paza.png" alt="Paza Real Estate Logo" width="100">
   </div>
   <div>
@@ -52,7 +52,7 @@ fjs.parentNode.insertBefore(js, fjs);
       <a href="https://wa.me/526121390675" target="_blank"><img src="/R/img/whatsapp.png"></a>
       <a href="https://www.instagram.com/pazarealestate/" target="_blank"><img src="/R/img/instagram.png"></a>
     </p>
-  </div>
+  </div> -->
 </div>
 
 
