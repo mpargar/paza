@@ -13,12 +13,12 @@ import axios from 'axios'
     },
     handleSubmitButton () {
       this.$sendContactForm.textContent = 'ENVIANDO...'
-      axios.post('/services/contactEmail.php', {
-        name: window.Form.name,
-        email: window.Form.email,
-        phone: window.Form.phone,
-        message: window.Form.message
-      })
+      const params = new URLSearchParams();
+      params.append('name', window.Form.name);
+      params.append('email', window.Form.email);
+      params.append('phone', window.Form.phone);
+      params.append('message', window.Form.message);
+      axios.post('/services/contactEmail.php', params)
       .then((response) => {
         this.$sendContactForm.textContent = 'ENVIAR'
         alert('¡Su mensaje fue entregado con éxito!')
@@ -26,7 +26,16 @@ import axios from 'axios'
       })
       .catch(function (error) {
         console.log(error);
+      });
+      /* axios.post('/services/contactEmail.php?shit=shit', data)
+      .then((response) => {
+        this.$sendContactForm.textContent = 'ENVIAR'
+        alert('¡Su mensaje fue entregado con éxito!')
+        console.log(response);
       })
+      .catch(function (error) {
+        console.log(error);
+      }) */
     },
     handleReactiveInput (e) {
       const $input = e.currentTarget
