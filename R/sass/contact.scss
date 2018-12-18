@@ -23,12 +23,12 @@ route
       flex-direction: column;
       padding: 15px;
       input, textarea {
-        background-color: $BlackFade;
-        color: whitesmoke;
+        background-color: $White;
+        color: $Black;
         padding: 10px 15px;
         font-size: 19px;
         border: none;
-        border: 3px solid #383838;
+        border: 3px solid $BlackFade;
         margin-top: 20px;
         resize: none;
         &:focus {

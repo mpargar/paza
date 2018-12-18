@@ -327,12 +327,12 @@ route
   flex-direction: column;
   padding: 15px; }
   .contact-main .column-small input, .contact-main .column-small textarea {
-    background-color: rgba(0, 0, 0, 0.4);
-    color: whitesmoke;
+    background-color: #FFF;
+    color: #141414;
     padding: 10px 15px;
     font-size: 19px;
     border: none;
-    border: 3px solid #383838;
+    border: 3px solid rgba(0, 0, 0, 0.4);
     margin-top: 20px;
     resize: none; }
     .contact-main .column-small input:focus, .contact-main .column-small textarea:focus {
