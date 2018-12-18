@@ -263,5 +263,8 @@ header {
   a {
     text-decoration: none;
     color: $DarkGrey;
+    >img{
+      width: 15px;
+    }
   }
 }

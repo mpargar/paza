@@ -43,6 +43,8 @@ define('BUY_TAGS', '
 define('BUY_H1_TITLE', 'Compra o invierte en un bien inmueble');
 
 define('BUY_TXT1', '
+    <figure class="float-l-img parallax-effect" style="background-image: url(\'/R/img/buy.jpg\')">
+    </figure>
     <p>Recomendaciones antes de comprar una casa, departamento o un terreno:</p>
 
     <p><b>Analiza tus finanzas:</b><p>
@@ -68,6 +70,8 @@ define('BUY_TXT1', '
   ');
 
 define('BUY_TXT2', '
+<figure class="float-l-img parallax-effect" style="background-image: url(\'/R/img/buy2.jpg\');     background-position-y: -36px;">
+</figure>
 <p><b>Cuidado con las ventas directas.</b></p>
 <p>Asegúrate de que el propietario tenga prestigio y seriedad y la propiedad no venga de negocios ilícitos, que no tengan adeudos, que no
 tengan hipotecas, que las escrituras estén correctas, Investiga cuál es el precio total del

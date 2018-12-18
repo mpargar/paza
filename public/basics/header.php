@@ -83,9 +83,9 @@
       </ul>
 
       <div class="langs">
-        <a href="/es/">🇲🇽 ES</a>
+        <a href="/es/"><img src="/R/img/mx.png"> ES</a>
         &nbsp;&nbsp;&nbsp; · &nbsp;&nbsp;&nbsp;
-        <a href="/en/">🇺🇸 EN</a>
+        <a href="/en/"><img src="/R/img/us.png"> EN</a>
       </div>
 
     </nav>
