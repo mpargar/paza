@@ -56,11 +56,11 @@ fjs.parentNode.insertBefore(js, fjs);
 </div>
 
 <div class="floating-action-menu hidden" id="floating-action-menu">
-  <?php require('contact-main.php') ?>  
+  <?php require('contact-main.php') ?>
   <img src="/R/img/close-black.svg" id="close-action-menu">
 </div>
 
-<div class="floating-action-button" id="floating-action-button">
+<div class="floating-action-button" id="floating-action-button" style="display: none;">
   <img src="/R/img/mail-icon.png">
 </div>
 
@@ -72,6 +72,9 @@ fjs.parentNode.insertBefore(js, fjs);
     init () {
       this.cacheDOM()
       this.bindListeners()
+
+      /* displaying button */
+      this.$floatingActionButton.style.display = 'flex'
     },
     cacheDOM () {
       this.$floatingActionButton = d.getElementById('floating-action-button')
@@ -94,7 +97,17 @@ fjs.parentNode.insertBefore(js, fjs);
     }
   }
 
-  FloatingActionButton.init()
+  console.log(!(
+    location.pathname.includes('contact') ||
+    location.pathname.includes('contacto')
+  ))
+
+  if (!(
+    location.pathname.includes('contact') ||
+    location.pathname.includes('contacto')
+  )) {
+    FloatingActionButton.init()
+  }
 
 })(document, console.log)
 
