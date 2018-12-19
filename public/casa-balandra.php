@@ -9,10 +9,10 @@
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="/R/img/balandra/01.jpg" alt="First slide">
+                        <img class="d-block w-100" src="/R/img/balandra/02.jpg" alt="Second slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/R/img/balandra/02.jpg" alt="Second slide">
+                        <img class="d-block w-100" src="/R/img/balandra/01.jpg" alt="First slide">
                     </div>
                     <div class="carousel-item">
                         <img class="d-block w-100" src="/R/img/balandra/03.jpg" alt="Third slide">
@@ -32,8 +32,8 @@
             </div>
             <!-- Slider -->
             <ul class="thumbnails">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0"><img class="d-block w-100" src="/R/img/balandra/01.jpg" alt="First slide"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"><img class="d-block w-100" src="/R/img/balandra/02.jpg" alt="Second slide"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="0"><img class="d-block w-100" src="/R/img/balandra/02.jpg" alt="Second slide"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"><img class="d-block w-100" src="/R/img/balandra/01.jpg" alt="First slide"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"><img class="d-block w-100" src="/R/img/balandra/03.jpg" alt="Third slide"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="3"><img class="d-block w-100" src="/R/img/balandra/04.jpg" alt="Third slide"></li>
             </ul>
