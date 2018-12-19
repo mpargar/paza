@@ -56,7 +56,21 @@ function administracion () {
 *    -> /casaBalandra
 */
 function casaBalandra () {
-  include_once 'public/casaBalandra.php';
+  include_once 'public/casa-balandra.php';
+}
+
+/*
+*    -> /casaBalandra
+*/
+function salvatierra () {
+  include_once 'public/salvatierra.php';
+}
+
+/*
+*    -> /Puerta Cortez
+*/
+function puertaCortez () {
+  include_once 'public/puertaCortez.php';
 }
 
 /*

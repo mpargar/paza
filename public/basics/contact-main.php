@@ -15,6 +15,6 @@
   <textarea placeholder="<?=CONTACT_FORM_SMS?>" e-model="message"></textarea>
   <br>
 
-  <button id="send-contact-form">ENVIAR</button>
+  <button id="send-contact-form"><?= CONTACT_SEND ?></button>
 
 </div>

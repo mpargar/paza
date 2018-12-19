@@ -22,7 +22,7 @@ define('CONTACT_LINK', 'contact');
 
 // home texts
 define('HOME_BUY_TEXT_1', 'SALVATIERRA');
-define('HOME_BUY_TEXT_2', 'COSTABAJA');
+define('HOME_BUY_TEXT_2', 'PUERTA CORTEZ');
 define('HOME_BUY_TEXT_3', 'CASA BALANDRA');
 define('HOME_BUY_TEXT_BUTTON_MORE', 'Learn more');
 
@@ -35,6 +35,7 @@ define('CONTACT_FORM_PHONE', 'Phone');
 define('CONTACT_FORM_CELL', 'Cell');
 define('CONTACT_FORM_MAIL', 'Email');
 define('CONTACT_FORM_SMS', 'Message');
+define('CONTACT_SEND', 'SEND');
 
 // buy
 define('BUY_H1_TITLE', 'Buy');
@@ -100,6 +101,7 @@ define('TABLE_BH', 'Bh');
 define('TABLE_GARAGE', 'Garage');
 define('TABLE_VIEW', 'View');
 define('TABLE_PRICE', 'Price (USDollars)');
+define('TABLE_ROOM', 'Rooms');
 
 // Casa Balandra
 define('BALANDRA_TYPE', 'For Sale');
@@ -110,4 +112,31 @@ define('BALANDRA_BH', '3.2');
 define('BALANDRA_GARAGE', '2 Cars');
 define('BALANDRA_VIEW', 'Ocean/Island /Balandra');
 define('BALANDRA_PRICE', '599,000.00 USD');
+
+// Salvatierra
+define('SALVATIERRA_TYPE', 'For Sale');
+define('SALVATIERRA_INTERIOR', '113.67m/ 1223.53 Sq. Ft');
+define('SALVATIERRA_BR', '2');
+define('SALVATIERRA_BH', '2');
+define('SALVATIERRA_GARAGE', '1 Car');
+define('SALVATIERRA_VIEW', 'Ocean');
+define('SALVATIERRA_PRICE', '209,900.00 USD');
+
+// Puerta Cortez
+define('PUERTA_TYPE', 'House');
+define('PUERTA_VIEW', 'Seaview / Campo de golf');
+define('PUERTA_HAB', '2');
+define('PUERTA_BH', '2.5');
+define('PUERTA_LOT', '247m²');
+define('PUERTA_INTERIOR', '227m²');
+define('PUERTA_PRICE', '387,200.00 USD');
+
+define('PUERTA_TYPE_2', 'Condominium');
+define('PUERTA_VIEW_2', 'Seaview');
+define('PUERTA_HAB_2', '2');
+define('PUERTA_BH_2', '2.5');
+define('PUERTA_LOT_2', '240m²');
+define('PUERTA_INTERIOR_2', '159m²');
+define('PUERTA_PRICE_2', '440,000.00 USD');
+
 ?>

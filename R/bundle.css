@@ -296,13 +296,16 @@ footer {
   width: 60px;
   height: 60px;
   z-index: 9999;
-  border: 2px solid #565656;
-  background-color: white;
+  border: 2px solid #6470B1;
+  background-color: #6470B1;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer; }
+  .floating-action-button:hover {
+    background-color: #40497C;
+    border-color: #40497C; }
   .floating-action-button img {
     width: 35px;
     height: 35px; }
@@ -406,8 +409,10 @@ main#home {
   width: 100%;
   max-width: 100%; }
   main#home .banner {
-    width: 100%;
-    height: calc(100vh - 100px); }
+    width: 100%; }
+    @media (min-width: 992px) {
+      main#home .banner {
+        height: calc(100vh - 100px); } }
     main#home .banner .slidesjs-container {
       width: 100%; }
       main#home .banner .slidesjs-container .slidesjs-control {
@@ -488,6 +493,11 @@ ul {
   .house h1 {
     text-align: center;
     margin-bottom: 50px; }
+  .house .house-txt {
+    color: #565656;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: justify; }
   .house .flex-container {
     display: flex;
     flex-direction: column-reverse;
@@ -497,6 +507,9 @@ ul {
         flex-direction: row; } }
     .house .flex-container > li:first-child {
       width: 100%; }
+      @media (min-width: 900px) {
+        .house .flex-container > li:first-child {
+          width: calc(100vw - 500px); } }
       .house .flex-container > li:first-child .video-container {
         position: relative;
         padding-bottom: 56.25%;
@@ -518,7 +531,8 @@ ul {
       .house .flex-container > li:last-child .specs {
         display: block;
         text-align: center;
-        margin: 0 auto; }
+        margin: 0 auto;
+        margin-bottom: 20px; }
         .house .flex-container > li:last-child .specs > li {
           width: 100%;
           display: flex; }
@@ -537,13 +551,10 @@ ul {
 .carousel {
   width: 100%; }
   .carousel .carousel-inner {
-    max-width: 825;
+    max-width: 825px;
     height: auto;
     overflow: hidden;
     position: relative; }
-    @media (min-width: 900px) {
-      .carousel .carousel-inner {
-        height: 450px; } }
     .carousel .carousel-inner > img {
       width: auto;
       height: 100%; }

@@ -35,6 +35,7 @@ define('CONTACT_FORM_PHONE', 'Teléfono');
 define('CONTACT_FORM_CELL', 'Celular');
 define('CONTACT_FORM_MAIL', 'Email');
 define('CONTACT_FORM_SMS', 'Mensaje');
+define('CONTACT_SEND', 'ENVIAR');
 
 // buy
 define('BUY_TAGS', '
@@ -43,21 +44,10 @@ define('BUY_TAGS', '
 define('BUY_H1_TITLE', 'Compra o invierte en un bien inmueble');
 
 define('BUY_TXT1', '
-    <figure class="float-l-img parallax-effect" style="background-image: url(\'/R/img/buy.jpg\')">
-    </figure>
     <p>Recomendaciones antes de comprar una casa, departamento o un terreno:</p>
-
-    <p><b>Analiza tus finanzas:</b><p>
-    <p> El primer paso que debes dar es verificar si dispones del suficiente
-    presupuesto para cubrir los gastos que esto conlleva, tales como el depósito inicial y el
-    enganche, costos por apertura de crédito, gastos de escrituración y las mensualidades que
-    deberás cubrir durante el periodo que dure tu crédito hipotecario.</p>
 
     <p><b>Busca financiamiento de diversas instituciones:</b></p>
     <p> Analiza minuciosamente varias propuestas antes de elegir un crédito hipotecario.</p>
-
-    <p><b>Define la ubicación:</b></p><p> Existen diversos factores que determinan si conviene o no una casa
-    en una zona determinada, recomendamos que consulte con un asesor inmoviliario.</p>
 
     <p><b>Compara diversas opciones:</b></p>
     <p> Apóyate con tu agente inmobiliarios en donde puedes comparar y las diversas opciones de casas y/o departamentos y programa una cita para
@@ -70,8 +60,6 @@ define('BUY_TXT1', '
   ');
 
 define('BUY_TXT2', '
-<figure class="float-l-img parallax-effect" style="background-image: url(\'/R/img/buy2.jpg\');     background-position-y: -36px;">
-</figure>
 <p><b>Cuidado con las ventas directas.</b></p>
 <p>Asegúrate de que el propietario tenga prestigio y seriedad y la propiedad no venga de negocios ilícitos, que no tengan adeudos, que no
 tengan hipotecas, que las escrituras estén correctas, Investiga cuál es el precio total del
@@ -262,6 +250,7 @@ define('TABLE_BH', 'Baño');
 define('TABLE_GARAGE', 'Garage');
 define('TABLE_VIEW', 'Vista');
 define('TABLE_PRICE', 'Precio (USDollars)');
+define('TABLE_ROOM', 'Habitaciones');
 
 // Casa Balandra
 define('BALANDRA_TYPE', 'Venta');
@@ -272,5 +261,31 @@ define('BALANDRA_BH', '3.2');
 define('BALANDRA_GARAGE', '2 Cars');
 define('BALANDRA_VIEW', 'Ocean/Island /Balandra');
 define('BALANDRA_PRICE', '599,000.00 USD');
+
+// Salvatierra
+define('SALVATIERRA_TYPE', 'Venta');
+define('SALVATIERRA_INTERIOR', '113.67m/ 1223.53 Sq. Ft');
+define('SALVATIERRA_BR', '2');
+define('SALVATIERRA_BH', '2');
+define('SALVATIERRA_GARAGE', '1 Auto');
+define('SALVATIERRA_VIEW', 'Ocean');
+define('SALVATIERRA_PRICE', '209,900.00 USD');
+
+// Puerta Cortez
+define('PUERTA_TYPE', 'Casa');
+define('PUERTA_VIEW', 'Mar / Campo de golf');
+define('PUERTA_HAB', '2');
+define('PUERTA_BH', '2.5');
+define('PUERTA_LOT', '247m²');
+define('PUERTA_INTERIOR', '227m²');
+define('PUERTA_PRICE', '387,200.00 USD');
+
+define('PUERTA_TYPE_2', 'Condominio');
+define('PUERTA_VIEW_2', 'Mar');
+define('PUERTA_HAB_2', '2');
+define('PUERTA_BH_2', '2.5');
+define('PUERTA_LOT_2', '240m²');
+define('PUERTA_INTERIOR_2', '159m²');
+define('PUERTA_PRICE_2', '440,000.00 USD');
 
 ?>

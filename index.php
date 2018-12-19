@@ -14,7 +14,10 @@ function isValid ( &$route ) {
     'administracion',        /*'administration',*/
     /*'construccion',          'build',*/
     'contacto',              'contact',
-    'casaBalandra'
+    'casaBalandra',           /*  */
+    'puertaCortez',
+    'salvatierra'
+
   ];
 
   return in_array($route, $validRoutes);

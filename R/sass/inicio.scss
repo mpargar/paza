@@ -40,7 +40,9 @@ main#home{
   max-width: 100%;
   .banner {
     width: 100%;
-    height: calc(100vh - 100px);
+    @media (min-width: 992px) {
+      height: calc(100vh - 100px);
+    }
     .slidesjs-container{
       width: 100%;
       .slidesjs-control{
