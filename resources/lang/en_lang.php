@@ -96,8 +96,8 @@ define('TABLE_DATA', 'Data sheet');
 define('TABLE_TYPE', 'Type');
 define('TABLE_INTERIOR', 'Interior');
 define('TABLE_LOT', 'Lot');
-define('TABLE_BR', 'Br');
-define('TABLE_BH', 'Bh');
+define('TABLE_BR', 'BED');
+define('TABLE_BH', 'BAD');
 define('TABLE_GARAGE', 'Garage');
 define('TABLE_VIEW', 'View');
 define('TABLE_PRICE', 'Price (USDollars)');
@@ -112,6 +112,7 @@ define('BALANDRA_BH', '3.2');
 define('BALANDRA_GARAGE', '2 Cars');
 define('BALANDRA_VIEW', 'Ocean/Island /Balandra');
 define('BALANDRA_PRICE', '599,000.00 USD');
+define('BALANDRA_TEXT', 'Casa Balandra is situated among the contrast between the desert and the ocean. A privileged location which will captivate your senses.');
 
 // Salvatierra
 define('SALVATIERRA_TYPE', 'For Sale');
@@ -121,10 +122,11 @@ define('SALVATIERRA_BH', '2');
 define('SALVATIERRA_GARAGE', '1 Car');
 define('SALVATIERRA_VIEW', 'Ocean');
 define('SALVATIERRA_PRICE', '209,900.00 USD');
+define('SALVATIERRA_TEXT', 'With different condominium models which perfectly combine luxury and comfort, you will fall in love at first sight with Salvatierra Residential, only two blocks away from the quiet atmosphere of the Malecon and the vibrant historic La Paz Downtown.');
 
 // Puerta Cortez
 define('PUERTA_TYPE', 'House');
-define('PUERTA_VIEW', 'Seaview / Campo de golf');
+define('PUERTA_VIEW', 'Ocean');
 define('PUERTA_HAB', '2');
 define('PUERTA_BH', '2.5');
 define('PUERTA_LOT', '247m²');
@@ -132,11 +134,13 @@ define('PUERTA_INTERIOR', '227m²');
 define('PUERTA_PRICE', '387,200.00 USD');
 
 define('PUERTA_TYPE_2', 'Condominium');
-define('PUERTA_VIEW_2', 'Seaview');
+define('PUERTA_VIEW_2', 'Ocean');
 define('PUERTA_HAB_2', '2');
 define('PUERTA_BH_2', '2.5');
 define('PUERTA_LOT_2', '240m²');
 define('PUERTA_INTERIOR_2', '159m²');
 define('PUERTA_PRICE_2', '440,000.00 USD');
+
+define('PUERTA_TEXT', 'Welcome to a lifestyle of complete harmony with nature, where the golf club, marina, stores, residences, hotels and villas designed and built with the highest standards while respecting the environment, makes it a world in itself.  an authentic community, embraced by the desert and the sea, slightly touched by the marine breeze and privileged with 360 days of sunlight all along its one mile of white sand beach.');
 
 ?>

@@ -32,7 +32,7 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"><img class="d-block w-100" src="/R/img/salvatierra/03.jpg" alt="Third slide"></li>
             </ul>
             <!-- /Slider -->
-            <p class="house-txt">Salvatierra Residencial combina lujo y comodidad en sus diferentes modelos de condominio que seguro te cautivaran, disfrutando de vivir en el centro histórico de la ciudad</p>
+            <p class="house-txt"><?=SALVATIERRA_TEXT?></p>
         </li> 
         <li>
             <!-- Specs -->

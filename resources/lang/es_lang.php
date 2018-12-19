@@ -261,6 +261,7 @@ define('BALANDRA_BH', '3.2');
 define('BALANDRA_GARAGE', '2 Cars');
 define('BALANDRA_VIEW', 'Ocean/Island /Balandra');
 define('BALANDRA_PRICE', '599,000.00 USD');
+define('BALANDRA_TEXT', 'Casa Balanda cuenta con una privilegiada ubicación, una belleza escénica impresionante y el contraste entre el desierto y el mar que  te cautivaran.')
 
 // Salvatierra
 define('SALVATIERRA_TYPE', 'Venta');
@@ -270,6 +271,7 @@ define('SALVATIERRA_BH', '2');
 define('SALVATIERRA_GARAGE', '1 Auto');
 define('SALVATIERRA_VIEW', 'Ocean');
 define('SALVATIERRA_PRICE', '209,900.00 USD');
+define('SALVATIERRA_TEXT', 'Salvatierra Residencial combina lujo y comodidad en sus diferentes modelos de condominio que seguro te cautivaran, disfrutando de vivir en el centro histórico de la ciudad.');
 
 // Puerta Cortez
 define('PUERTA_TYPE', 'Casa');
@@ -287,5 +289,7 @@ define('PUERTA_BH_2', '2.5');
 define('PUERTA_LOT_2', '240m²');
 define('PUERTA_INTERIOR_2', '159m²');
 define('PUERTA_PRICE_2', '440,000.00 USD');
+
+define('PUERTA_TEXT', 'Bienvenido a un estilo de vida en completa armonía con la naturaleza, donde su club de golf, marina, tiendas, residencias, hoteles y villas están diseñados con los más altos estándares respetando el entorno. Es un mundo en sí mismo: una comunidad auténtica, abrazada por el desierto y el mar, acariciada por el sol y con 1.6 kilómetros de frente de mar, privilegiado con 360 días de sol al año.');
 
 ?>

@@ -44,7 +44,7 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="4"><img class="d-block w-100" src="/R/img/cortez/05.jpg" alt="Third slide"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="5"><img class="d-block w-100" src="/R/img/cortez/06.jpg" alt="Third slide"></li>
             </ul>
-            <p class="house-txt">Bienvenido a un estilo de vida en completa armonía con la naturaleza, donde su club de golf, marina, tiendas, residencias, hoteles y villas están diseñados con los más altos estándares respetando el entorno. Es un mundo en sí mismo: una comunidad auténtica, abrazada por el desierto y el mar, acariciada por el sol y con 1.6 kilómetros de frente de mar, privilegiado con 360 días de sol al año.</p>
+            <p class="house-txt"><?=PUERTA_TEXT?></p>
         </li> 
         <li>
             <!-- Specs -->
@@ -61,7 +61,7 @@
                     <span><?=PUERTA_VIEW?></span>
                 </li>
                 <li>
-                    <span><?=TABLE_ROOM?></span>
+                    <span><?=TABLE_BR?></span>
                     <span><?=PUERTA_HAB?></span>
                 </li>
                 <li>
@@ -95,7 +95,7 @@
                     <span><?=PUERTA_VIEW_2?></span>
                 </li>
                 <li>
-                    <span><?=TABLE_ROOM?></span>
+                    <span><?=TABLE_BR?></span>
                     <span><?=PUERTA_HAB_2?></span>
                 </li>
                 <li>

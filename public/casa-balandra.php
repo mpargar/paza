@@ -37,7 +37,7 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"><img class="d-block w-100" src="/R/img/balandra/03.jpg" alt="Third slide"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="3"><img class="d-block w-100" src="/R/img/balandra/04.jpg" alt="Third slide"></li>
             </ul>
-            <p class="house-txt">Casa Balanda cuenta con una privilegiada ubicación, una belleza escénica impresionante y el contraste entre el desierto y el mar que  te cautivaran.</p>
+            <p class="house-txt"><?=BALANDRA_TEXT?></p>
             <div class="video-container">
                 <iframe src="https://www.youtube.com/embed/DrkKW-afeE0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
@@ -62,7 +62,7 @@
                 </li>
                 <li>
                     <span><?=TABLE_BR?></span>
-                    <span><?=BALANDRA_BR?>+</span>
+                    <span><?=BALANDRA_BR?></span>
                 </li>
                 <li>
                     <span><?=TABLE_BH?></span>
