@@ -261,7 +261,7 @@ define('BALANDRA_BH', '3.2');
 define('BALANDRA_GARAGE', '2 Cars');
 define('BALANDRA_VIEW', 'Ocean/Island /Balandra');
 define('BALANDRA_PRICE', '599,000.00 USD');
-define('BALANDRA_TEXT', 'Casa Balanda cuenta con una privilegiada ubicación, una belleza escénica impresionante y el contraste entre el desierto y el mar que  te cautivaran.')
+define('BALANDRA_TEXT', 'Casa Balanda cuenta con una privilegiada ubicación, una belleza escénica impresionante y el contraste entre el desierto y el mar que  te cautivaran.');
 
 // Salvatierra
 define('SALVATIERRA_TYPE', 'Venta');
