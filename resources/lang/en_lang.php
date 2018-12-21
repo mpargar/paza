@@ -135,6 +135,8 @@ define('PUERTA_BH', '2.5');
 define('PUERTA_LOT', '247m² / 2658 Sq. Ft');
 define('PUERTA_INTERIOR', '227m² / 2443 Sq. Ft');
 define('PUERTA_PRICE', '387,200.00 USD');
+define('PUERTA_TEXT', 'These homes in La Paz are strategically located across beautiful hills. Away, exclusive and secluded, Las Colinas have an impeccable design which organically blends with the landscape.');
+
 // Vistamar
 define('PUERTA_NAME_2', 'Vista Mar');
 define('PUERTA_TYPE_2', 'Condominium');
@@ -144,7 +146,6 @@ define('PUERTA_BH_2', '2.5');
 define('PUERTA_LOT_2', '240m² / 2583 Sq. Ft');
 define('PUERTA_INTERIOR_2', '159m² / 1711 Sq. Ft');
 define('PUERTA_PRICE_2', '440,000.00 USD');
-
-define('PUERTA_TEXT', 'Welcome to a lifestyle of complete harmony with nature, where the golf club, marina, stores, residences, hotels and villas designed and built with the highest standards while respecting the environment, makes it a world in itself.  an authentic community, embraced by the desert and the sea, slightly touched by the marine breeze and privileged with 360 days of sunlight all along its one mile of white sand beach.');
+define('PUERTA_TEXT_2', 'VistaMar, Condominiums, And Villas in La Paz, Baja California Sur and surrounding areas redifine mexican luxury, celebrating it´s privileged location on a hill, where you can enjoy stunning views of the Sea of Cortes from every balcony.');
 
 ?>

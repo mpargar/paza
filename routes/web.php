@@ -74,6 +74,21 @@ function puertaCortez () {
 }
 
 /*
+*    -> /Puerta Cortez
+*       -> /Colinas
+*/
+function colinas () {
+  include_once 'public/colinas.php';
+}
+/*
+*    -> /Puerta Cortez
+*       -> /vistamar
+*/
+function vistamar () {
+  include_once 'public/vistamar.php';
+}
+
+/*
 
 DEPRECATED
 
