@@ -22,7 +22,7 @@ define('CONTACT_LINK', 'contacto');
 
 // home texts
 define('HOME_BUY_TEXT_1', 'SALVATIERRA');
-define('HOME_BUY_TEXT_2', 'COSTABAJA');
+define('HOME_BUY_TEXT_2', 'PUERTA CORTÉS');
 define('HOME_BUY_TEXT_3', 'CASA BALANDRA');
 define('HOME_BUY_TEXT_BUTTON_MORE', 'Mas información');
 
@@ -254,9 +254,9 @@ define('TABLE_ROOM', 'Habitaciones');
 
 // Casa Balandra
 define('BALANDRA_TYPE', 'Venta');
-define('BALANDRA_INTERIOR', '498.67 / 5367.63 Sq. Ft ');
-define('BALANDRA_LOT', '740.14/ 7966.80Sq. Ft');
-define('BALANDRA_BR', '3+');
+define('BALANDRA_INTERIOR', '498m² / 5367 Sq. Ft ');
+define('BALANDRA_LOT', '740m² / 7966 Sq. Ft');
+define('BALANDRA_BR', '3');
 define('BALANDRA_BH', '3.2');
 define('BALANDRA_GARAGE', '2 Cars');
 define('BALANDRA_VIEW', 'Ocean/Island /Balandra');
@@ -274,6 +274,9 @@ define('SALVATIERRA_PRICE', '209,900.00 USD');
 define('SALVATIERRA_TEXT', 'Salvatierra Residencial combina lujo y comodidad en sus diferentes modelos de condominio que seguro te cautivaran, disfrutando de vivir en el centro histórico de la ciudad.');
 
 // Puerta Cortez
+
+// Colinas
+define('PUERTA_NAME', 'Colinas');
 define('PUERTA_TYPE', 'Casa');
 define('PUERTA_VIEW', 'Mar / Campo de golf');
 define('PUERTA_HAB', '2');
@@ -282,6 +285,8 @@ define('PUERTA_LOT', '247m²');
 define('PUERTA_INTERIOR', '227m²');
 define('PUERTA_PRICE', '387,200.00 USD');
 
+// Vistamar
+define('PUERTA_NAME_2', 'Vista Mar');
 define('PUERTA_TYPE_2', 'Condominio');
 define('PUERTA_VIEW_2', 'Mar');
 define('PUERTA_HAB_2', '2');

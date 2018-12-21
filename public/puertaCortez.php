@@ -1,7 +1,27 @@
 <?php include 'basics/header.php' ?>
 <main class="house">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <h1>Puerta Cortez</h1>
+    <h1>Puerta Cortés</h1>
+    <div class="fastList">
+        <ul>
+            <li>
+            <a href="/<?=LANG?>/colinas">
+                <figure style="background-image: url('/R/img/hotlink-2.jpg')">
+                </figure>
+                <h3><?=PUERTA_NAME?></h3>
+                <h2>$<?=PUERTA_PRICE?></h2>
+            </a>
+            </li>
+            <li>
+            <a href="/<?=LANG?>/vistamar">
+                <figure style="background-image: url('/R/img/hotlink-3.jpg')">
+                </figure>
+                <h3><?=PUERTA_NAME_2?></h3>
+                <h2>$<?=PUERTA_PRICE_2?></h2>
+            </a>
+            </li>
+        </ul>
+    </div>
     <ul class="flex-container">
          <!-- Slider -->
         <li>
