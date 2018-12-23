@@ -65,7 +65,7 @@
                     <span><?=PUERTA_INTERIOR_2?></span>
                 </li>
                 <li>
-                    <span><?=TABLE_PRICE?></span>
+                    <span><?=TABLE_STARTING?></span>
                     <span><?=PUERTA_PRICE_2?></span>
                 </li>
             </ul>

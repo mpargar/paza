@@ -250,10 +250,11 @@ define('TABLE_BH', 'Baño');
 define('TABLE_GARAGE', 'Garage');
 define('TABLE_VIEW', 'Vista');
 define('TABLE_PRICE', 'Precio (USDollars)');
+define('TABLE_STARTING', 'Precio inicial');
 define('TABLE_ROOM', 'Habitaciones');
 
 // Casa Balandra
-define('BALANDRA_TYPE', 'Venta');
+define('BALANDRA_TYPE', 'Casa');
 define('BALANDRA_INTERIOR', '498m² / 5367 Sq. Ft ');
 define('BALANDRA_LOT', '740m² / 7966 Sq. Ft');
 define('BALANDRA_BR', '3');
@@ -264,7 +265,7 @@ define('BALANDRA_PRICE', '599,000.00 USD');
 define('BALANDRA_TEXT', 'Casa Balanda cuenta con una privilegiada ubicación, una belleza escénica impresionante y el contraste entre el desierto y el mar que  te cautivaran.');
 
 // Salvatierra
-define('SALVATIERRA_TYPE', 'Venta');
+define('SALVATIERRA_TYPE', 'Condominio');
 define('SALVATIERRA_INTERIOR', '113.67m/ 1223.53 Sq. Ft');
 define('SALVATIERRA_BR', '2');
 define('SALVATIERRA_BH', '2');
@@ -277,7 +278,7 @@ define('SALVATIERRA_TEXT', 'Salvatierra Residencial combina lujo y comodidad en 
 
 // Colinas
 define('PUERTA_NAME', 'Colinas');
-define('PUERTA_TYPE', 'Casa');
+define('PUERTA_TYPE', 'Casas');
 define('PUERTA_VIEW', 'Mar / Campo de golf');
 define('PUERTA_HAB', '2');
 define('PUERTA_BH', '2.5');

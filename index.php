@@ -15,7 +15,7 @@ function isValid ( &$route ) {
     /*'construccion',          'build',*/
     'contacto',              'contact',
     'casaBalandra',           /*  */
-    'puertaCortez',
+    'puertaCortes',
     'salvatierra',
     'colinas',
     'vistamar'

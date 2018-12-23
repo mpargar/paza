@@ -9,7 +9,7 @@
       </a>
     </li>
     <li>
-      <a href="/<?=LANG?>/puertaCortez">
+      <a href="/<?=LANG?>/puertaCortes">
         <figure style="background-image: url('/R/img/hotlink-2.jpg')">
         </figure>
         <h3><?=HOME_BUY_TEXT_2?></h3>

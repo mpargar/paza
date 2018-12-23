@@ -69,8 +69,8 @@ function salvatierra () {
 /*
 *    -> /Puerta Cortez
 */
-function puertaCortez () {
-  include_once 'public/puertaCortez.php';
+function puertaCortes () {
+  include_once 'public/puertaCortes.php';
 }
 
 /*

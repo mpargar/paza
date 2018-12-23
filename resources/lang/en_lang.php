@@ -94,17 +94,18 @@ define('SELL_TXT2', '
 // House 
 define('TABLE_DATA', 'Data sheet');
 define('TABLE_TYPE', 'Type');
-define('TABLE_INTERIOR', 'Interior');
+define('TABLE_INTERIOR', 'Interiors');
 define('TABLE_LOT', 'Lot');
 define('TABLE_BR', 'Bed');
 define('TABLE_BH', 'Bad');
 define('TABLE_GARAGE', 'Garage');
 define('TABLE_VIEW', 'View');
 define('TABLE_PRICE', 'Price (USDollars)');
+define('TABLE_STARTING', 'Starting price');
 define('TABLE_ROOM', 'Rooms');
 
 // Casa Balandra
-define('BALANDRA_TYPE', 'For Sale');
+define('BALANDRA_TYPE', 'House');
 define('BALANDRA_INTERIOR', '498m² / 5367 Sq. Ft');
 define('BALANDRA_LOT', '740m² / 7966 Sq. Ft');
 define('BALANDRA_BR', '3');
@@ -115,7 +116,7 @@ define('BALANDRA_PRICE', '599,000.00 USD');
 define('BALANDRA_TEXT', 'Casa Balandra is situated among the contrast between the desert and the ocean. A privileged location which will captivate your senses.');
 
 // Salvatierra
-define('SALVATIERRA_TYPE', 'For Sale');
+define('SALVATIERRA_TYPE', 'Condominium');
 define('SALVATIERRA_INTERIOR', '113.67m/ 1223.53 Sq. Ft');
 define('SALVATIERRA_BR', '2');
 define('SALVATIERRA_BH', '2');
@@ -128,7 +129,7 @@ define('SALVATIERRA_TEXT', 'With different condominium models which perfectly co
 
 // Colinas
 define('PUERTA_NAME', 'Colinas');
-define('PUERTA_TYPE', 'House');
+define('PUERTA_TYPE', 'Town Houses');
 define('PUERTA_VIEW', 'Ocean');
 define('PUERTA_HAB', '2');
 define('PUERTA_BH', '2.5');

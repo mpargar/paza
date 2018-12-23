@@ -65,7 +65,7 @@
                     <span><?=SALVATIERRA_VIEW?></span>
                 </li>
                 <li>
-                    <span><?=TABLE_PRICE?></span>
+                    <span><?=TABLE_STARTING?></span>
                     <span><?=SALVATIERRA_PRICE?></span>
                 </li>
             </ul>

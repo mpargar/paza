@@ -10,6 +10,15 @@
                     <div class="carousel-item active">
                         <img class="d-block w-100" src="/R/img/cortez/colinas/01.jpg" alt="First slide">
                     </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="/R/img/cortez/colinas/02.jpg" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="/R/img/cortez/colinas/03.jpg" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="/R/img/cortez/colinas/04.jpg" alt="Fourth slide">
+                    </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -23,6 +32,9 @@
             <!-- Slider -->
             <ul class="thumbnails">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0"><img class="d-block w-100" src="/R/img/cortez/colinas/01.jpg" alt="First slide"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"><img class="d-block w-100" src="/R/img/cortez/colinas/02.jpg" alt="Second slide"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"><img class="d-block w-100" src="/R/img/cortez/colinas/03.jpg" alt="Third slide"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"><img class="d-block w-100" src="/R/img/cortez/colinas/04.jpg" alt="Fourth slide"></li>
             </ul>
             <p class="house-txt"><?=PUERTA_TEXT?></p>
         </li> 
@@ -57,7 +69,7 @@
                     <span><?=PUERTA_INTERIOR?></span>
                 </li>
                 <li>
-                    <span><?=TABLE_PRICE?></span>
+                    <span><?=TABLE_STARTING?></span>
                     <span><?=PUERTA_PRICE?></span>
                 </li>
             </ul>
