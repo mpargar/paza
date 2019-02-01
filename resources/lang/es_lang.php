@@ -252,6 +252,7 @@ define('TABLE_VIEW', 'Vista');
 define('TABLE_PRICE', 'Precio (USDollars)');
 define('TABLE_STARTING', 'Precio inicial');
 define('TABLE_ROOM', 'Habitaciones');
+define('STARTING_AT', 'Precio inicial');
 
 // Casa Balandra
 define('BALANDRA_TYPE', 'Casa');
@@ -261,7 +262,7 @@ define('BALANDRA_BR', '3');
 define('BALANDRA_BH', '3.2');
 define('BALANDRA_GARAGE', '2 Cars');
 define('BALANDRA_VIEW', 'Ocean/Island /Balandra');
-define('BALANDRA_PRICE', '599,000.00 USD');
+define('BALANDRA_PRICE', '499,000.00 USD');
 define('BALANDRA_TEXT', 'Casa Balanda cuenta con una privilegiada ubicación, una belleza escénica impresionante y el contraste entre el desierto y el mar que  te cautivaran.');
 
 // Salvatierra
@@ -271,7 +272,7 @@ define('SALVATIERRA_BR', '2');
 define('SALVATIERRA_BH', '2');
 define('SALVATIERRA_GARAGE', '1 Auto');
 define('SALVATIERRA_VIEW', 'Ocean');
-define('SALVATIERRA_PRICE', '209,900.00 USD');
+define('SALVATIERRA_PRICE', '214,900.00 USD');
 define('SALVATIERRA_TEXT', 'Salvatierra Residencial combina lujo y comodidad en sus diferentes modelos de condominio que seguro te cautivaran, disfrutando de vivir en el centro histórico de la ciudad.');
 
 // Puerta Cortez

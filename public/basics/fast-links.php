@@ -5,7 +5,7 @@
         <figure style="background-image: url('/R/img/hotlink-1.jpg')">
         </figure>
         <h3><?=HOME_BUY_TEXT_1?></h3>
-        <h2>$<?=SALVATIERRA_PRICE?></h2>
+        <h2><?=STARTING_AT?> $<?=SALVATIERRA_PRICE?></h2>
       </a>
     </li>
     <li>
@@ -13,7 +13,7 @@
         <figure style="background-image: url('/R/img/hotlink-2.jpg')">
         </figure>
         <h3><?=HOME_BUY_TEXT_2?></h3>
-        <h2>Starting at $<?=PUERTA_PRICE?></h2>
+        <h2><?=STARTING_AT?> $<?=PUERTA_PRICE?></h2>
       </a>
     </li>
     <li>

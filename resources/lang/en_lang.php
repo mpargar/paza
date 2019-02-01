@@ -103,6 +103,7 @@ define('TABLE_VIEW', 'View');
 define('TABLE_PRICE', 'Price (USDollars)');
 define('TABLE_STARTING', 'Starting price');
 define('TABLE_ROOM', 'Rooms');
+define('STARTING_AT', 'Starting at');
 
 // Casa Balandra
 define('BALANDRA_TYPE', 'House');
@@ -112,7 +113,7 @@ define('BALANDRA_BR', '3');
 define('BALANDRA_BH', '3.2');
 define('BALANDRA_GARAGE', '2 Cars');
 define('BALANDRA_VIEW', 'Ocean/Island /Balandra');
-define('BALANDRA_PRICE', '599,000.00 USD');
+define('BALANDRA_PRICE', '499,000.00 USD');
 define('BALANDRA_TEXT', 'Casa Balandra is situated among the contrast between the desert and the ocean. A privileged location which will captivate your senses.');
 
 // Salvatierra
@@ -122,7 +123,7 @@ define('SALVATIERRA_BR', '2');
 define('SALVATIERRA_BH', '2');
 define('SALVATIERRA_GARAGE', '1 Car');
 define('SALVATIERRA_VIEW', 'Ocean');
-define('SALVATIERRA_PRICE', '209,900.00 USD');
+define('SALVATIERRA_PRICE', '214,900.00 USD');
 define('SALVATIERRA_TEXT', 'With different condominium models which perfectly combine luxury and comfort, you will fall in love at first sight with Salvatierra Residential, only two blocks away from the quiet atmosphere of the Malecon and the vibrant historic La Paz Downtown.');
 
 // Puerta Cortez
