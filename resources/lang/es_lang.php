@@ -253,6 +253,7 @@ define('TABLE_PRICE', 'Precio (USDollars)');
 define('TABLE_STARTING', 'Precio inicial');
 define('TABLE_ROOM', 'Habitaciones');
 define('STARTING_AT', 'Precio inicial');
+define('LIMITED_TIME', 'Oferta por tiempo limitado');
 
 // Casa Balandra
 define('BALANDRA_TYPE', 'Casa');

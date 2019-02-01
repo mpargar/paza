@@ -21,6 +21,7 @@
         <figure style="background-image: url('/R/img/hotlink-3.jpg')">
         </figure>
         <h3><?=HOME_BUY_TEXT_3?></h3>
+        <h2><?=LIMITED_TIME?></h2>
         <h2>$<?=BALANDRA_PRICE?></h2>
       </a>
     </li>

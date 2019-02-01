@@ -60,9 +60,9 @@ define('BUY_TXT1', '
 <p><b>Buying Real Estate:</b></p>');
 
 define('BUY_TXT2', '
-<p>Paza Real Estate can help you build your legacy in La Paz. Buyers can expect a full range of services that only La Paz’s leading brokerage can offer. Our professional realtors will help you find the home, homesite or condo that you\'re looking for -- all the while protecting your interests. Choosing Paza Real Estate ensures a smooth and enjoyable transaction and transition to this community in which we call home. Client care continues to be a mainstay of our brokerage which is why we are the market leaders in luxury real estate in La Paz Baja California Sur Mexico.</p>
+<p>Paza Real Estate can help you start building your legacy in paradise. Buyers can expect a full range of services only La Paz’s leading brokerage company can offer. Our professional team of realtors will help you find the lot, home or condo you’re looking for -- all while protecting your interests. Choosing Paza Real Estate ensures a smooth transaction and an enjoyable transition to this community we call home. Client care continues to be a mainstay of our brokerage which is why we are the market leaders in luxury real estate in La Paz Baja California Sur Mexico.</p>
 
-<p>FIND A REALTOR: Our experienced group of realtors know La Paz first-hand</p>
+<p>Choose one of our Realtors: Our experienced group of certified real estate agents know La Paz first-hand and will guide you throughout the whole acquiring process.</p>
 
 <p>Real Estate GUIDE: Call our Paza Real Estate and ask our team of experts.</p>
 ');
@@ -72,23 +72,27 @@ define('BUY_TXT2', '
 define('SELL_TXT1', '
 <p><b>Selling Real Estate:</b></p>
 
-<p>Whether you’re downsizing or growing, Paza Real Estate understands the importance of selecting a brokerage and agent who can best represent your home. Consider the following when looking for a La Paz brokerage to market and sell your home: </p>
+<p>Whether you’re downsizing or upgrading, Paza Real Estate understands the importance of selecting a brokerage agency. Consider the following when looking for a trusted Real Estate company in La Paz to represent you and your home:</p>
 
 <p><b>Experience:</b></p>
 
-<p>Paza Real Estate has been the leading luxury real estate brokerage in Baja.</p>
+<p>Paza Real Estate has been the leading luxury real estate broker in Baja California Sur for over 30 years of combined experience.</p>
 
 <p><b>Listing Portfolio:</b></p>
 
-<p>With a collection of the finest homes in La Paz, Paza Real Estate represents exclusive listings throughout La Paz in gated-communities like Puerta de Cortez, Salvaterra, Casa Balandra and more.</p>
+<p>Paza Real Estate represents exclusive listings throughout La Paz in gated-communities like Puerta Cortés, Salvatierra Condominiums, Casa Balandra and more.</p>
+
+<p>Baja California Sur and specifically La Paz is one of the fastest growing housing developers in the Country nowadays, therefore our listings are always growing with more and better choices for our clients.</p>
 ');
 
 define('SELL_TXT2', '
 <p><b>Sales Team:</b></p>
 
-<p>With each new listing gained, your Paza Real Estate realtor will create a customized marketing plan for your home. From integration into the local MLS listings and networking with local brokers, to creating the marketing collateral your home requires – our agents consistently exceed Seller’s expectations through exceptional follow-up, honest interactions and most importantly, finding the right buyer for your home.</p>
+<p>When you choose Paza Real Estate to sell your house, your Paza Real Estate professional will create a customized marketing plan to accomplish that goal. From the integration into the local MLS listings and networking with local brokers, to the marketing strategy application your property requires – our agents consistently exceed seller’s expectations through exceptional follow-up, honest interactions and most importantly, finding the right buyer for your home.</p>
 
-<p>Marketing: Paza Real Estate invests heavily locally, internationally and globally in a variety of marketing initiatives; from print advertising, electronic and social media initiatives; to private events, brokerage partnerships and referral program. Paza Real Estate’s commitment to promoting La Paz, the lifestyle and the incredible properties here remains a top priority. Our commitment is to present your property in the finest of light.</p>
+<p><b>Marketing:</b></p>
+
+<p>Paza Real Estate allocates resources selectively on domestic and global marketing initiatives; from printed advertising, electronic and social media initiatives; to private events, brokers partnerships and referral programs. Paza Real Estate’s commitment to promoting La Paz lifestyle and the incredible properties it offers remains a top priority. Our commitment is to place your property under the spotlight.</p>
 ');
 
 // House 
@@ -104,6 +108,7 @@ define('TABLE_PRICE', 'Price (USDollars)');
 define('TABLE_STARTING', 'Starting price');
 define('TABLE_ROOM', 'Rooms');
 define('STARTING_AT', 'Starting at');
+define('LIMITED_TIME', 'Limited time offer');
 
 // Casa Balandra
 define('BALANDRA_TYPE', 'House');
