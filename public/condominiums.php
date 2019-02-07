@@ -2,7 +2,7 @@
 <main class="buy-main text-page">
   <h1><?=BUY_CONDOMINIUMS_H1_TITLE?></h1>
   
-  <?php require('basics/fast-links.php') ?>
+  <?php require('basics/fast-links-condominiums.php') ?>
 
   <section>
     <?=BUY_TXT1?>
