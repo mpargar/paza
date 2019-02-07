@@ -134,13 +134,13 @@ header {
             margin-left: 5px; }
             header nav > ul > li > a svg path {
               fill: #6470B1; }
-          header nav > ul > li > a:hover {
-            background-color: #6470B1;
-            color: #FFF; }
-            header nav > ul > li > a:hover svg {
-              transform: rotate(180deg); }
-              header nav > ul > li > a:hover svg path {
-                fill: #FFF; }
+        header nav > ul > li:hover > a {
+          background-color: #6470B1;
+          color: #FFF; }
+          header nav > ul > li:hover > a svg {
+            transform: rotate(180deg); }
+            header nav > ul > li:hover > a svg path {
+              fill: #FFF; }
         header nav > ul > li .current {
           background-color: #6470B1;
           color: #FFF; }
@@ -153,8 +153,10 @@ header {
           padding-top: 5px; }
           @media (min-width: 1090px) {
             header nav > ul > li > ul {
-              position: fixed;
+              position: absolute;
+              z-index: 999;
               left: 0;
+              right: 0;
               top: 33px; } }
           header nav > ul > li > ul li {
             margin-bottom: 2.5px;
@@ -166,6 +168,7 @@ header {
               width: 100%;
               display: block; }
               header nav > ul > li > ul li a:hover {
+                color: #FFF;
                 background-color: #40497C; }
   @media (max-width: 1090px) {
     header > nav > ul {
@@ -250,11 +253,14 @@ header {
   .banner .slidesjs-stop {
     display: none !important; }
 
+/* Change coincidence and change it */
 .current {
   background: #6470B1;
   color: white; }
   .current a {
     color: white; }
+    .current a svg path {
+      fill: #FFF; }
   .current:hover {
     background-color: black; }
 

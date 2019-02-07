@@ -93,7 +93,9 @@ header {
               fill: $Purple;
             }
           }
-          &:hover {
+        }
+        &:hover {
+          > a {
             background-color: $Purple;
             color: $White;
             svg{
@@ -120,8 +122,10 @@ header {
           background: $Purple;
           padding-top: 5px;
           @media(min-width: $menuHiddenWidth) {
-            position: fixed;
+            position: absolute;
+            z-index: 999;
             left: 0;
+            right: 0;
             top: 33px;
           }
           li {
@@ -134,6 +138,7 @@ header {
               width: 100%;
               display: block;
               &:hover {
+                color: $White;
                 background-color: $DarkPurple;
               }
             }
@@ -243,12 +248,17 @@ header {
     display: none !important;
   }
 }
-
+/* Change coincidence and change it */
 .current {
   background: $Purple;
   color: white;
   a {
     color: white;
+    svg {
+      path {
+        fill: $White;
+      }
+    }
   }
   &:hover{
     background-color: black;

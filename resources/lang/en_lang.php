@@ -6,6 +6,8 @@ define('LANG', 'en');
 
 define('HOME_TITLE', 'HOME');
 define('BUY_TITLE', 'BUYING REAL ESTATE');
+define('BUY_HOUSES_TITLE', 'HOUSES');
+define('BUY_CONDOMINIUM_TITLE', 'CONDOMINIUMS');
 define('SELL_TITLE', 'SELLING REAL ESTATE');
 define('RENT_TITLE', 'RENTALS');
 define('ADMIN_TITLE', 'PROPERTY MANAGEMENT');
@@ -14,6 +16,7 @@ define('CONTACT_TITLE', 'CONTACT');
 
 define('HOME_LINK', '/');
 define('BUY_LINK', 'buy');
+define('BUY_HOUSE_LINK', 'houses');
 define('SELL_LINK', 'sell');
 define('RENT_LINK', 'rent');
 define('ADMIN_LINK', 'administration');
