@@ -17,6 +17,7 @@ define('CONTACT_TITLE', 'CONTACTO');
 define('HOME_LINK', '/');
 define('BUY_LINK', 'comprar');
 define('BUY_HOUSE_LINK', 'casas');
+define('BUY_CONDOMINIUMS_LINK', 'condominios');
 define('SELL_LINK', 'vende');
 define('RENT_LINK', 'renta');
 define('ADMIN_LINK', 'administracion');
@@ -45,6 +46,8 @@ define('BUY_TAGS', '
 <p style="display:none">LA PAZ, BAJA: WHITE-SAND BEACHES, ISLANDS, GOLFING, T TAMES, SCUBA DIVING, WALE WATCHING, WALE SARK, DESERT, RUNNING, TRAIL RUN AND THE 350 DAYS OF SUNSHINE BECKONING INVESTORS AND VISITORS TO LA PAZ BAJA CALIFORNIA SUR, MEXICO. IT\'S THE COMMUNITY, THE RESTAURANTS, THE ACTIVITIES, THE LIFESTYLE, THE LOCAL PEOPLE, THE WEATHER, AND THE SUN SETS WHAT MAKE RETIRED TO LIFE IN LA PAZ.</p>');
 
 define('BUY_H1_TITLE', 'Compra o invierte en un bien inmueble');
+define('BUY_CONDOMINIUMS_H1_TITLE', 'Condominios');
+define('BUY_HOUSES_H1_TITLE', 'Casas');
 
 define('BUY_TXT1', '
     <p>Recomendaciones antes de comprar una casa, departamento o un terreno:</p>

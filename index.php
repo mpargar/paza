@@ -10,6 +10,8 @@ function isValid ( &$route ) {
      español                 ingles        */
     'comprar',               'buy',
     'vende',                 'sell',
+    'casas',                 'houses',
+    'condominios',           'condominiums',
     'renta',                 /*'rent',*/
     'administracion',        /*'administration',*/
     /*'construccion',          'build',*/

@@ -28,6 +28,19 @@ function comprar () {
   include_once 'public/buy.php';
 } function buy () { comprar(); }
 
+/* 
+*   -> condominiums
+*/
+function condominios () {
+  include_once 'public/condominiums.php';
+} function condominiums () { condominios(); }
+
+/* 
+*   -> casas
+*/
+function casas () {
+  include_once 'public/houses.php';
+} function houses () { casas(); }
 
 /*
 *    -> /sell

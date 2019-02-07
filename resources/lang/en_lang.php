@@ -17,6 +17,7 @@ define('CONTACT_TITLE', 'CONTACT');
 define('HOME_LINK', '/');
 define('BUY_LINK', 'buy');
 define('BUY_HOUSE_LINK', 'houses');
+define('BUY_CONDOMINIUMS_LINK', 'condominiums');
 define('SELL_LINK', 'sell');
 define('RENT_LINK', 'rent');
 define('ADMIN_LINK', 'administration');
@@ -42,6 +43,8 @@ define('CONTACT_SEND', 'SEND');
 
 // buy
 define('BUY_H1_TITLE', 'Buy');
+define('BUY_CONDOMINIUMS_H1_TITLE', 'Condominiums');
+define('BUY_HOUSES_H1_TITLE', 'Houses');
 
 // sell
 define('SELL_H1_TITLE', 'Sell');
