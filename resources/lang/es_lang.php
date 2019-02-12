@@ -6,6 +6,7 @@ define('LANG', 'es');
 
 define('HOME_TITLE', 'INICIO');
 define('BUY_TITLE', 'COMPRA');
+define('BUY_GENERAL', 'GENERAL');
 define('BUY_HOUSES_TITLE', 'CASAS');
 define('BUY_CONDOMINIUM_TITLE', 'CONDOMINIOS');
 define('SELL_TITLE', 'VENDE');
