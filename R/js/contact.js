@@ -22,6 +22,7 @@ import axios from 'axios'
       .then((response) => {
         this.$sendContactForm.textContent = 'ENVIAR'
         alert('¡Su mensaje fue entregado con éxito!')
+        gtag('send', 'event', 'formulario', 'click', 'contacto')
         console.log(response);
       })
       .catch(function (error) {

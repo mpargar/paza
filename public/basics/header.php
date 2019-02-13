@@ -9,6 +9,36 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
   <link rel="icon" type="image/png" href="/R/img/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="/R/img/favicon-16x16.png" sizes="16x16" />
+
+  <!-- jQuery -->
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129662429-25"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-129662429-25');
+  </script>
+  <script>
+    jQuery(document).ready(function($) {
+      $('a.link-email').click(function() {
+          gtag('event', 'click', {'event_category': 'correo','event_label': 'email'});
+          fbq('track', 'Lead', {content_name:'email'});
+      });
+      $('a.link-tel').click(function() {
+          gtag('event', 'click', {'event_category': 'telefono','event_label': 'llamada'});
+          fbq('track', 'Lead', {content_name:'telefono'});
+      });
+      $('a.link-whatsapp').click(function() {
+          gtag('event', 'click', {'event_category': 'telefono','event_label': 'whatsapp'});
+          fbq('track', 'Lead', {content_name:'whatsapp'});
+      });
+    });
+  </script>
 </head>
 <body>
   <header>
@@ -18,13 +48,13 @@
         <div class="header-left">
           <img src="/R/img/logo_paza.png" alt="Paza Real Estate Logo" width="130">
           <ul>
-            <li><?=CONTACT_FORM_PHONE?>: <a href="tel:+526121234625">+52.612.123.4625</a></li>
-            <li><?=CONTACT_FORM_CELL?>: <a href="tel:+526121390675">+52.612.139.0675</a></li>
-            <li><?=CONTACT_FORM_MAIL?>: <a href="mailto:info@pazarealestate.com">info@pazarealestate.com</a></li>
+            <li><?=CONTACT_FORM_PHONE?>: <a href="tel:+526121234625" class="link-tel">+52.612.123.4625</a></li>
+            <li><?=CONTACT_FORM_CELL?>: <a href="tel:+526121390675" class="link-tel">+52.612.139.0675</a></li>
+            <li><?=CONTACT_FORM_MAIL?>: <a href="mailto:info@pazarealestate.com" class="link-email">info@pazarealestate.com</a></li>
             <li style="display:flex;">
               Social:
               <a href="https://www.facebook.com/PAZA-Real-Estate-318085008733590/" target="_blank"><img src="/R/img/fb.png"></a>
-              <a href="https://wa.me/526121390675" target="_blank"><img src="/R/img/whatsapp.png"></a>
+              <a href="https://wa.me/526121390675" target="_blank" class="link-whatsapp"><img src="/R/img/whatsapp.png"></a>
               <a href="https://www.instagram.com/pazarealestate/" target="_blank"><img src="/R/img/instagram.png"></a>
             </li>
           </ul>
