@@ -1,6 +1,4 @@
-
 <?php
-
 include 'routes/web.php';
 
 function isValid ( &$route ) {

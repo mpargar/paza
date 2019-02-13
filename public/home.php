@@ -1,6 +1,4 @@
-<?php
-include 'basics/header.php'
-?>
+<?php include 'basics/header.php' ?>
 <main id="home">
   <!-- <BANNER>  -->
   <div class="banner">
