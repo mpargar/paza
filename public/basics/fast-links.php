@@ -25,5 +25,12 @@
         <h2>$<?=BALANDRA_PRICE?></h2>
       </a>
     </li>
+    <li>
+      <a href="/<?=LANG?>/generalRealEstate">
+        <figure style="background-image: url('/R/img/hotlink-4.jpg'); background-position: left;">
+        </figure>
+        <h3><?=HOME_BUY_TEXT_4?></h3>
+      </a>
+    </li>
   </ul>
 </div>

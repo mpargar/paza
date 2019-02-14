@@ -29,6 +29,7 @@ define('CONTACT_LINK', 'contact');
 define('HOME_BUY_TEXT_1', 'SALVATIERRA');
 define('HOME_BUY_TEXT_2', 'PUERTA CORTÉS');
 define('HOME_BUY_TEXT_3', 'CASA BALANDRA');
+define('HOME_BUY_TEXT_4', 'LA PAZ GENERAL REAL ESTATE');
 define('HOME_BUY_TEXT_BUTTON_MORE', 'Learn more');
 
 // contact section
@@ -46,6 +47,10 @@ define('CONTACT_SEND', 'SEND');
 define('BUY_H1_TITLE', 'Buy');
 define('BUY_CONDOMINIUMS_H1_TITLE', 'Condominiums');
 define('BUY_HOUSES_H1_TITLE', 'Houses');
+
+// General Real Estate
+define('GENERAL_H1_TITLE', 'La Paz General Real Estate');
+define('PDF', 'PDF');
 
 // sell
 define('SELL_H1_TITLE', 'Sell');

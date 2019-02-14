@@ -29,6 +29,7 @@ define('CONTACT_LINK', 'contacto');
 define('HOME_BUY_TEXT_1', 'SALVATIERRA');
 define('HOME_BUY_TEXT_2', 'PUERTA CORTÉS');
 define('HOME_BUY_TEXT_3', 'CASA BALANDRA');
+define('HOME_BUY_TEXT_4', 'LA PAZ GENERAL REAL ESTATE');
 define('HOME_BUY_TEXT_BUTTON_MORE', 'Mas información');
 
 // contact section
@@ -49,6 +50,10 @@ define('BUY_TAGS', '
 define('BUY_H1_TITLE', 'Compra o invierte en un bien inmueble');
 define('BUY_CONDOMINIUMS_H1_TITLE', 'Condominios');
 define('BUY_HOUSES_H1_TITLE', 'Casas');
+
+// General Real Estate
+define('GENERAL_H1_TITLE', 'La Paz General Real Estate');
+define('PDF', 'PDF');
 
 define('BUY_TXT1', '
     <p>Recomendaciones antes de comprar una casa, departamento o un terreno:</p>

@@ -1,0 +1,31 @@
+.fichas {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  > li {
+    margin: 10px;
+    max-width: 300px;
+    > img {
+      width: 100%;
+      margin-bottom: 5px;
+    }
+    > a {
+      color: $Purple;
+      font-weight: 700;
+      display: block;
+      width: 100%;
+      border: 2px solid $Purple;
+      padding: 5px 8px;
+      text-align: center;
+      transition: all ease 0.3s;
+      &:hover {
+        background: $Purple;
+        color: $White;
+        text-decoration: none;
+      }
+    }
+  }
+}

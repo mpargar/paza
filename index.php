@@ -18,7 +18,8 @@ function isValid ( &$route ) {
     'puertaCortes',
     'salvatierra',
     'colinas',
-    'vistamar'
+    'vistamar',
+    'generalRealEstate'
   ];
 
   return in_array($route, $validRoutes);

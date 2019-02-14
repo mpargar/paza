@@ -101,6 +101,10 @@ function vistamar () {
   include_once 'public/vistamar.php';
 }
 
+function generalRealEstate () {
+  include_once 'public/generalRealEstate.php';
+}
+
 /*
 
 DEPRECATED
