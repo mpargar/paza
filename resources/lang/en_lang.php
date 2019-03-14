@@ -130,7 +130,7 @@ define('BALANDRA_BR', '3');
 define('BALANDRA_BH', '3.2');
 define('BALANDRA_GARAGE', '2 Cars');
 define('BALANDRA_VIEW', 'Ocean/Island /Balandra');
-define('BALANDRA_PRICE', '499,000.00 USD');
+define('BALANDRA_PRICE', '499,000 USD');
 define('BALANDRA_TEXT', 'Casa Balandra is situated among the contrast between the desert and the ocean. A privileged location which will captivate your senses.');
 
 // Salvatierra
@@ -139,8 +139,8 @@ define('SALVATIERRA_INTERIOR', '113.67m/ 1223.53 Sq. Ft');
 define('SALVATIERRA_BR', '2');
 define('SALVATIERRA_BH', '2');
 define('SALVATIERRA_GARAGE', '1 Car');
-define('SALVATIERRA_VIEW', 'Ocean');
-define('SALVATIERRA_PRICE', '214,900.00 USD');
+define('SALVATIERRA_VIEW', 'Ocean ');
+define('SALVATIERRA_PRICE', '214,900 USD');
 define('SALVATIERRA_TEXT', 'With different condominium models which perfectly combine luxury and comfort, you will fall in love at first sight with Salvatierra Residential, only two blocks away from the quiet atmosphere of the Malecon and the vibrant historic La Paz Downtown.');
 
 // Puerta Cortez
@@ -153,7 +153,7 @@ define('PUERTA_HAB', '2');
 define('PUERTA_BH', '2.5');
 define('PUERTA_LOT', '247m² / 2658 Sq. Ft');
 define('PUERTA_INTERIOR', '227m² / 2443 Sq. Ft');
-define('PUERTA_PRICE', '387,200.00 USD');
+define('PUERTA_PRICE', '387,200 USD');
 define('PUERTA_TEXT', 'These homes in La Paz are strategically located across beautiful hills. Away, exclusive and secluded, Las Colinas have an impeccable design which organically blends with the landscape.');
 
 // Vistamar
@@ -164,7 +164,7 @@ define('PUERTA_HAB_2', '2');
 define('PUERTA_BH_2', '2.5');
 define('PUERTA_LOT_2', '240m² / 2583 Sq. Ft');
 define('PUERTA_INTERIOR_2', '159m² / 1711 Sq. Ft');
-define('PUERTA_PRICE_2', '440,000.00 USD');
+define('PUERTA_PRICE_2', '440,000 USD');
 define('PUERTA_TEXT_2', 'VistaMar, Condominiums, And Villas in La Paz, Baja California Sur and surrounding areas redifine mexican luxury, celebrating it´s privileged location on a hill, where you can enjoy stunning views of the Sea of Cortes from every balcony.');
 
 ?>

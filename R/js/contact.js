@@ -22,11 +22,12 @@ import axios from 'axios'
       .then((response) => {
         this.$sendContactForm.textContent = 'ENVIAR'
         alert('¡Su mensaje fue entregado con éxito!')
-        gtag('send', 'event', 'formulario', 'click', 'contacto')
-        console.log(response);
+        // gtag('send', 'event', 'formulario', 'click', 'contacto')
+        gtag('event', 'click', {'event_category': 'formulario','event_label': 'contacto'});
+        console.log(response)
       })
       .catch(function (error) {
-        console.log(error);
+        console.log(error)
       });
     },
     handleReactiveInput (e) {

@@ -27,15 +27,12 @@
     jQuery(document).ready(function($) {
       $('a.link-email').click(function() {
           gtag('event', 'click', {'event_category': 'correo','event_label': 'email'});
-          fbq('track', 'Lead', {content_name:'email'});
       });
       $('a.link-tel').click(function() {
           gtag('event', 'click', {'event_category': 'telefono','event_label': 'llamada'});
-          fbq('track', 'Lead', {content_name:'telefono'});
       });
       $('a.link-whatsapp').click(function() {
           gtag('event', 'click', {'event_category': 'telefono','event_label': 'whatsapp'});
-          fbq('track', 'Lead', {content_name:'whatsapp'});
       });
     });
   </script>

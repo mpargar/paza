@@ -275,7 +275,7 @@ define('BALANDRA_BR', '3');
 define('BALANDRA_BH', '3.2');
 define('BALANDRA_GARAGE', '2 Cars');
 define('BALANDRA_VIEW', 'Ocean/Island /Balandra');
-define('BALANDRA_PRICE', '499,000.00 USD');
+define('BALANDRA_PRICE', '499,000 USD');
 define('BALANDRA_TEXT', 'Casa Balanda cuenta con una privilegiada ubicación, una belleza escénica impresionante y el contraste entre el desierto y el mar que  te cautivaran.');
 
 // Salvatierra
@@ -285,7 +285,7 @@ define('SALVATIERRA_BR', '2');
 define('SALVATIERRA_BH', '2');
 define('SALVATIERRA_GARAGE', '1 Auto');
 define('SALVATIERRA_VIEW', 'Ocean');
-define('SALVATIERRA_PRICE', '214,900.00 USD');
+define('SALVATIERRA_PRICE', '214,900 USD');
 define('SALVATIERRA_TEXT', 'Salvatierra Residencial combina lujo y comodidad en sus diferentes modelos de condominio que seguro te cautivaran, disfrutando de vivir en el centro histórico de la ciudad.');
 
 // Puerta Cortez
@@ -298,7 +298,7 @@ define('PUERTA_HAB', '2');
 define('PUERTA_BH', '2.5');
 define('PUERTA_LOT', '247m²');
 define('PUERTA_INTERIOR', '227m²');
-define('PUERTA_PRICE', '387,200.00 USD');
+define('PUERTA_PRICE', '387,200 USD');
 define('PUERTA_TEXT', 'Estas casas en La Paz se encuentran escalonadas en hermosas colinas. Apartadas, exclusivas e íntimas, Las Colinas tienen un diseño impecable que se funde orgánicamente con el paisaje.');
 
 // Vistamar
@@ -309,7 +309,7 @@ define('PUERTA_HAB_2', '2');
 define('PUERTA_BH_2', '2.5');
 define('PUERTA_LOT_2', '240m²');
 define('PUERTA_INTERIOR_2', '159m²');
-define('PUERTA_PRICE_2', '440,000.00 USD');
+define('PUERTA_PRICE_2', '440,000 USD');
 define('PUERTA_TEXT_2', 'VistaMar, condominios y villas en La Paz, Baja California Sur y sus alrededores, redefine el lujo mexicano celebrando la ubicación privilegiada sobre una colina, donde el mar de Cortés se disfruta desde cada terraza.');
 
 
