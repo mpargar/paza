@@ -77,6 +77,7 @@
             <li><a href="/<?=LANG?>/<?=BUY_LINK?>"><?=BUY_GENERAL?></a></li>
             <li><a href="/<?=LANG?>/<?=BUY_HOUSE_LINK?>"><?=BUY_HOUSES_TITLE?></a></li>
             <li><a href="/<?=LANG?>/<?=BUY_CONDOMINIUMS_LINK?>"><?=BUY_CONDOMINIUM_TITLE?></a></li>
+            <li><a href="/<?=LANG?>/<?=BUY_LANDS_LINK?>"><?=BUY_LANDS_TITLE?></a></li>
           </ul>
         </li>
         <li>

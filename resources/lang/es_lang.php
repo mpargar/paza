@@ -9,6 +9,7 @@ define('BUY_TITLE', 'COMPRA');
 define('BUY_GENERAL', 'GENERAL');
 define('BUY_HOUSES_TITLE', 'CASAS');
 define('BUY_CONDOMINIUM_TITLE', 'CONDOMINIOS');
+define('BUY_LANDS_TITLE', 'DESARROLLOS Y TERRENOS');
 define('SELL_TITLE', 'VENDE');
 define('RENT_TITLE', 'RENTA');
 define('ADMIN_TITLE', 'ADMINISTRACIÓN DE PROPIEDADES');
@@ -19,6 +20,7 @@ define('HOME_LINK', '/');
 define('BUY_LINK', 'comprar');
 define('BUY_HOUSE_LINK', 'casas');
 define('BUY_CONDOMINIUMS_LINK', 'condominios');
+define('BUY_LANDS_LINK', 'terrenos');
 define('SELL_LINK', 'vende');
 define('RENT_LINK', 'renta');
 define('ADMIN_LINK', 'administracion');
@@ -50,6 +52,7 @@ define('BUY_TAGS', '
 define('BUY_H1_TITLE', 'Compra o invierte en un bien inmueble');
 define('BUY_CONDOMINIUMS_H1_TITLE', 'Condominios');
 define('BUY_HOUSES_H1_TITLE', 'Casas');
+define('BUY_LANDS_H1_TITLE', 'Desarrollos y Terrenos');
 
 // General Real Estate
 define('GENERAL_H1_TITLE', 'La Paz General Real Estate');

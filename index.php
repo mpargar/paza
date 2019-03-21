@@ -13,6 +13,7 @@ function isValid ( &$route ) {
     'renta',                 /*'rent',*/
     'administracion',        /*'administration',*/
     /*'construccion',          'build',*/
+    'terrenos',              'lands',
     'contacto',              'contact',
     'casaBalandra',           /*  */
     'puertaCortes',

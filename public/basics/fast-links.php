@@ -25,11 +25,22 @@
         <h2>$<?=BALANDRA_PRICE?></h2>
       </a>
     </li>
+  </ul>
+</div>
+<div class="fastList">
+  <ul>
     <li>
       <a href="/<?=LANG?>/generalRealEstate">
         <figure style="background-image: url('/R/img/hotlink-4.jpg'); background-position: left;">
         </figure>
         <h3><?=HOME_BUY_TEXT_4?></h3>
+      </a>
+    </li>
+    <li>
+      <a href="/<?=LANG?>/<?=BUY_LANDS_LINK?>">
+        <figure style="background-image: url('/R/img/terrenos/terrenos.jpg')">
+        </figure>
+        <h3><?=BUY_LANDS_TITLE?></h3>
       </a>
     </li>
   </ul>

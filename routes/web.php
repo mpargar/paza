@@ -105,6 +105,10 @@ function generalRealEstate () {
   include_once 'public/generalRealEstate.php';
 }
 
+function terrenos () {
+  include_once 'public/lands.php';
+} function lands () { terrenos(); }
+
 /*
 
 DEPRECATED
