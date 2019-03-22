@@ -9,7 +9,7 @@ define('BUY_TITLE', 'BUYING REAL ESTATE');
 define('BUY_GENERAL', 'LA PAZ GENERAL REAL ESTATE');
 define('BUY_HOUSES_TITLE', 'HOUSES');
 define('BUY_CONDOMINIUM_TITLE', 'CONDOMINIUMS');
-define('BUY_LANDS_TITLE', 'DEVELOPMENTS AND LANDS');
+define('BUY_LANDS_TITLE', 'DEVELOPMENTS');
 define('SELL_TITLE', 'SELLING REAL ESTATE');
 define('RENT_TITLE', 'RENTALS');
 define('ADMIN_TITLE', 'PROPERTY MANAGEMENT');
@@ -49,7 +49,7 @@ define('CONTACT_SEND', 'SEND');
 define('BUY_H1_TITLE', 'Buy');
 define('BUY_CONDOMINIUMS_H1_TITLE', 'Condominiums');
 define('BUY_HOUSES_H1_TITLE', 'Houses');
-define('BUY_LANDS_H1_TITLE', 'Developments and Lands');
+define('BUY_LANDS_H1_TITLE', 'Developments');
 
 // General Real Estate
 define('GENERAL_H1_TITLE', 'La Paz General Real Estate');
