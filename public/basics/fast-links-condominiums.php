@@ -18,3 +18,35 @@
     </li>
   </ul>
 </div>
+
+<ul class="fichas">
+  <li>
+    <img src="/R/img/CONDOS/1.jpg">
+    <a href="#img1"><?=VIEW?></a>
+  </li>
+  <li>
+    <img src="/R/img/CONDOS/2.jpg">
+    <a href="#img2"><?=VIEW?></a>
+  </li>
+  <li>
+    <img src="/R/img/CONDOS/3.jpg">
+    <a href="/<?=LANG?>/salvatierra"><?=VIEW?></a>
+  </li>
+  <li>
+    <img src="/R/img/CONDOS/4.jpg">
+    <a href="#img4"><?=VIEW?></a>
+  </li>
+</ul>
+
+<a href="#_" class="lightbox" id="img1">
+    <img src="/R/img/CONDOS/1.jpg">
+</a>
+<a href="#_" class="lightbox" id="img2">
+    <img src="/R/img/CONDOS/2.jpg">
+</a>
+<a href="#_" class="lightbox" id="img3">
+    <img src="/R/img/CONDOS/3.jpg">
+</a>
+<a href="#_" class="lightbox" id="img4">
+    <img src="/R/img/CONDOS/4.jpg">
+</a>

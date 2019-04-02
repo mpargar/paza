@@ -19,3 +19,56 @@
     </li>
   </ul>
 </div>
+
+<ul class="fichas">
+  <li>
+    <img src="/R/img/CASAS/1.jpg">
+    <a href="#img1"><?=VIEW?></a>
+  </li>
+  <li>
+    <img src="/R/img/CASAS/2.jpg">
+    <a href="/<?=LANG?>/casaBalandra"><?=VIEW?></a>
+  </li>
+  <li>
+    <img src="/R/img/CASAS/3.jpg">
+    <a href="#img3"><?=VIEW?></a>
+  </li>
+  <li>
+    <img src="/R/img/CASAS/4.jpg">
+    <a href="#img4"><?=VIEW?></a>
+  </li>
+  <li>
+    <img src="/R/img/CASAS/5.jpg">
+    <a href="#img5"><?=VIEW?></a>
+  </li>
+  <li>
+    <img src="/R/img/CASAS/6.jpg">
+    <a href="#img6"><?=VIEW?></a>
+  </li>
+  <li>
+    <img src="/R/img/CASAS/7.jpg">
+    <a href="#img7"><?=VIEW?></a>
+  </li>
+</ul>
+
+<a href="#_" class="lightbox" id="img1">
+    <img src="/R/img/CASAS/1.jpg">
+</a>
+<a href="#_" class="lightbox" id="img2">
+    <img src="/R/img/CASAS/2.jpg">
+</a>
+<a href="#_" class="lightbox" id="img3">
+    <img src="/R/img/CASAS/3.jpg">
+</a>
+<a href="#_" class="lightbox" id="img4">
+    <img src="/R/img/CASAS/4.jpg">
+</a>
+<a href="#_" class="lightbox" id="img5">
+    <img src="/R/img/CASAS/5.jpg">
+</a>
+<a href="#_" class="lightbox" id="img6">
+    <img src="/R/img/CASAS/6.jpg">
+</a>
+<a href="#_" class="lightbox" id="img7">
+    <img src="/R/img/CASAS/7.jpg">
+</a>
