@@ -13,7 +13,7 @@ fjs.parentNode.insertBefore(js, fjs);
 <footer>
   <div class="flex-container">
 
-    <div id="fb-root"></div>
+    <!-- <div id="fb-root"></div>
     <script>
     window.fbAsyncInit = function() {
       FB.init({
@@ -37,7 +37,7 @@ fjs.parentNode.insertBefore(js, fjs);
       attribution=setup_tool
       page_id="318085008733590"
       theme_color="#6470B1">
-    </div>
+    </div> -->
 
   <!-- <div>
     <img src="/R/img/logo_paza.png" alt="Paza Real Estate Logo" width="100">
@@ -63,6 +63,10 @@ fjs.parentNode.insertBefore(js, fjs);
 <div class="floating-action-button" id="floating-action-button" style="display: none;">
   <img src="/R/img/mail-icon.png">
 </div>
+
+<a href="https://wa.me/526121390675" target="_blank" class="floating-action-button-right link-whatsapp" id="floating-action-button-whats">
+  <img src="/R/img/wp.png">
+</a>
 
 <script> /* Esta etiqueta script va al footer.js */
 

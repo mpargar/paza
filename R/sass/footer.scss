@@ -48,6 +48,30 @@ footer {
   }
 }
 
+.floating-action-button-right {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 60px;
+  height: 60px;
+  z-index: 9999;
+  border: 2px solid $Purple;
+  background-color: $Purple;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &:hover{
+    background-color: $DarkPurple;
+    border-color: $DarkPurple;
+  }
+  img {
+    width: 35px;
+    height: 35px;
+  }
+}
+
 .floating-action-menu {
   position: fixed;
   left: 20px;
