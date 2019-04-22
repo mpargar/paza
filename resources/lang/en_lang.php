@@ -55,6 +55,7 @@ define('BUY_LANDS_H1_TITLE', 'Developments');
 define('GENERAL_H1_TITLE', 'La Paz General Real Estate');
 define('PDF', 'PDF');
 define('VIEW', 'VIEW');
+define('DETAILS', 'DETAILS');
 
 // sell
 define('SELL_H1_TITLE', 'Sell');

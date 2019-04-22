@@ -58,6 +58,7 @@ define('BUY_LANDS_H1_TITLE', 'Desarrollos y Terrenos');
 define('GENERAL_H1_TITLE', 'La Paz General Real Estate');
 define('PDF', 'PDF');
 define('VIEW', 'VER');
+define('DETAILS', 'DETALLES');
 
 define('BUY_TXT1', '
     <p>Recomendaciones antes de comprar una casa, departamento o un terreno:</p>

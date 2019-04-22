@@ -30,7 +30,10 @@
   </li>
   <li>
     <img src="/R/img/CONDOS/3.jpg">
-    <a href="/<?=LANG?>/salvatierra"><?=VIEW?></a>
+    <div class="doubleBtn">
+      <a href="#img3"><?=VIEW?></a>
+      <a href="/<?=LANG?>/salvatierra"><?=DETAILS?></a>
+    </div>
   </li>
   <li>
     <img src="/R/img/CONDOS/4.jpg">

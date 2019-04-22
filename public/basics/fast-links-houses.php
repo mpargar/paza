@@ -27,7 +27,10 @@
   </li>
   <li>
     <img src="/R/img/CASAS/2.jpg">
-    <a href="/<?=LANG?>/casaBalandra"><?=VIEW?></a>
+    <div class="doubleBtn">
+      <a href="#img2"><?=VIEW?></a>
+      <a href="/<?=LANG?>/casaBalandra"><?=DETAILS?></a>
+    </div>
   </li>
   <li>
     <img src="/R/img/CASAS/3.jpg">
