@@ -289,6 +289,9 @@ header {
   .current:hover {
     background-color: black; }
 
+.no-current {
+  background: none !important; }
+
 .langs {
   position: absolute;
   top: -20px;
@@ -379,6 +382,13 @@ footer {
   .floating-action-menu .c__purple {
     margin: 6px 0;
     font-size: 17px; }
+
+.link-whatsapp {
+  background-color: #00e037;
+  border-color: #00e037; }
+  .link-whatsapp:hover {
+    background-color: #00a028;
+    border-color: #00a028; }
 
 /*
 route

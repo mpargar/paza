@@ -77,8 +77,9 @@ window.$ = function (str) {
     ? $reqDOM
     : $reqDOM[0]
 }
-let anchorPathname = document.querySelector('a[href="' + location.pathname + '"]')
+let anchorPathname = document.querySelector('a[href="' + location.pathname + '"][type="menu"]')
 if(anchorPathname){
+  console.log(anchorPathname, '<--')
   anchorPathname.parentNode.addClass('current')
 }
 

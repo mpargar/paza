@@ -106,7 +106,7 @@ header {
             }
           }
         }
-        .current{
+        .current {
           background-color: $Purple;
           color: $White;
         }
@@ -263,6 +263,10 @@ header {
   &:hover{
     background-color: black;
   }
+}
+
+.no-current {
+  background: none!important;
 }
 
 .langs {

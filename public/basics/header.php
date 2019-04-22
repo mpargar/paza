@@ -42,8 +42,10 @@
     <img src="/R/img/menu.svg" alt="menu" class="hambgr-menu" id="$hambgr">
     <nav id="$nav">
       <!-- <a href="/<?=LANG?>/"> -->
-        <div class="header-left">
-          <img src="/R/img/logo_paza.png" alt="Paza Real Estate Logo" width="130">
+        <div class="header-left no-current">
+          <a href="/<?=LANG?>/">
+            <img src="/R/img/logo_paza.png" alt="Paza Real Estate Logo" width="130">
+          </a>
           <ul>
             <li><?=CONTACT_FORM_PHONE?>: <a href="tel:+526121234625" class="link-tel">+52.612.123.4625</a></li>
             <li><?=CONTACT_FORM_CELL?>: <a href="tel:+526121390675" class="link-tel">+52.612.139.0675</a></li>
@@ -62,26 +64,26 @@
           <img src="/R/img/close.svg" alt="Ícono para cerrar">
         </li>
         <li>
-          <a href="/<?=LANG?>/">
+          <a type="menu" href="/<?=LANG?>/">
             <?=HOME_TITLE?>
           </a>
         </li>
         <li>
-          <a href="#">
+          <a type="menu" href="#">
             <?=BUY_TITLE?>
             <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0.94 0L4 3.09042L7.06 0L8 0.951417L4 5L0 0.951417L0.94 0Z"/>
             </svg>
           </a>
           <ul>
-            <!-- <li><a href="/<?=LANG?>/<?=BUY_LINK?>"><?=BUY_GENERAL?></a></li> -->
-            <li><a href="/<?=LANG?>/<?=BUY_HOUSE_LINK?>"><?=BUY_HOUSES_TITLE?></a></li>
-            <li><a href="/<?=LANG?>/<?=BUY_CONDOMINIUMS_LINK?>"><?=BUY_CONDOMINIUM_TITLE?></a></li>
-            <li><a href="/<?=LANG?>/<?=BUY_LANDS_LINK?>"><?=BUY_LANDS_TITLE?></a></li>
+            <!-- <li><a type="menu" href="/<?=LANG?>/<?=BUY_LINK?>"><?=BUY_GENERAL?></a></li> -->
+            <li><a type="menu" href="/<?=LANG?>/<?=BUY_HOUSE_LINK?>"><?=BUY_HOUSES_TITLE?></a></li>
+            <li><a type="menu" href="/<?=LANG?>/<?=BUY_CONDOMINIUMS_LINK?>"><?=BUY_CONDOMINIUM_TITLE?></a></li>
+            <li><a type="menu" href="/<?=LANG?>/<?=BUY_LANDS_LINK?>"><?=BUY_LANDS_TITLE?></a></li>
           </ul>
         </li>
         <li>
-          <a href="/<?=LANG?>/<?=SELL_LINK?>">
+          <a type="menu" href="/<?=LANG?>/<?=SELL_LINK?>">
             <?=SELL_TITLE?>
           </a>
         </li>
@@ -89,12 +91,12 @@
           if ($_GET['lang'] == 'es') {
         ?>
         <li>
-          <a href="/<?=LANG?>/<?=RENT_LINK?>">
+          <a type="menu" href="/<?=LANG?>/<?=RENT_LINK?>">
             <?=RENT_TITLE?>
           </a>
         </li>
         <li>
-          <a href="/<?=LANG?>/<?=ADMIN_LINK?>">
+          <a type="menu" href="/<?=LANG?>/<?=ADMIN_LINK?>">
             <?=ADMIN_TITLE?>
           </a>
         </li>
@@ -102,16 +104,16 @@
           }
         ?>
         <li class="current">
-          <a href="/<?=LANG?>/<?=CONTACT_LINK?>">
+          <a type="menu" href="/<?=LANG?>/<?=CONTACT_LINK?>">
             <?=CONTACT_TITLE?>
           </a>
         </li>
       </ul>
 
       <div class="langs">
-        <a href="/es/"><img src="/R/img/mx.png"> ES</a>
+        <a type="menu" href="/es/"><img src="/R/img/mx.png"> ES</a>
         &nbsp;&nbsp;&nbsp; · &nbsp;&nbsp;&nbsp;
-        <a href="/en/"><img src="/R/img/us.png"> EN</a>
+        <a type="menu" href="/en/"><img src="/R/img/us.png"> EN</a>
       </div>
 
     </nav>
