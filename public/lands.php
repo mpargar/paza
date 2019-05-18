@@ -3,33 +3,36 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <h1><?=BUY_LANDS_H1_TITLE?></h1>
     <ul class="fichas">
-        <li>
+        <!-- Lote Cerritos -->
+        <!-- <li>
             <img src="/R/img/LOTES/1.jpg">
             <a href="#img1"><?=VIEW?></a>
-        </li>
-        <li>
+        </li> -->
+        <!-- Ensenada blanca -->
+        <!-- <li>
             <img src="/R/img/LOTES/2.jpg">
             <a href="#img2"><?=VIEW?></a>
-        </li>
-        <li>
+        </li> -->
+        <!-- La conquista -->
+        <!-- <li>
             <img src="/R/img/LOTES/3.jpg">
             <a href="#img3"><?=VIEW?></a>
-        </li>
+        </li> -->
         <li>
             <img src="/R/img/LOTES/4.jpg">
             <a href="#img4"><?=VIEW?></a>
         </li>
     </ul>
     <!-- Hidden images -->
-    <a href="#_" class="lightbox" id="img1">
+    <!-- <a href="#_" class="lightbox" id="img1">
         <img src="/R/img/LOTES/1.jpg">
-    </a>
-    <a href="#_" class="lightbox" id="img2">
+    </a> -->
+    <!-- <a href="#_" class="lightbox" id="img2">
         <img src="/R/img/LOTES/2.jpg">
-    </a>
-    <a href="#_" class="lightbox" id="img3">
+    </a> -->
+    <!-- <a href="#_" class="lightbox" id="img3">
         <img src="/R/img/LOTES/3.jpg">
-    </a>
+    </a> -->
     <a href="#_" class="lightbox" id="img4">
         <img src="/R/img/LOTES/4.jpg">
     </a>
