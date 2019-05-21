@@ -5,6 +5,7 @@ define('LANG', 'en');
 // HEADER
 
 define('HOME_TITLE', 'HOME');
+define('HOTEL_TITLE', 'HOTELS');
 define('BUY_TITLE', 'BUYING REAL ESTATE');
 define('BUY_GENERAL', 'LA PAZ GENERAL REAL ESTATE');
 define('BUY_HOUSES_TITLE', 'HOUSES');
@@ -19,6 +20,7 @@ define('CONTACT_TITLE', 'CONTACT');
 define('HOME_LINK', '/');
 define('BUY_LINK', 'buy');
 define('BUY_HOUSE_LINK', 'houses');
+define('BUY_HOTELS_LINK', 'hotels');
 define('BUY_CONDOMINIUMS_LINK', 'condominiums');
 define('BUY_LANDS_LINK', 'lands');
 define('SELL_LINK', 'sell');
@@ -172,4 +174,6 @@ define('PUERTA_INTERIOR_2', '159m² / 1711 Sq. Ft');
 define('PUERTA_PRICE_2', '440,000 USD');
 define('PUERTA_TEXT_2', 'VistaMar, Condominiums, And Villas in La Paz, Baja California Sur and surrounding areas redifine mexican luxury, celebrating it´s privileged location on a hill, where you can enjoy stunning views of the Sea of Cortes from every balcony.');
 
+//Hotels
+define('HOTELS_H1_TITLE', 'Hotels');
 ?>

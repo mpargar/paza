@@ -673,4 +673,15 @@ ul {
   .thumbnails .active {
     border: 3px solid #6470B1; }
 
+/* Hotels */
+.hotels .hotels-banner {
+  display: flex;
+  height: 300px; }
+  .hotels .hotels-banner .hotels-banner-img {
+    width: calc(100% / 3);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; }
+
 /*# sourceMappingURL=bundle.css.map*/

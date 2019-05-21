@@ -5,6 +5,7 @@ define('LANG', 'es');
 // HEADER
 
 define('HOME_TITLE', 'INICIO');
+define('HOTEL_TITLE', 'HOTELES');
 define('BUY_TITLE', 'COMPRA');
 define('BUY_GENERAL', 'GENERAL');
 define('BUY_HOUSES_TITLE', 'CASAS');
@@ -19,6 +20,7 @@ define('CONTACT_TITLE', 'CONTACTO');
 define('HOME_LINK', '/');
 define('BUY_LINK', 'comprar');
 define('BUY_HOUSE_LINK', 'casas');
+define('BUY_HOTELS_LINK', 'hoteles');
 define('BUY_CONDOMINIUMS_LINK', 'condominios');
 define('BUY_LANDS_LINK', 'terrenos');
 define('SELL_LINK', 'vende');
@@ -317,5 +319,7 @@ define('PUERTA_INTERIOR_2', '159m²');
 define('PUERTA_PRICE_2', '440,000 USD');
 define('PUERTA_TEXT_2', 'VistaMar, condominios y villas en La Paz, Baja California Sur y sus alrededores, redefine el lujo mexicano celebrando la ubicación privilegiada sobre una colina, donde el mar de Cortés se disfruta desde cada terraza.');
 
+//Hotels
+define('HOTELS_H1_TITLE', 'Hoteles');
 
 ?>

@@ -9,6 +9,7 @@ function isValid ( &$route ) {
     'comprar',               'buy',
     'vende',                 'sell',
     'casas',                 'houses',
+    'hoteles',               'hotels',
     'condominios',           'condominiums',
     'renta',                 /*'rent',*/
     'administracion',        /*'administration',*/

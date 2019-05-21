@@ -109,6 +109,10 @@ function terrenos () {
   include_once 'public/lands.php';
 } function lands () { terrenos(); }
 
+function hotels () {
+  include_once 'public/hotels.php';
+} function hoteles () { hotels(); }
+
 /*
 
 DEPRECATED

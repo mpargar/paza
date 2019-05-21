@@ -69,6 +69,9 @@
           </a>
         </li>
         <li>
+          <a href="/<?=LANG?>/<?=BUY_HOTELS_LINK?>"><?=HOTEL_TITLE?></a>
+        </li>
+        <li>
           <a type="menu" href="#">
             <?=BUY_TITLE?>
             <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
