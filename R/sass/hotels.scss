@@ -10,4 +10,15 @@
       background-size: cover;
     }
   }
+  .centered-text {
+    text-align: center;
+    padding: 15px 0;
+    h4 {
+      text-align: center;
+    }
+    h2 {
+      text-transform: uppercase;
+      font-size: 3em;
+    }
+  }
 }

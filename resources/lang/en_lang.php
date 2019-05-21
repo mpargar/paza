@@ -176,4 +176,9 @@ define('PUERTA_TEXT_2', 'VistaMar, Condominiums, And Villas in La Paz, Baja Cali
 
 //Hotels
 define('HOTELS_H1_TITLE', 'Hotels');
+define('HOTELS_FIND', 'Find with us');
+define('HOTELS_OPPORTUNITIES', 'Great investment opportunities in Baja California Sur');
+define('HOTELS_QUESTION', 'Are you looking to invest in hotels in La Paz?');
+define('HOTELS_BROWSE', 'Browse our list of properties dedicated to the tourism sector.');
+define('HOTELS_WRITE_US', 'Write us');
 ?>

@@ -321,5 +321,10 @@ define('PUERTA_TEXT_2', 'VistaMar, condominios y villas en La Paz, Baja Californ
 
 //Hotels
 define('HOTELS_H1_TITLE', 'Hoteles');
+define('HOTELS_FIND', 'Encuentra con nosotros');
+define('HOTELS_OPPORTUNITIES', 'Grandes oportunidades de inversión en Baja California Sur');
+define('HOTELS_QUESTION', '¿Buscas invertir en hoteles en La Paz?');
+define('HOTELS_BROWSE', 'Conoce nuestra cartera de propiedades dedicadas al sector turístico.');
+define('HOTELS_WRITE_US', 'Escribenos');
 
 ?>

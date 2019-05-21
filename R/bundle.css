@@ -684,4 +684,13 @@ ul {
     background-position: center;
     background-size: cover; }
 
+.hotels .centered-text {
+  text-align: center;
+  padding: 15px 0; }
+  .hotels .centered-text h4 {
+    text-align: center; }
+  .hotels .centered-text h2 {
+    text-transform: uppercase;
+    font-size: 3em; }
+
 /*# sourceMappingURL=bundle.css.map*/
