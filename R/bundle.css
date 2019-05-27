@@ -474,19 +474,19 @@ p {
 .slidesjs-navigation {
   z-index: 97 !important; }
 
-main#home {
+main#home, main#hotels {
   width: 100%;
   max-width: 100%; }
-  main#home .banner {
+  main#home .banner, main#hotels .banner {
     width: 100%; }
     @media (min-width: 992px) {
-      main#home .banner {
+      main#home .banner, main#hotels .banner {
         height: calc(100vh - 100px); } }
-    main#home .banner .slidesjs-container {
+    main#home .banner .slidesjs-container, main#hotels .banner .slidesjs-container {
       width: 100%; }
-      main#home .banner .slidesjs-container .slidesjs-control {
+      main#home .banner .slidesjs-container .slidesjs-control, main#hotels .banner .slidesjs-container .slidesjs-control {
         width: 100%; }
-        main#home .banner .slidesjs-container .slidesjs-control > img {
+        main#home .banner .slidesjs-container .slidesjs-control > img, main#hotels .banner .slidesjs-container .slidesjs-control > img {
           top: unset !important;
           bottom: 0; }
 
@@ -674,23 +674,31 @@ ul {
     border: 3px solid #6470B1; }
 
 /* Hotels */
-.hotels .hotels-banner {
-  display: flex;
-  height: 300px; }
-  .hotels .hotels-banner .hotels-banner-img {
-    width: calc(100% / 3);
+.hotels {
+  /* .hotels-banner {
+    display: flex;
+    height: 300px;
+    .hotels-banner-img {
+      width: calc(100% / 3);
+      height: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+  } */ }
+  .hotels .hotels-banner-img {
+    width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; }
-
-.hotels .centered-text {
-  text-align: center;
-  padding: 15px 0; }
-  .hotels .centered-text h4 {
-    text-align: center; }
-  .hotels .centered-text h2 {
-    text-transform: uppercase;
-    font-size: 3em; }
+  .hotels .centered-text {
+    text-align: center;
+    padding: 15px 0; }
+    .hotels .centered-text h4 {
+      text-align: center; }
+    .hotels .centered-text h2 {
+      text-transform: uppercase;
+      font-size: 3em; }
 
 /*# sourceMappingURL=bundle.css.map*/
