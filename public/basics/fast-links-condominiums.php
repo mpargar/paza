@@ -43,6 +43,11 @@
 
 <a href="#_" class="lightbox" id="img1">
     <img src="/R/img/CONDOS/1.jpg">
+    <!-- <div>
+      <button onclick="window.sendWP('condo', 'Colinas del Sol', '/R/img/CONDOS/1.pdf', '<?=LANG?>')">Share on facebook</button>
+      <button onclick="window.sendWP('condo', 'Colinas del Sol', '/R/img/CONDOS/1.pdf', '<?=LANG?>')">Share on whatsapp</button>
+      <button onclick="window.sendWP('condo', 'Colinas del Sol', '/R/img/CONDOS/1.pdf', '<?=LANG?>')">Share on twitter</button>
+    </div> -->
 </a>
 <a href="#_" class="lightbox" id="img2">
     <img src="/R/img/CONDOS/2.jpg">

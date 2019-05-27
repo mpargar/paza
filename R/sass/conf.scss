@@ -94,6 +94,22 @@ h3{
   top: 0;
   left: 0;
   background: rgba(0,0,0,0.8);
+  > div {
+    display: flex;
+    margin: 0 auto;
+    width: 490px;
+    max-width: 90%;
+    > button {
+      width: 100%;
+    }
+    @media (max-width: 550px) {
+      display: block;
+      > button {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
 }
 
 .lightbox img {

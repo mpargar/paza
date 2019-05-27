@@ -10,7 +10,7 @@
 /*!***********************!*\
   !*** ./R/js/index.js ***!
   \***********************/
-/*! no exports provided */function(e,t,n){"use strict";n.r(t);n(/*! ../sass/index.scss */"./R/sass/index.scss"),n(/*! ./src/polyfills */"./R/js/src/polyfills.js"),n(/*! ./header */"./R/js/header.js"),n(/*! ./contact */"./R/js/contact.js")},"./R/js/src/polyfills.js":
+/*! no exports provided */function(e,t,n){"use strict";n.r(t);n(/*! ../sass/index.scss */"./R/sass/index.scss"),n(/*! ./src/polyfills */"./R/js/src/polyfills.js"),n(/*! ./header */"./R/js/header.js"),n(/*! ./contact */"./R/js/contact.js");window.sendWP=function(e,t,n,o){console.log(e,t,n,o),window.open("https://wa.me/526121390675?text=hola","_blank")}},"./R/js/src/polyfills.js":
 /*!*******************************!*\
   !*** ./R/js/src/polyfills.js ***!
   \*******************************/

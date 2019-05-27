@@ -16,3 +16,10 @@ import './src/polyfills'
 import './header'
 import './contact'
 /* * * * * * * * * * * * * */
+
+window.sendWP = function (type, name, url, lang) {
+  console.log(
+    type, name, url, lang
+  )
+  window.open('https://wa.me/526121390675?text=hola', '_blank');
+}
