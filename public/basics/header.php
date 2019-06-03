@@ -69,9 +69,6 @@
           </a>
         </li>
         <li>
-          <a href="/<?=LANG?>/<?=BUY_HOTELS_LINK?>"><?=HOTEL_TITLE?></a>
-        </li>
-        <li>
           <a type="menu" href="#">
             <?=BUY_TITLE?>
             <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -82,6 +79,7 @@
             <!-- <li><a type="menu" href="/<?=LANG?>/<?=BUY_LINK?>"><?=BUY_GENERAL?></a></li> -->
             <li><a type="menu" href="/<?=LANG?>/<?=BUY_HOUSE_LINK?>"><?=BUY_HOUSES_TITLE?></a></li>
             <li><a type="menu" href="/<?=LANG?>/<?=BUY_CONDOMINIUMS_LINK?>"><?=BUY_CONDOMINIUM_TITLE?></a></li>
+            <li><a type="menu" href="/<?=LANG?>/<?=BUY_HOTELS_LINK?>"><?=HOTEL_TITLE?></a></li>
             <li><a type="menu" href="/<?=LANG?>/<?=BUY_LANDS_LINK?>"><?=BUY_LANDS_TITLE?></a></li>
           </ul>
         </li>

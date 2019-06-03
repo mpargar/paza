@@ -21,5 +21,14 @@ window.sendWP = function (type, name, url, lang) {
   console.log(
     type, name, url, lang
   )
-  window.open('https://wa.me/526121390675?text=hola', '_blank');
+  switch (lang) {
+    case 'es':
+       
+    break;
+    case 'en': 
+    break;
+
+  }
+  let text = ``
+  window.open('https://wa.me/526121390675?text='+escape(text), '_blank');
 }
