@@ -59,6 +59,10 @@
     <img src="/R/img/CASAS/8.jpg">
     <a href="#img8"><?=VIEW?></a>
   </li>
+  <li>
+    <img src="/R/img/CASAS/9.jpg">
+    <a href="#img9"><?=VIEW?></a>
+  </li>
 </ul>
 
 <!-- <a href="#_" class="lightbox" id="img1">
@@ -84,4 +88,7 @@
 </a>
 <a href="#_" class="lightbox" id="img8">
     <img src="/R/img/CASAS/8.jpg">
+</a>
+<a href="#_" class="lightbox" id="img9">
+    <img src="/R/img/CASAS/9.jpg">
 </a>

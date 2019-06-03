@@ -22,6 +22,14 @@
             <img src="/R/img/LOTES/4.jpg">
             <a href="#img4"><?=VIEW?></a>
         </li>
+        <li>
+            <img src="/R/img/LOTES/5.jpg">
+            <a href="#img5"><?=VIEW?></a>
+        </li>
+        <li>
+            <img src="/R/img/LOTES/6.jpg">
+            <a href="#img6"><?=VIEW?></a>
+        </li>
     </ul>
     <!-- Hidden images -->
     <!-- <a href="#_" class="lightbox" id="img1">
@@ -35,6 +43,12 @@
     </a> -->
     <a href="#_" class="lightbox" id="img4">
         <img src="/R/img/LOTES/4.jpg">
+    </a>
+    <a href="#_" class="lightbox" id="img5">
+        <img src="/R/img/LOTES/5.jpg">
+    </a>
+    <a href="#_" class="lightbox" id="img6">
+        <img src="/R/img/LOTES/6.jpg">
     </a>
 </main>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
