@@ -8,13 +8,28 @@
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img class="d-block w-100" src="/R/img/salvatierra/01.jpg" alt="First slide">
+                        <img class="d-block w-100" src="/R/img/salvatierra/01.png" alt="01 - slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/R/img/salvatierra/02.png" alt="Second slide">
+                        <img class="d-block w-100" src="/R/img/salvatierra/02.png" alt="02 - slide">
                     </div>
                     <div class="carousel-item">
-                        <img class="d-block w-100" src="/R/img/salvatierra/03.jpg" alt="Third slide">
+                        <img class="d-block w-100" src="/R/img/salvatierra/03.png" alt="03 - slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="/R/img/salvatierra/07.jpg" alt="07 - slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="/R/img/salvatierra/08.png" alt="08 - slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="/R/img/salvatierra/04.png" alt="04 - slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="/R/img/salvatierra/05.png" alt="05 - slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="/R/img/salvatierra/06.png" alt="06 - slide">
                     </div>
                 </div>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -27,9 +42,14 @@
                 </a>
             </div>
             <ul class="thumbnails">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0"><img class="d-block w-100" src="/R/img/salvatierra/01.jpg" alt="First slide"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"><img class="d-block w-100" src="/R/img/salvatierra/02.png" alt="Second slide"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"><img class="d-block w-100" src="/R/img/salvatierra/03.jpg" alt="Third slide"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="0"><img class="d-block w-100" src="/R/img/salvatierra/01.png" alt="01 - slide"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"><img class="d-block w-100" src="/R/img/salvatierra/02.png" alt="02 - slide"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"><img class="d-block w-100" src="/R/img/salvatierra/03.png" alt="03 - slide"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"><img class="d-block w-100" src="/R/img/salvatierra/07.jpg" alt="07 - slide"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"><img class="d-block w-100" src="/R/img/salvatierra/08.png" alt="08 - slide"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"><img class="d-block w-100" src="/R/img/salvatierra/04.png" alt="04 - slide"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="6"><img class="d-block w-100" src="/R/img/salvatierra/05.png" alt="05 - slide"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="7"><img class="d-block w-100" src="/R/img/salvatierra/06.png" alt="06 - slide"></li>
             </ul>
             <!-- /Slider -->
             <p class="house-txt"><?=SALVATIERRA_TEXT?></p>
