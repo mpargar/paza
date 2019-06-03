@@ -1,20 +1,6 @@
 <?php include 'basics/header.php' ?>
 <main class="hotels buy-main text-page">
   <h1><?=HOTELS_H1_TITLE?></h1>
-  <!-- <div class="hotels-banner">
-    <div class="hotels-banner-img"
-      style="background-image: url('/R/img/HOTELES/header/1.jpg');"></div>
-    <div class="hotels-banner-img"
-      style="background-image: url('/R/img/HOTELES/header/2.jpg');"></div>
-    <div class="hotels-banner-img"
-      style="background-image: url('/R/img/HOTELES/header/3.jpg');"></div>
-    <div class="hotels-banner-img"
-      style="background-image: url('/R/img/HOTELES/header/4.jpg');"></div>
-    <div class="hotels-banner-img"
-      style="background-image: url('/R/img/HOTELES/header/5.jpg');"></div>
-    <div class="hotels-banner-img"
-      style="background-image: url('/R/img/HOTELES/header/6.jpg');"></div>
-  </div> -->
   <!-- <BANNER>  -->
   <div class="banner">
     <div class="hotels-banner-img"
@@ -25,10 +11,6 @@
       style="background-image: url('/R/img/HOTELES/header/3.jpg');"></div>
     <div class="hotels-banner-img"
       style="background-image: url('/R/img/HOTELES/header/4.jpg'); background-position: bottom;"></div>
-    <div class="hotels-banner-img"
-      style="background-image: url('/R/img/HOTELES/header/5.jpg');"></div>
-    <div class="hotels-banner-img"
-      style="background-image: url('/R/img/HOTELES/header/6.jpg');"></div>
   </div>
   <!-- </BANNER>  -->
   <div class="centered-text">
