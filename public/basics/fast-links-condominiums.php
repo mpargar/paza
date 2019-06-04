@@ -24,10 +24,11 @@
     <img src="/R/img/CONDOS/1.jpg">
     <a href="#img1"><?=VIEW?></a>
   </li>
-  <li>
+  <!-- Pergolas -->
+  <!-- <li>
     <img src="/R/img/CONDOS/2.jpg">
     <a href="#img2"><?=VIEW?></a>
-  </li>
+  </li> -->
   <li>
     <img src="/R/img/CONDOS/3.jpg">
     <div class="doubleBtn">
@@ -49,9 +50,9 @@
       <button onclick="window.sendWP('condo', 'Colinas del Sol', '/R/img/CONDOS/1.pdf', '<?=LANG?>')">Share on twitter</button>
     </div> -->
 </a>
-<a href="#_" class="lightbox" id="img2">
+<!-- <a href="#_" class="lightbox" id="img2">
     <img src="/R/img/CONDOS/2.jpg">
-</a>
+</a> -->
 <a href="#_" class="lightbox" id="img3">
     <img src="/R/img/CONDOS/3.jpg">
 </a>
