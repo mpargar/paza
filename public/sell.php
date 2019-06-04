@@ -2,7 +2,7 @@
 <main class="sell-main text-page">
   <h1><?= SELL_H1_TITLE ?></h1>
   <section>
-    <figure class="float-r-img parallax-effect" style="background-image: url('/R/img/sell1.jpg'); background-position-y: bottom;">
+    <figure class="float-r-img parallax-effect" style="background-image: url('/R/img/sell1replaced.JPG'); background-position-y: bottom;">
       <!-- <img src="/R/img/sell1.jpg" alt=""> -->
     </figure>
     <?= SELL_TXT1 ?>
