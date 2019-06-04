@@ -16,6 +16,7 @@ define('RENT_TITLE', 'RENTALS');
 define('ADMIN_TITLE', 'PROPERTY MANAGEMENT');
 define('B_AND_D_TITLE', 'BUILD AND DECORATION');
 define('CONTACT_TITLE', 'CONTACT');
+define('MAP_TITLE', 'FIND US');
 
 define('HOME_LINK', '/');
 define('BUY_LINK', 'buy');

@@ -31,13 +31,17 @@ h1 {
   margin: 10px; }
 
 h1 {
-  color: #565656;
   font-weight: normal;
   font-size: 40px;
   margin: 10px; }
 
 h3 {
   color: #9C9994; }
+
+h4 {
+  color: #565656;
+  text-align: center;
+  font-size: 30px; }
 
 .button, button {
   transition: 0.3s all ease;
@@ -502,6 +506,21 @@ main#home, main#hotels {
         main#home .banner .slidesjs-container .slidesjs-control > img, main#hotels .banner .slidesjs-container .slidesjs-control > img {
           top: unset !important;
           bottom: 0; }
+  main#home .map-title, main#hotels .map-title {
+    margin-top: 80px;
+    margin-bottom: 20px; }
+  main#home .map-responsive, main#hotels .map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    margin-bottom: 120px; }
+    main#home .map-responsive iframe, main#hotels .map-responsive iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute; }
 
 /* Pages */
 .text-page {

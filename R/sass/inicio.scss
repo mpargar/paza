@@ -71,4 +71,22 @@ main#home, main#hotels{
       }
     }
   }
+  .map-title {
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    margin-bottom: 120px;
+    iframe{
+      left:0;
+      top:0;
+      height:100%;
+      width:100%;
+      position:absolute;
+    }
+  }
 }

@@ -53,14 +53,19 @@ h1 {
 }
 
 h1 {
-  color: $DarkGrey;
   font-weight: normal;
   font-size: 40px;
   margin: 10px;
 }
 
-h3{
+h3 {
   color: $Grey;
+}
+
+h4 {
+  color: $DarkGrey;
+  text-align: center;
+  font-size: 30px;
 }
 
 .button, button {
