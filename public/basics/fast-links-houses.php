@@ -37,10 +37,11 @@
     <img src="/R/img/CASAS/3.jpg">
     <a href="#img3"><?=VIEW?></a>
   </li> -->
-  <li>
+  <!-- Casa Jardines -->
+  <!-- <li>
     <img src="/R/img/CASAS/4.jpg">
     <a href="#img4"><?=VIEW?></a>
-  </li>
+  </li> -->
   <!-- Casa Perla -->
   <!-- <li>
     <img src="/R/img/CASAS/5.jpg">
@@ -74,9 +75,9 @@
 <!-- <a href="#_" class="lightbox" id="img3">
     <img src="/R/img/CASAS/3.jpg">
 </a> -->
-<a href="#_" class="lightbox" id="img4">
+<!-- <a href="#_" class="lightbox" id="img4">
     <img src="/R/img/CASAS/4.jpg">
-</a>
+</a> -->
 <!-- <a href="#_" class="lightbox" id="img5">
     <img src="/R/img/CASAS/5.jpg">
 </a> -->
