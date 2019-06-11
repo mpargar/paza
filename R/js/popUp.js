@@ -30,4 +30,6 @@ import Route from './src/router'
     }
   }
   Route('/casas', '/houses').use(popUp)
+  Route('/condominios', '/condominiums').use(popUp)
+  Route('/terrenos', '/lands').use(popUp)
 })( document, console.log )

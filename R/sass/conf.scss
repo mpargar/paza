@@ -89,7 +89,6 @@ h4 {
 .lightbox {
   /** Default lightbox to hidden */
   display: none;
-
   /** Position and style */
   position: fixed;
   z-index: 10000;
@@ -99,6 +98,7 @@ h4 {
   top: 0;
   left: 0;
   background: rgba(0,0,0,0.8);
+  text-decoration: none!important;
   > div {
     display: flex;
     margin: 0 auto;

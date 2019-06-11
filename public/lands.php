@@ -3,52 +3,23 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <h1><?=BUY_LANDS_H1_TITLE?></h1>
     <ul class="fichas">
-        <!-- Lote Cerritos -->
-        <!-- <li>
-            <img src="/R/img/LOTES/1.jpg">
-            <a href="#img1"><?=VIEW?></a>
-        </li> -->
-        <!-- Ensenada blanca -->
-        <!-- <li>
-            <img src="/R/img/LOTES/2.jpg">
-            <a href="#img2"><?=VIEW?></a>
-        </li> -->
-        <!-- La conquista -->
-        <!-- <li>
-            <img src="/R/img/LOTES/3.jpg">
-            <a href="#img3"><?=VIEW?></a>
-        </li> -->
         <li>
             <img src="/R/img/LOTES/4.jpg">
-            <a href="#img4"><?=VIEW?></a>
+            <a href="#popUp" lang="<?=WP_MESSAGE?>" route="/R/img/LOTES/4" name="Transpeninsular a Cabo"><?=VIEW?></a>
         </li>
         <li>
             <img src="/R/img/LOTES/5.jpg">
-            <a href="#img5"><?=VIEW?></a>
+            <a href="#popUp" lang="<?=WP_MESSAGE?>" route="/R/img/LOTES/5" name="Maravia 54"><?=VIEW?></a>
         </li>
         <li>
             <img src="/R/img/LOTES/6.jpg">
-            <a href="#img6"><?=VIEW?></a>
+            <a href="#popUp" lang="<?=WP_MESSAGE?>" route="/R/img/LOTES/6" name="El Quelele"><?=VIEW?></a>
         </li>
     </ul>
-    <!-- Hidden images -->
-    <!-- <a href="#_" class="lightbox" id="img1">
-        <img src="/R/img/LOTES/1.jpg">
-    </a> -->
-    <!-- <a href="#_" class="lightbox" id="img2">
-        <img src="/R/img/LOTES/2.jpg">
-    </a> -->
-    <!-- <a href="#_" class="lightbox" id="img3">
-        <img src="/R/img/LOTES/3.jpg">
-    </a> -->
-    <a href="#_" class="lightbox" id="img4">
-        <img src="/R/img/LOTES/4.jpg">
-    </a>
-    <a href="#_" class="lightbox" id="img5">
-        <img src="/R/img/LOTES/5.jpg">
-    </a>
-    <a href="#_" class="lightbox" id="img6">
-        <img src="/R/img/LOTES/6.jpg">
+
+    <a href="#_" class="lightbox" id="popUp">
+        <img id="popUpImage" src="">
+        <button id="whatsSharePopUp"><?=WP_MESSAGE_BUTTON?></button>
     </a>
 </main>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

@@ -22,40 +22,22 @@
 <ul class="fichas">
   <li>
     <img src="/R/img/CONDOS/1.jpg">
-    <a href="#img1"><?=VIEW?></a>
+    <a href="#popUp" lang="<?=WP_MESSAGE?>" route="/R/img/CONDOS/1" name="Colinas del Sol"><?=VIEW?></a>
   </li>
-  <!-- Pergolas -->
-  <!-- <li>
-    <img src="/R/img/CONDOS/2.jpg">
-    <a href="#img2"><?=VIEW?></a>
-  </li> -->
   <li>
     <img src="/R/img/CONDOS/3.jpg">
     <div class="doubleBtn">
-      <a href="#img3"><?=VIEW?></a>
+      <a href="#popUp" lang="<?=WP_MESSAGE?>" route="/R/img/CONDOS/3" name="Salvatierra"><?=VIEW?></a>
       <a href="/<?=LANG?>/salvatierra"><?=DETAILS?></a>
     </div>
   </li>
   <li>
     <img src="/R/img/CONDOS/4.jpg">
-    <a href="#img4"><?=VIEW?></a>
+    <a href="#popUp" lang="<?=WP_MESSAGE?>" route="/R/img/CONDOS/4" name="Bel Air Residences"><?=VIEW?></a>
   </li>
 </ul>
 
-<a href="#_" class="lightbox" id="img1">
-    <img src="/R/img/CONDOS/1.jpg">
-    <!-- <div>
-      <button onclick="window.sendWP('condo', 'Colinas del Sol', '/R/img/CONDOS/1.pdf', '<?=LANG?>')">Share on facebook</button>
-      <button onclick="window.sendWP('condo', 'Colinas del Sol', '/R/img/CONDOS/1.pdf', '<?=LANG?>')">Share on whatsapp</button>
-      <button onclick="window.sendWP('condo', 'Colinas del Sol', '/R/img/CONDOS/1.pdf', '<?=LANG?>')">Share on twitter</button>
-    </div> -->
-</a>
-<!-- <a href="#_" class="lightbox" id="img2">
-    <img src="/R/img/CONDOS/2.jpg">
-</a> -->
-<a href="#_" class="lightbox" id="img3">
-    <img src="/R/img/CONDOS/3.jpg">
-</a>
-<a href="#_" class="lightbox" id="img4">
-    <img src="/R/img/CONDOS/4.jpg">
+<a href="#_" class="lightbox" id="popUp">
+    <img id="popUpImage" src="">
+    <button id="whatsSharePopUp"><?=WP_MESSAGE_BUTTON?></button>
 </a>
