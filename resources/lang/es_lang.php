@@ -2,6 +2,11 @@
 
 define('LANG', 'es');
 
+// WP Message
+
+define('WP_MESSAGE', 'Hola, estoy interesado en la siguiente propiedad:');
+define('WP_MESSAGE_BUTTON', 'Preguntar vía whatsapp');
+
 // HEADER
 
 define('HOME_TITLE', 'INICIO');

@@ -13,8 +13,10 @@ import Scripts * * * * * * */
 import './src/polyfills'
 
 // import './home'
+import './scaffold'
 import './header'
 import './contact'
+import './popUp'
 /* * * * * * * * * * * * * */
 
 window.sendWP = function (type, name, url, lang) {

@@ -6,10 +6,8 @@ import axios from 'axios'
 
   const Contact = {
     init () {
-      /* c('module Contact is running...') */
       this.cacheDOM()
       this.bindListeners()
-      console.log('Axios --> ', axios);
     },
     handleSubmitButton () {
       this.$sendContactForm.textContent = 'ENVIANDO...'

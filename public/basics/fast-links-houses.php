@@ -21,75 +21,28 @@
 </div>
 
 <ul class="fichas">
-  <!-- <li>
-    <img src="/R/img/CASAS/1.jpg">
-    <a href="#img1"><?=VIEW?></a>
-  </li> -->
   <li>
     <img src="/R/img/CASAS/2.jpg">
     <div class="doubleBtn">
-      <a href="#img2"><?=VIEW?></a>
+      <a href="#popUp" lang="<?=WP_MESSAGE?>" route="/R/img/CASAS/2" name="Casa Balandra"><?=VIEW?></a>
       <a href="/<?=LANG?>/casaBalandra"><?=DETAILS?></a>
     </div>
   </li>
-  <!-- Casa Esmeralda -->
-  <!-- <li>
-    <img src="/R/img/CASAS/3.jpg">
-    <a href="#img3"><?=VIEW?></a>
-  </li> -->
-  <!-- Casa Jardines -->
-  <!-- <li>
-    <img src="/R/img/CASAS/4.jpg">
-    <a href="#img4"><?=VIEW?></a>
-  </li> -->
-  <!-- Casa Perla -->
-  <!-- <li>
-    <img src="/R/img/CASAS/5.jpg">
-    <a href="#img5"><?=VIEW?></a>
-  </li> -->
-  <!-- PLaya Centenario -->
-  <!-- <li>
-    <img src="/R/img/CASAS/6.jpg">
-    <a href="#img6"><?=VIEW?></a>
-  </li> -->
   <li>
     <img src="/R/img/CASAS/7.jpg">
-    <a href="#img7"><?=VIEW?></a>
+    <a href="#popUp" lang="<?=WP_MESSAGE?>" route="/R/img/CASAS/7" name="Puesta del Sol"><?=VIEW?></a>
   </li>
   <li>
     <img src="/R/img/CASAS/8.jpg">
-    <a href="#img8"><?=VIEW?></a>
+    <a href="#popUp" lang="<?=WP_MESSAGE?>" route="/R/img/CASAS/8" name="El Triunfo"><?=VIEW?></a>
   </li>
   <li>
     <img src="/R/img/CASAS/9.jpg">
-    <a href="#img9"><?=VIEW?></a>
+    <a href="#popUp" lang="<?=WP_MESSAGE?>" route="/R/img/CASAS/9" name="Playa Centenario"><?=VIEW?></a>
   </li>
 </ul>
 
-<!-- <a href="#_" class="lightbox" id="img1">
-    <img src="/R/img/CASAS/1.jpg">
-</a> -->
-<a href="#_" class="lightbox" id="img2">
-    <img src="/R/img/CASAS/2.jpg">
-</a>
-<!-- <a href="#_" class="lightbox" id="img3">
-    <img src="/R/img/CASAS/3.jpg">
-</a> -->
-<!-- <a href="#_" class="lightbox" id="img4">
-    <img src="/R/img/CASAS/4.jpg">
-</a> -->
-<!-- <a href="#_" class="lightbox" id="img5">
-    <img src="/R/img/CASAS/5.jpg">
-</a> -->
-<!-- <a href="#_" class="lightbox" id="img6">
-    <img src="/R/img/CASAS/6.jpg">
-</a> -->
-<a href="#_" class="lightbox" id="img7">
-    <img src="/R/img/CASAS/7.jpg">
-</a>
-<a href="#_" class="lightbox" id="img8">
-    <img src="/R/img/CASAS/8.jpg">
-</a>
-<a href="#_" class="lightbox" id="img9">
-    <img src="/R/img/CASAS/9.jpg">
+<a href="#_" class="lightbox" id="popUp">
+    <img id="popUpImage" src="">
+    <button id="whatsSharePopUp"><?=WP_MESSAGE_BUTTON?></button>
 </a>
