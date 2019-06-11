@@ -25,7 +25,7 @@ import Route from './src/router'
         })
       })
       this.$whats.addEventListener('click', e => {
-        window.open('https://wa.me/526241763923?text='+escape(this.wpText), '_blank');
+        window.open('https://wa.me/526121390675?text='+escape(this.wpText), '_blank');
       })
     }
   }
