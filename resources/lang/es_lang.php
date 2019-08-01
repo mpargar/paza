@@ -42,6 +42,11 @@ define('HOME_BUY_TEXT_3', 'CASA BALANDRA');
 define('HOME_BUY_TEXT_4', 'LA PAZ GENERAL REAL ESTATE');
 define('HOME_BUY_TEXT_BUTTON_MORE', 'Mas información');
 
+// Reservations
+define('RESERVATIONS_TITLE_H1', 'Reservaciones');
+define('RESERVATIONS_LINK', 'reservaciones');
+define('RESERVATIONS_TITLE', 'RESERVACIONES');
+
 // contact section
 define('CONTACT_H1_TITLE', 'Contacto');
 define('CONTACT_P_ONE', 'Puede dejar un mensaje en el siguiente formulario, le atenderemos en la brevedad');

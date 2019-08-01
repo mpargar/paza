@@ -15,6 +15,7 @@ function isValid ( &$route ) {
     'administracion',        /*'administration',*/
     /*'construccion',          'build',*/
     'terrenos',              'lands',
+    'reservaciones',         'reservations',
     'contacto',              'contact',
     'casaBalandra',           /*  */
     'puertaCortes',

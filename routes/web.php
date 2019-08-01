@@ -17,6 +17,13 @@ function home () {
 /*
 *    -> /contacto
 */
+function reservaciones () {
+  include_once 'public/reservations.php';
+} function reservations() { reservaciones(); }
+
+/*
+*    -> /contacto
+*/
 function contacto () {
   include_once 'public/contact.php';
 } function contact() { contacto(); }

@@ -104,6 +104,11 @@
         <?php
           }
         ?>
+        <li>
+          <a type="menu" href="/<?=LANG?>/<?=RESERVATIONS_LINK?>">
+            <?=RESERVATIONS_TITLE?>
+          </a>
+        </li>
         <li class="current">
           <a type="menu" href="/<?=LANG?>/<?=CONTACT_LINK?>">
             <?=CONTACT_TITLE?>
