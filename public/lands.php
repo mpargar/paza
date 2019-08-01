@@ -15,6 +15,10 @@
             <img src="/R/img/LOTES/6.jpg">
             <a href="#popUp" lang="<?=WP_MESSAGE?>" route="/R/img/LOTES/6" name="El Quelele"><?=VIEW?></a>
         </li>
+        <li>
+            <img src="/R/img/LOTES/7.jpg">
+            <a href="#popUp" lang="<?=WP_MESSAGE?>" route="/R/img/LOTES/7" name="Las Lomas 14"><?=VIEW?></a>
+        </li>
     </ul>
 
     <a href="#_" class="lightbox" id="popUp">
