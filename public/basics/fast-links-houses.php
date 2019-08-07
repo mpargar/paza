@@ -28,10 +28,10 @@
       <a href="/<?=LANG?>/casaBalandra"><?=DETAILS?></a>
     </div>
   </li>
-  <li>
+  <!-- <li>
     <img src="/R/img/CASAS/7.jpg">
     <a href="#popUp" lang="<?=WP_MESSAGE?>" route="/R/img/CASAS/7" name="Puesta del Sol"><?=VIEW?></a>
-  </li>
+  </li> -->
   <li>
     <img src="/R/img/CASAS/8.jpg">
     <a href="#popUp" lang="<?=WP_MESSAGE?>" route="/R/img/CASAS/8" name="El Triunfo"><?=VIEW?></a>
