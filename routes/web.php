@@ -120,6 +120,9 @@ function hotels () {
   include_once 'public/hotels.php';
 } function hoteles () { hotels(); }
 
+function tours () {
+  include_once 'public/tours.php';
+}
 /*
 
 DEPRECATED

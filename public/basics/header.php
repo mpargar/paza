@@ -109,6 +109,11 @@
             <?=RESERVATIONS_TITLE?>
           </a>
         </li>
+        <li>
+          <a type="menu" href="/<?=LANG?>/<?=TOURS_LINK?>">
+            <?=TOURS_TITLE?>
+          </a>
+        </li>
         <li class="current">
           <a type="menu" href="/<?=LANG?>/<?=CONTACT_LINK?>">
             <?=CONTACT_TITLE?>

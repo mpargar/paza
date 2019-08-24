@@ -192,4 +192,11 @@ define('HOTELS_OPPORTUNITIES', 'Great investment opportunities in Baja Californi
 define('HOTELS_QUESTION', 'Are you looking to invest in hotels in La Paz?');
 define('HOTELS_BROWSE', 'Browse our list of properties dedicated to the tourism sector.');
 define('HOTELS_WRITE_US', 'Write us');
+
+// TOURS
+define('TOURS_TITLE', 'TOURS');
+define('TOURS_LINK', 'tours');
+define('TOURS_H1_TITLE', 'Tours');
+define('TOURS_COMING_SOON_1', 'COMING SOON THE BEST TOURS');
+define('TOURS_COMING_SOON_2', 'SECTION UNDER CONSTRUCTION');
 ?>

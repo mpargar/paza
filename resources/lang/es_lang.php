@@ -338,4 +338,10 @@ define('HOTELS_QUESTION', '¿Buscas invertir en hoteles en La Paz?');
 define('HOTELS_BROWSE', 'Conoce nuestra cartera de propiedades dedicadas al sector turístico.');
 define('HOTELS_WRITE_US', 'Escribenos');
 
+// TOURS
+define('TOURS_TITLE', 'TOURS');
+define('TOURS_LINK', 'tours');
+define('TOURS_H1_TITLE', 'Tours');
+define('TOURS_COMING_SOON_1', 'MUY PRONTO LOS MEJORES TOURS');
+define('TOURS_COMING_SOON_2', 'SECCIÓN EN CONSTRUCCIÓN');
 ?>
