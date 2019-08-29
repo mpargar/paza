@@ -28,7 +28,9 @@ function isValid ( &$route ) {
 
   return in_array($route, $validRoutes);
 }
-
+if ($_SERVER['HTTPS'] !== 'on') {
+  header("Location: https://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']);
+}
 if ($_GET['lang']) {
   // import current lang
   $lang = $_GET['lang'];

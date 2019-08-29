@@ -10,9 +10,11 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 # RewriteRule ^(.*)$ index.php?route=$1 [L]
+RewriteRule ^.well-known/acme-challenge/3A3iXRgByAnp3JSIXF3mTh8PD0_2oGthc1fnQ-NyqX4$ 3A3iXRgByAnp3JSIXF3mTh8PD0_2oGthc1fnQ-NyqX4 [L]
+RewriteRule ^.well-known/acme-challenge/tAKA0Ro3He83lrJfwkIIN9SzUTxKxTpLWKXtEbCsVnA$ tAKA0Ro3He83lrJfwkIIN9SzUTxKxTpLWKXtEbCsVnA [L]
 RewriteRule ^(es|en)/([A-Z|a-z|0-9]*)$ index.php?lang=$1&route=$2 [L]
 RewriteCond %{HTTP_HOST} !^www\. [NC]
-RewriteRule ^(.*)$ http://www.%{HTTP_HOST}/$1 [R=301,L]
+RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [R=301,L]
 </IfModule>
 
 <ifModule mod_gzip.c>
