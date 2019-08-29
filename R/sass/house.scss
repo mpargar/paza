@@ -29,7 +29,7 @@ ul{
             &:first-child{
                 width: 100%;
                 @media (min-width: 900px) {
-                    width: calc(100vw - 500px);
+                    width: calc(100% - 500px);
                 }
                 .video-container{
                     position: relative;
